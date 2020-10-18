@@ -23,7 +23,7 @@ This release provides interfaces to access to :
 - candidates
 - documents
 
-##Acknowledgments.
+## Acknowledgments.
 
 Boondmanager name and Boondmanager logo are trademarks of [Wish SAS](https://www.boondmanager.com/mentions-legales/) 
 

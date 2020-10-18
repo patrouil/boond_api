@@ -1,0 +1,26 @@
+name: boond_api
+description: Boond Manager API.
+version: 0.0.1
+# homepage: https://www.example.com
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+author: patrouil
+
+environment:
+  sdk: '>=2.7.0 <3.0.0'
+
+dependencies:
+#  path: ^1.6.0
+  # utilities
+  logging: ^0.11.4
+  http: ^0.12.1
+  http_auth : ^0.3.0
+  json_annotation: ^3.0.0
+  jaguar_jwt: ^2.1.6
+
+dev_dependencies:
+  pedantic: ^1.9.0  # control coding style. see analysis_options.yaml
+  test: ^1.6.0
+  # in terminal launch 'flutter pub run build_runner watch --delete-conflicting-outputs' for dynamic cede generation
+  build_runner: ^1.9.0
+  json_serializable: ^3.3.0
+#

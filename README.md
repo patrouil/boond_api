@@ -1,6 +1,6 @@
 # boond_api
 
-This API have is designed to send JSON quesry to a BoondManager worksapce.
+This API is designed to send JSON query to a BoondManager workspace.
 
 For details Boond API documentation see
 https://doc.boondmanager.com/api-externe/ for Boond API details

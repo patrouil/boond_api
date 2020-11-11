@@ -1,19 +1,3 @@
-/*
- * Copyright (c) patrouil (2020).This work is licensed under the
- * Creative Commons Attribution-ShareAlike 4.0 International License.
- * To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
- * SOFTWARE.
- *
- *
- */
-
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
 part of 'application-dictionnary.dart';
@@ -96,7 +80,11 @@ AppDictSetting _$AppDictSettingFromJson(Map<String, dynamic> json) {
             ? null
             : AppDictCurrency.fromJson(e as Map<String, dynamic>))
         ?.toList(),
-    calendar: (json['calendar'] as List)?.map((e) => e as String)?.toList(),
+    calendar: (json['calendar'] as List)
+        ?.map((e) => e == null
+            ? null
+            : AppDictCalendar.fromJson(e as Map<String, dynamic>))
+        ?.toList(),
     taxRate: (json['taxRate'] as List)?.map((e) => e as int)?.toList(),
     paymentTerm: (json['paymentTerm'] as List)
         ?.map((e) => e == null
@@ -265,7 +253,8 @@ Map<String, dynamic> _$AppDictSettingToJson(AppDictSetting instance) {
   writeNotNull('state', instance.state?.toJson());
   writeNotNull(
       'currency', instance.currency?.map((e) => e?.toJson())?.toList());
-  writeNotNull('calendar', instance.calendar);
+  writeNotNull(
+      'calendar', instance.calendar?.map((e) => e?.toJson())?.toList());
   writeNotNull('taxRate', instance.taxRate);
   writeNotNull(
       'paymentTerm', instance.paymentTerm?.map((e) => e?.toJson())?.toList());

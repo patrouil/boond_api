@@ -21,6 +21,7 @@
 import 'package:json_annotation/json_annotation.dart';
 
 import 'boond-meta.dart';
+import 'application-calendar.dart';
 import 'application-country.dart';
 import 'application-currency.dart';
 
@@ -65,7 +66,7 @@ class AppDictSetting {
   AppDictAction action;
   AppDictState state;
   List<AppDictCurrency> currency;
-  List<String> calendar;
+  List<AppDictCalendar> calendar;
   List<int> taxRate;
   List<AppDictPaymentTerm> paymentTerm;
   List<AppDictAvailability> paymentMethod;

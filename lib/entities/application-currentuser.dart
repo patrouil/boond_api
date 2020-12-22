@@ -72,7 +72,8 @@ class AppCurrentUserAttributes {
   String level;
   String userToken;
   Map<String, bool> modules;
-  List<String> navigationBar;
+
+  List<dynamic> navigationBar;
   UsersRights rights;
   String lastLogInDate;
   String homepage;

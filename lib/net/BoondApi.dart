@@ -67,7 +67,7 @@ class BoondApi {
   /// [hostName] is a sandbox or ui.
   BoondApi(this.httpClient, this.hostName)
       : assert(hostName == SANDBOX_HOSTNAME || hostName == LIVE_HOSTNAME) {
-    BoondAuth.log.level = Level.FINEST;
+    //BoondAuth.log.level = Level.FINEST;
   }
 }
 
@@ -119,7 +119,7 @@ class _EntityApi {
     final Map<String, String> _header = {
       HttpHeaders.contentTypeHeader: ContentType.json.mimeType
     };
-    BoondAuth.log.level = Level.FINEST;
+    //BoondAuth.log.level = Level.FINEST;
     http.Response r;
     try {
       String _bodyString = json.encode(_body);

@@ -1,0 +1,4529 @@
+{
+    "meta": {
+        "version": "7.9.0.5",
+        "isLogged": true,
+        "language": "fr"
+    },
+    "data": {
+        "setting": {
+            "action": {
+                "forceMultiCreation": false,
+                "sort": false,
+                "contact": [
+                    {
+                        "id": 2,
+                        "value": "Note",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 3,
+                        "value": "Rappel / To do",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 10,
+                        "value": "Pr\u00e9sentation Client",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 11,
+                        "value": "Suivi de Mission",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 60,
+                        "value": "Rendez-vous",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 61,
+                        "value": "Appel",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 62,
+                        "value": "Email",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 101,
+                        "value": "Notification",
+                        "isNotification": true
+                    }
+                ],
+                "candidate": [
+                    {
+                        "id": 13,
+                        "value": "Note",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 1,
+                        "value": "Rappel / To do",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 0,
+                        "value": "Pr\u00e9sentation Client",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 12,
+                        "value": "Entretien T\u00e9l\u00e9phonique",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 40,
+                        "value": "Entretien Physique",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 41,
+                        "value": "Appel",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 42,
+                        "value": "Email",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 100,
+                        "value": "Notification",
+                        "isNotification": true
+                    }
+                ],
+                "resource": [
+                    {
+                        "id": 4,
+                        "value": "Note",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 5,
+                        "value": "Rappel / To do",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 8,
+                        "value": "Pr\u00e9sentation Client",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 9,
+                        "value": "Suivi de Mission",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 80,
+                        "value": "Entretien RH Annuel",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 81,
+                        "value": "Appel",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 82,
+                        "value": "Email",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 85,
+                        "value": "Visite M\u00e9dicale",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 102,
+                        "value": "Notification",
+                        "isNotification": true
+                    }
+                ],
+                "opportunity": [
+                    {
+                        "id": 50,
+                        "value": "Note",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 51,
+                        "value": "Rappel / To do",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 52,
+                        "value": "Pr\u00e9sentation Client",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 53,
+                        "value": "Appel",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 103,
+                        "value": "Notification",
+                        "isNotification": true
+                    }
+                ],
+                "project": [
+                    {
+                        "id": 30,
+                        "value": "Note",
+                        "isNotification": false,
+                        "collaborative": false
+                    },
+                    {
+                        "id": 31,
+                        "value": "Rappel / To do",
+                        "isNotification": false,
+                        "collaborative": false
+                    },
+                    {
+                        "id": 32,
+                        "value": "Suivi de Mission",
+                        "isNotification": false,
+                        "collaborative": false
+                    },
+                    {
+                        "id": 33,
+                        "value": "Appel",
+                        "isNotification": false,
+                        "collaborative": false
+                    },
+                    {
+                        "id": 90,
+                        "value": "Gestion de Projet",
+                        "isNotification": false,
+                        "collaborative": true
+                    },
+                    {
+                        "id": 104,
+                        "value": "Notification",
+                        "isNotification": true,
+                        "collaborative": false
+                    }
+                ],
+                "order": [
+                    {
+                        "id": 20,
+                        "value": "Note",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 21,
+                        "value": "Rappel / To do",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 105,
+                        "value": "Notification",
+                        "isNotification": true
+                    }
+                ],
+                "invoice": [
+                    {
+                        "id": 70,
+                        "value": "Note",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 71,
+                        "value": "Rappel / To do",
+                        "isNotification": false
+                    },
+                    {
+                        "id": 110,
+                        "value": "Notification",
+                        "isNotification": true
+                    }
+                ],
+                "company": [
+                    {
+                        "id": 106,
+                        "value": "Notification",
+                        "isNotification": true
+                    }
+                ],
+                "product": [
+                    {
+                        "id": 107,
+                        "value": "Notification",
+                        "isNotification": true
+                    }
+                ],
+                "purchase": [
+                    {
+                        "id": 108,
+                        "value": "Notification",
+                        "isNotification": true
+                    }
+                ],
+                "app": [
+                    {
+                        "id": 109,
+                        "value": "Notification",
+                        "isNotification": true
+                    }
+                ]
+            },
+            "state": {
+                "sort": false,
+                "candidate": [
+                    {
+                        "id": 0,
+                        "value": "A traiter !"
+                    },
+                    {
+                        "id": 1,
+                        "value": "En cours de qualif."
+                    },
+                    {
+                        "id": 2,
+                        "value": "Vivier++"
+                    },
+                    {
+                        "id": 9,
+                        "value": "Vivier"
+                    },
+                    {
+                        "id": 3,
+                        "value": "Converti en Ressource"
+                    },
+                    {
+                        "id": 5,
+                        "value": "Ne plus contacter"
+                    }
+                ],
+                "resource": [
+                    {
+                        "id": 1,
+                        "value": "En cours"
+                    },
+                    {
+                        "id": 2,
+                        "value": "Intercontrat"
+                    },
+                    {
+                        "id": 0,
+                        "value": "Sortie"
+                    }
+                ],
+                "product": [
+                    {
+                        "id": 1,
+                        "value": "En cours"
+                    },
+                    {
+                        "id": 0,
+                        "value": "Archiv\u00e9"
+                    }
+                ],
+                "opportunity": [
+                    {
+                        "id": 0,
+                        "value": "En cours",
+                        "active": true
+                    },
+                    {
+                        "id": 9,
+                        "value": "Report\u00e9",
+                        "active": true
+                    },
+                    {
+                        "id": 1,
+                        "value": "Gagn\u00e9",
+                        "active": false
+                    },
+                    {
+                        "id": 2,
+                        "value": "Perdu",
+                        "active": false
+                    },
+                    {
+                        "id": 3,
+                        "value": "Abandonn\u00e9",
+                        "active": false
+                    }
+                ],
+                "positioning": [
+                    {
+                        "id": 0,
+                        "value": "Positionn\u00e9",
+                        "active": true
+                    },
+                    {
+                        "id": 3,
+                        "value": "CV Envoy\u00e9",
+                        "active": true
+                    },
+                    {
+                        "id": 4,
+                        "value": "Pr\u00e9sent\u00e9 Client",
+                        "active": true
+                    },
+                    {
+                        "id": 1,
+                        "value": "Rejet\u00e9",
+                        "active": false
+                    },
+                    {
+                        "id": 2,
+                        "value": "Gagn\u00e9",
+                        "active": false
+                    }
+                ],
+                "project": [
+                    {
+                        "id": 1,
+                        "value": "En cours"
+                    },
+                    {
+                        "id": 0,
+                        "value": "Archiv\u00e9"
+                    }
+                ],
+                "delivery": [
+                    {
+                        "id": 0,
+                        "value": "Sign\u00e9e"
+                    },
+                    {
+                        "id": 1,
+                        "value": "Pr\u00e9visionnelle"
+                    }
+                ],
+                "contact": [
+                    {
+                        "id": 0,
+                        "value": "Prospect"
+                    },
+                    {
+                        "id": 1,
+                        "value": "Client"
+                    },
+                    {
+                        "id": 7,
+                        "value": "Partenaire"
+                    },
+                    {
+                        "id": 9,
+                        "value": "Fournisseur"
+                    },
+                    {
+                        "id": 8,
+                        "value": "Archiv\u00e9"
+                    }
+                ],
+                "company": [
+                    {
+                        "id": 0,
+                        "value": "Prospect"
+                    },
+                    {
+                        "id": 1,
+                        "value": "Client"
+                    },
+                    {
+                        "id": 7,
+                        "value": "Partenaire"
+                    },
+                    {
+                        "id": 9,
+                        "value": "Fournisseur"
+                    },
+                    {
+                        "id": 8,
+                        "value": "Archiv\u00e9"
+                    }
+                ],
+                "order": [
+                    {
+                        "id": 1,
+                        "value": "En cours"
+                    },
+                    {
+                        "id": 0,
+                        "value": "Archiv\u00e9"
+                    }
+                ],
+                "invoice": [
+                    {
+                        "id": 10,
+                        "value": "ProForma"
+                    },
+                    {
+                        "id": 0,
+                        "value": "Cr\u00e9ation"
+                    },
+                    {
+                        "id": 1,
+                        "value": "Transmis au client"
+                    },
+                    {
+                        "id": 4,
+                        "value": "Relance 1"
+                    },
+                    {
+                        "id": 5,
+                        "value": "Relance 2"
+                    },
+                    {
+                        "id": 9,
+                        "value": "Email au client"
+                    },
+                    {
+                        "id": 2,
+                        "value": "Impay\u00e9e"
+                    },
+                    {
+                        "id": 3,
+                        "value": "Pay\u00e9e"
+                    }
+                ],
+                "purchase": [
+                    {
+                        "id": 1,
+                        "value": "Valid\u00e9"
+                    },
+                    {
+                        "id": 9,
+                        "value": "Planifi\u00e9"
+                    }
+                ],
+                "payment": [
+                    {
+                        "id": 0,
+                        "value": "Planifi\u00e9"
+                    },
+                    {
+                        "id": 1,
+                        "value": "Confirm\u00e9"
+                    },
+                    {
+                        "id": 2,
+                        "value": "R\u00e9gl\u00e9"
+                    }
+                ],
+                "quotation": [
+                    {
+                        "id": 0,
+                        "value": "Cr\u00e9ation"
+                    },
+                    {
+                        "id": 1,
+                        "value": "Transmis au client"
+                    },
+                    {
+                        "id": 2,
+                        "value": "Attente"
+                    },
+                    {
+                        "id": 7,
+                        "value": "Refus\u00e9"
+                    },
+                    {
+                        "id": 8,
+                        "value": "Accord client"
+                    },
+                    {
+                        "id": 9,
+                        "value": "Archiv\u00e9"
+                    }
+                ]
+            },
+            "currency": [
+                {
+                    "id": 0,
+                    "value": "EUR Euro",
+                    "symbol": "\u20ac"
+                },
+                {
+                    "id": 1,
+                    "value": "USD United States Dollars",
+                    "symbol": "$"
+                },
+                {
+                    "id": 2,
+                    "value": "GPB United Kingdom Pounds",
+                    "symbol": "\u00a3"
+                }
+            ],
+            "calendar": [
+                {
+                    "id": "calendar",
+                    "iso": "FR-WITHOUT-PC",
+                    "value": "France (Sans Pentec\u00f4te)"
+                },
+                {
+                    "id": "calendar1",
+                    "iso": "GB",
+                    "value": "Royaume Uni"
+                }
+            ],
+            "taxRate": [
+                20,
+                10,
+                0
+            ],
+            "paymentTerm": [
+                {
+                    "id": 0,
+                    "value": 0,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "id": 1,
+                    "value": 1,
+                    "x": 30,
+                    "y": 0
+                },
+                {
+                    "id": 2,
+                    "value": 2,
+                    "x": 30,
+                    "y": 0
+                },
+                {
+                    "id": 3,
+                    "value": 3,
+                    "x": 30,
+                    "y": 10
+                },
+                {
+                    "id": 41,
+                    "value": 1,
+                    "x": 45,
+                    "y": 0
+                },
+                {
+                    "id": 52,
+                    "value": 2,
+                    "x": 45,
+                    "y": 0
+                },
+                {
+                    "id": 61,
+                    "value": 1,
+                    "x": 60,
+                    "y": 0
+                }
+            ],
+            "paymentMethod": [
+                {
+                    "id": 0,
+                    "value": "Virement"
+                },
+                {
+                    "id": 1,
+                    "value": "Pr\u00e9l\u00e8vement"
+                },
+                {
+                    "id": 2,
+                    "value": "Ch\u00e8que"
+                },
+                {
+                    "id": 3,
+                    "value": "CB"
+                }
+            ],
+            "defaultOpportunityTypeCreated": 1,
+            "defaultPositioningSearchModule": "candidates",
+            "filterPositioningSearchModule": false,
+            "displayedColumns": {
+                "opportunity": [
+                    "creationDate",
+                    "title",
+                    "contact",
+                    "state",
+                    "numberOfActivePositionings",
+                    "place",
+                    "startDate",
+                    "duration",
+                    "turnoverWeightedExcludingTax",
+                    "mainManager"
+                ]
+            },
+            "defaultMail": {
+                "quotation": {
+                    "object": "Devis de la soci\u00e9t\u00e9 _devissociete_",
+                    "body": "Bonjour,\n\nVeuillez trouver ci-joint le devis _devisref_ attach\u00e9e \u00e0 l'opportunit\u00e9 _aoref_."
+                },
+                "invoice": {
+                    "object": "Facture de la soci\u00e9t\u00e9 _factsociete_ - _factref_",
+                    "body": "Bonjour,\n\nVeuillez trouver ci-joint la facture _factref_ attach\u00e9e \u00e0 votre commande _cmdref_."
+                },
+                "timesReports": {
+                    "object": "Saisie des Temps",
+                    "body": "Bonjour _profilprenom_ _profilnom_,\n\nVeuillez vous connecter \u00e0 l'intranet de votre soci\u00e9t\u00e9, depuis l'adresse suivante : _intranetlink_ afin de saisir vos temps du mois en cours.\n\nSi vous ne disposez pas de vos identifiants de connexion, veuillez contacter votre responsable.\n\nMerci de ne pas r\u00e9pondre \u00e0 cet email."
+                },
+                "expensesReports": {
+                    "object": "Saisie des Frais",
+                    "body": "Bonjour _profilprenom_ _profilnom_,\n\nVeuillez vous connecter \u00e0 l'intranet de votre soci\u00e9t\u00e9, depuis l'adresse suivante : _intranetlink_ afin de saisir vos frais du mois en cours.\n\nSi vous ne disposez pas de vos identifiants de connexion, veuillez contacter votre responsable.\n\nMerci de ne pas r\u00e9pondre \u00e0 cet email."
+                },
+                "timesReportsAndExpensesReports": {
+                    "object": "Saisie des Temps et des Frais",
+                    "body": "Bonjour _profilprenom_ _profilnom_,\n\nVeuillez vous connecter \u00e0 l'intranet de votre soci\u00e9t\u00e9, depuis l'adresse suivante : _intranetlink_ afin de saisir vos temps et vos frais du mois en cours.\n\nSi vous ne disposez pas de vos identifiants de connexion, veuillez contacter votre responsable.\n\nMerci de ne pas r\u00e9pondre \u00e0 cet email."
+                },
+                "waitingForValidationTimesReport": {
+                    "object": "Attente de validation d'une feuille des temps",
+                    "body": "Bonjour _validateurprenom_ _validateurnom_,\n\nLa feuille des temps de _profilprenom_ _profilnom_ est en attente de votre validation.\n\nSi vous souhaitez la consulter, connectez-vous \u00e0 l'adresse suivante : _messagelink_\n\nMerci de ne pas r\u00e9pondre \u00e0 cet email."
+                },
+                "waitingForValidationExpensesReport": {
+                    "object": "Attente de validation d'une note de frais",
+                    "body": "Bonjour _validateurprenom_ _validateurnom_,\n\nLa note de frais de _profilprenom_ _profilnom_ est en attente de votre validation.\n\nSi vous souhaitez la consulter, connectez-vous \u00e0 l'adresse suivante : _messagelink_\n\nMerci de ne pas r\u00e9pondre \u00e0 cet email."
+                },
+                "waitingForValidationAbsencesReport": {
+                    "object": "Attente de validation d'une demande d'absence",
+                    "body": "Bonjour _validateurprenom_ _validateurnom_,\n\nLa demande d'absence de _profilprenom_ _profilnom_ est en attente de votre validation.\n\nSi vous souhaitez la consulter, connectez-vous \u00e0 l'adresse suivante : _messagelink_\n\nMerci de ne pas r\u00e9pondre \u00e0 cet email."
+                },
+                "validatedTimesReport": {
+                    "object": "Feuille des temps valid\u00e9e",
+                    "body": "Bonjour _validateurprenom_ _validateurnom_,\n\nLa feuille des temps de _profilprenom_ _profilnom_ a \u00e9t\u00e9 valid\u00e9e par _aftervalprenom_ _aftervalnom_.\n\nSi vous souhaitez la consulter, connectez-vous \u00e0 l'adresse suivante : _messagelink_\n\nMerci de ne pas r\u00e9pondre \u00e0 cet email."
+                },
+                "validatedExpensesReport": {
+                    "object": "Note de frais valid\u00e9e",
+                    "body": "Bonjour _validateurprenom_ _validateurnom_,\n\nLa note de frais de _profilprenom_ _profilnom_ a \u00e9t\u00e9 valid\u00e9e par _aftervalprenom_ _aftervalnom_.\n\nSi vous souhaitez la consulter, connectez-vous \u00e0 l'adresse suivante : _messagelink_\n\nMerci de ne pas r\u00e9pondre \u00e0 cet email."
+                },
+                "validatedAbsencesReport": {
+                    "object": "Demande d'absence valid\u00e9e",
+                    "body": "Bonjour _validateurprenom_ _validateurnom_,\n\nLa demande d'absence de _profilprenom_ _profilnom_ a \u00e9t\u00e9 valid\u00e9e par _aftervalprenom_ _aftervalnom_.\n\nSi vous souhaitez la consulter, connectez-vous \u00e0 l'adresse suivante : _messagelink_\n\nMerci de ne pas r\u00e9pondre \u00e0 cet email."
+                },
+                "rejectedTimesReport": {
+                    "object": "Rejet d'une feuille des temps",
+                    "body": "Bonjour _validateurprenom_ _validateurnom_,\n\nLa feuille des temps de _profilprenom_ _profilnom_ a \u00e9t\u00e9 rejet\u00e9e par _previousvalprenom_ _previousvalnom_.\n\nLe motif est : \"_validateurmotif_\".\n\nVeuillez la modifier en vous connectant \u00e0 l'adresse suivante : _messagelink_\n\nMerci de ne pas r\u00e9pondre \u00e0 cet email."
+                },
+                "rejectedExpensesReport": {
+                    "object": "Rejet d'une note de frais",
+                    "body": "Bonjour _validateurprenom_ _validateurnom_,\n\nLa note de frais de _profilprenom_ _profilnom_ a \u00e9t\u00e9 rejet\u00e9e par _previousvalprenom_ _previousvalnom_.\n\nLe motif est : \"_validateurmotif_\".\n\nVeuillez la modifier en vous connectant \u00e0 l'adresse suivante : _messagelink_\n\nMerci de ne pas r\u00e9pondre \u00e0 cet email."
+                },
+                "rejectedAbsencesReport": {
+                    "object": "Rejet d'une demande d'absence",
+                    "body": "Bonjour _validateurprenom_ _validateurnom_,\n\nLa demande d'absence de _profilprenom_ _profilnom_ a \u00e9t\u00e9 rejet\u00e9e par _previousvalprenom_ _previousvalnom_.\n\nLe motif est : \"_validateurmotif_\".\n\nVeuillez la modifier en vous connectant \u00e0 l'adresse suivante : _messagelink_\n\nMerci de ne pas r\u00e9pondre \u00e0 cet email."
+                },
+                "refusedTimesReport": {
+                    "object": "Refus d'une feuille des temps",
+                    "body": "Bonjour _validateurprenom_ _validateurnom_,\n\nLa feuille des temps de _profilprenom_ _profilnom_ a \u00e9t\u00e9 refus\u00e9e par _previousvalprenom_ _previousvalnom_.\n\nLe motif est : \"_validateurmotif_\".\n\nMerci de ne pas r\u00e9pondre \u00e0 cet email."
+                },
+                "refusedExpensesReport": {
+                    "object": "Refus d'une note de frais",
+                    "body": "Bonjour _validateurprenom_ _validateurnom_,\n\nLa note de frais de _profilprenom_ _profilnom_ a \u00e9t\u00e9 refus\u00e9e par _previousvalprenom_ _previousvalnom_.\n\nLe motif est : \"_validateurmotif_\".\n\nMerci de ne pas r\u00e9pondre \u00e0 cet email."
+                },
+                "refusedAbsencesReport": {
+                    "object": "Refus d'une demande d'absence",
+                    "body": "Bonjour _validateurprenom_ _validateurnom_,\n\nLa demande d'absence de _profilprenom_ _profilnom_ a \u00e9t\u00e9 refus\u00e9e par _previousvalprenom_ _previousvalnom_.\n\nLe motif est : \"_validateurmotif_\".\n\nMerci de ne pas r\u00e9pondre \u00e0 cet email."
+                },
+                "removalAbsencesReport": {
+                    "object": "Suppression d'une demande d'absence",
+                    "body": "Bonjour _validateurprenom_ _validateurnom_,\n\n_profilprenom_ _profilnom_ a annul\u00e9 sa demande d'absence du __validationDate__.\n\nMerci de ne pas r\u00e9pondre \u00e0 cet email."
+                },
+                "deliveryOrder": {
+                    "object": "Ordre de mission - [MISSION_REFERENCE]",
+                    "body": "Bonjour,\n\nVeuillez trouver ci-joint votre ordre de mission [MISSION_REFERENCE] pour le projet [PROJECT_REF]."
+                }
+            },
+            "typeOf": {
+                "project": [
+                    {
+                        "id": 1,
+                        "value": "R\u00e9gie",
+                        "mode": 1,
+                        "scheduleProductionTurnover": false,
+                        "isInternal": false
+                    },
+                    {
+                        "id": 2,
+                        "value": "Forfait",
+                        "mode": 2,
+                        "scheduleProductionTurnover": false,
+                        "isInternal": false
+                    },
+                    {
+                        "id": 3,
+                        "value": "Recrutement",
+                        "mode": 3,
+                        "scheduleProductionTurnover": false,
+                        "isInternal": false
+                    },
+                    {
+                        "id": 4,
+                        "value": "Produit",
+                        "mode": 4,
+                        "scheduleProductionTurnover": false,
+                        "isInternal": false
+                    },
+                    {
+                        "id": 5,
+                        "value": "Projet Interne",
+                        "mode": 2,
+                        "scheduleProductionTurnover": false,
+                        "isInternal": false
+                    }
+                ],
+                "contract": [
+                    {
+                        "id": 0,
+                        "value": "CDI"
+                    },
+                    {
+                        "id": 1,
+                        "value": "CDD"
+                    },
+                    {
+                        "id": 2,
+                        "value": "Sous-traitant"
+                    },
+                    {
+                        "id": 3,
+                        "value": "Freelance"
+                    },
+                    {
+                        "id": 4,
+                        "value": "Stage"
+                    }
+                ],
+                "resource": [
+                    {
+                        "id": 0,
+                        "value": "Consultant Interne",
+                        "isExternal": false,
+                        "isStructure": false
+                    },
+                    {
+                        "id": 1,
+                        "value": "Consultant Externe",
+                        "isExternal": true,
+                        "isStructure": false
+                    },
+                    {
+                        "id": 2,
+                        "value": "Ing\u00e9nieur d'affaires",
+                        "isExternal": false,
+                        "isStructure": true
+                    },
+                    {
+                        "id": 3,
+                        "value": "Responsable d'agence",
+                        "isExternal": false,
+                        "isStructure": true
+                    },
+                    {
+                        "id": 4,
+                        "value": "Directeur",
+                        "isExternal": false,
+                        "isStructure": true
+                    },
+                    {
+                        "id": 5,
+                        "value": "Charg\u00e9 de recrutement",
+                        "isExternal": false,
+                        "isStructure": true
+                    },
+                    {
+                        "id": 6,
+                        "value": "Responsable RH",
+                        "isExternal": false,
+                        "isStructure": true
+                    },
+                    {
+                        "id": 7,
+                        "value": "Office Manager",
+                        "isExternal": false,
+                        "isStructure": true
+                    },
+                    {
+                        "id": 8,
+                        "value": "Comptabilit\u00e9",
+                        "isExternal": false,
+                        "isStructure": true
+                    }
+                ],
+                "activity": [
+                    {
+                        "id": 0,
+                        "value": "Production"
+                    },
+                    {
+                        "id": 1,
+                        "value": "Absence"
+                    },
+                    {
+                        "id": 2,
+                        "value": "Interne"
+                    },
+                    {
+                        "id": 3,
+                        "value": "Exceptionnelle - Plage Horaire"
+                    },
+                    {
+                        "id": 4,
+                        "value": "Exceptionnelle - Plage Calendaire"
+                    }
+                ],
+                "subscription": [
+                    {
+                        "id": 0,
+                        "value": "Unitaire"
+                    },
+                    {
+                        "id": 1,
+                        "value": "Mensuel"
+                    },
+                    {
+                        "id": 2,
+                        "value": "Trimestriel"
+                    },
+                    {
+                        "id": 3,
+                        "value": "Semestriel"
+                    },
+                    {
+                        "id": 4,
+                        "value": "Annuel"
+                    }
+                ],
+                "purchase": [
+                    {
+                        "id": 0,
+                        "value": "Divers"
+                    },
+                    {
+                        "id": 1,
+                        "value": "Prestation Externe"
+                    }
+                ],
+                "workingTime": [
+                    {
+                        "id": 0,
+                        "value": "Temps plein"
+                    },
+                    {
+                        "id": 1,
+                        "value": "Temps partiel"
+                    },
+                    {
+                        "id": 2,
+                        "value": "Mi-temps"
+                    }
+                ],
+                "employee": [
+                    {
+                        "id": 0,
+                        "value": "Ing\u00e9nieur & Cadre"
+                    },
+                    {
+                        "id": 1,
+                        "value": "E.T.A.M"
+                    }
+                ],
+                "additionalTurnover": [
+                    {
+                        "id": 0,
+                        "value": "Achat"
+                    },
+                    {
+                        "id": 1,
+                        "value": "R\u00e9gularisation"
+                    }
+                ]
+            },
+            "smoothAdditionalData": true,
+            "profitabilityMethodOfCalculating": "brandRate",
+            "showOwnOrderReference": false,
+            "itemInvoice": {
+                "monthly": [
+                    {
+                        "id": "1",
+                        "value": "Prestation de service, [BILL_PERIOD_MONTH] [BILL_PERIOD_YEAR]"
+                    },
+                    {
+                        "id": "1_3",
+                        "value": "Prestation exceptionnelle, [BILL_PERIOD_MONTH] [BILL_PERIOD_YEAR]"
+                    },
+                    {
+                        "id": "1_4",
+                        "value": "Prestation exceptionnelle, [BILL_PERIOD_MONTH] [BILL_PERIOD_YEAR]"
+                    },
+                    {
+                        "id": "2",
+                        "value": "Prestation de service, [BILL_PERIOD_MONTH] [BILL_PERIOD_YEAR]"
+                    },
+                    {
+                        "id": "2_3",
+                        "value": "Prestation exceptionnelle, [BILL_PERIOD_MONTH] [BILL_PERIOD_YEAR]"
+                    },
+                    {
+                        "id": "2_4",
+                        "value": "Prestation exceptionnelle, [BILL_PERIOD_MONTH] [BILL_PERIOD_YEAR]"
+                    },
+                    {
+                        "id": "3",
+                        "value": "Prestation de service, [BILL_PERIOD_MONTH] [BILL_PERIOD_YEAR]"
+                    },
+                    {
+                        "id": "4",
+                        "value": "[PRODUCT_NAME] - [PRODUCT_REF], [BILL_PERIOD_MONTH] [BILL_PERIOD_YEAR]"
+                    }
+                ],
+                "schedule": [
+                    {
+                        "id": "1",
+                        "value": "[SCHEDULE_DESCRIPTION]"
+                    },
+                    {
+                        "id": "2",
+                        "value": "[SCHEDULE_DESCRIPTION]"
+                    },
+                    {
+                        "id": "3",
+                        "value": "[SCHEDULE_DESCRIPTION]"
+                    },
+                    {
+                        "id": "4",
+                        "value": "[SCHEDULE_DESCRIPTION]"
+                    }
+                ]
+            },
+            "showLogoCompany": false,
+            "markdownTextDashboard": "__Bienvenue sur BoondManager__\n> Cette interface vous permet de :\n- Consulter/Modifier votre [dossier technique]({{url.my-profile.td}}) (DT)\n- Saisir vos [feuilles de temps]({{url.my-profile.timesheets}}) & vos \u00e9ventuelles [notes de frais]({{url.my-profile.expenses}})\n- Effectuer vos [demandes d'absences]({{url.my-profile.absences}})\n- Consulter vos [projets]({{url.my-profile.projects}})\n\n#Votre Fiche - Temps, Frais & Absence\n> - S\u00e9lectionnez le document \u00e0 cr\u00e9er ou modifier\n- Saisissez les informations du document durant cette p\u00e9riode\n- Pour les feuilles de temps et les notes de frais, joignez vos \u00e9ventuels justificatifs\n_(Astuce : Scannez vos tickets de caisse en les collant sur une feuille blanche A4)_\n- Cliquez sur \"Valider\" afin d'avertir le prochain validateur\n- Vous pouvez modifier uniquement les documents qui n'ont pas \u00e9t\u00e9 valid\u00e9s par un prochain validateur\n\n#Projets\n> - Vous pouvez consulter la liste de tous vos projets\n- Sur les projets dont vous \u00eates \"Chef de Projet\", vous pouvez consulter les donn\u00e9es du projet, les PDF de temps des ressources, et, uniquement sur les forfaits, modifier le \"Reste \u00e0 faire\" & les jalons",
+            "deliveryOrder": [
+                {
+                    "id": 0,
+                    "value": "Ordre de mission par d\u00e9faut",
+                    "maskSignatureBlock": false,
+                    "insert": [
+                        {
+                            "value": "Vos obligations",
+                            "option": [
+                                "- Vous devez prendre connaissance et respecter le r\u00e8glement int\u00e9rieur en vigueur chez le client",
+                                "- Vous devez prendre connaissance et respecter les dispositions sp\u00e9cifiques de s\u00e9curit\u00e9 en vigueur chez le client",
+                                "- Vous devez respecter le secret professionnel vis-\u00e0-vis des informations obtenues chez le client ou chez votre employeur"
+                            ]
+                        },
+                        {
+                            "value": "Pendant la mission",
+                            "option": [
+                                "- Chaque fin de mois, \u00e9tablissez une feuille d'activit\u00e9 mensuelle pour le mois \u00e9coul\u00e9, faites-la signer par votre chef de projet, et envoyez-la \u00e0 votre employeur",
+                                "- Pour des probl\u00e8mes administratifs, contactez votre assistante de d\u00e9partement"
+                            ]
+                        },
+                        {
+                            "value": "Absence",
+                            "option": [
+                                "- Toute absence pr\u00e9visible doit \u00eatre signal\u00e9e \u00e0 votre employeur le plus t\u00f4t possible",
+                                "- En particulier pour les cong\u00e9s :",
+                                "#pour la p\u00e9riode de cong\u00e9s escompt\u00e9e, tenir compte des imp\u00e9ratifs de la mission en concertation avec le client",
+                                "#\u00e9tablir une demande de cong\u00e9s \u00e9crite et l'adresser \u00e0 votre employeur",
+                                "#apr\u00e8s accord de votre employeur, confirmer la p\u00e9riode de cong\u00e9s au client",
+                                "- Les absences non pr\u00e9vues (maladie, accident, cas de force majeure ...) doivent \u00eatre signal\u00e9es le plus rapidement possible \u00e0 votre employeur et au client"
+                            ]
+                        },
+                        {
+                            "value": "Organisation du temps de travail",
+                            "option": [
+                                "- Le prestataire est-il aux 35H hebdomadaires effectives ? NON",
+                                "- Description : Vous devez suivre l'organisation du temps de travail de votre employeur telle qu'elle est d\u00e9crite dans l'accord d'entreprise de r\u00e9duction du temps de travail",
+                                "- Vous vous engagez \u00e0 respecter les jours de soci\u00e9t\u00e9 ferm\u00e9e du client, et la prise de cong\u00e9 aff\u00e9rente"
+                            ]
+                        },
+                        {
+                            "value": "Description de la mission",
+                            "option": [
+                                "[MISSION_DESCRIPTION]"
+                            ]
+                        },
+                        {
+                            "value": "Conditions particuli\u00e8res",
+                            "option": [
+                                "[MISSION_CONDITIONS]"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "sharingEntity": {
+                "credentials": {
+                    "object": "Partage des acc\u00e8s \u00e0 BoondManager",
+                    "body": "Bonjour [RESOURCE_FIRSTNAME] [RESOURCE_LASTNAME],\n\nAfin de faciliter la collecte et l'analyse des donn\u00e9es op\u00e9rationnelles de notre soci\u00e9t\u00e9, nous avons d\u00e9cid\u00e9 de collecter vos fiches de temps, vos notes de frais ainsi que vos demandes d'absences via une application en ligne m\u00e9tier : BoondManager.\n\nVoici le lien vers votre page de connexion : [BOONDMANAGER_URL] .\n\nVotre login est : \"[RESOURCE_LOGIN]\".\n\n\nIl s'agit de votre 1\u00e8re connexion ?\nMerci de cliquer sur ce lien pour d\u00e9finir votre mot de passe : [BOONDMANAGER_RESET]\n\nVous pouvez \u00e9galement vous connecter depuis votre smartphone en t\u00e9l\u00e9chargeant notre App Mobile accessible sur les marketplace de Google, Apple & Windows.\n\nChaque mois, un emailing vous sera envoy\u00e9 pour vous inciter \u00e0 qualifier vos feuilles de temps (\u00e9ventuellement \u00e9galement vos notes de frais).\n\nPour vous aider dans la prise en main de BoondManager, voici quelques tutoriaux que nous vous invitons \u00e0 consulter :\nhttps://support.boondmanager.com/hc/fr/articles/206473535-Introduction\nhttps://support.boondmanager.com/hc/fr/articles/205743149-Renseigner-une-feuille-des-temps\nhttps://support.boondmanager.com/hc/fr/articles/206455995-Renseigner-une-note-de-frais\nhttps://support.boondmanager.com/hc/fr/articles/205743159-Faire-une-demande-d-absence\n\nN'h\u00e9sitez pas \u00e0 me contacter pour tous renseignements compl\u00e9mentaires.\n\nCordialement,\n\n[MANAGER_FIRSTNAME] [MANAGER_LASTNAME]\n[MANAGER_EMAIL]\n[MANAGER_PHONE]"
+                },
+                "resource": {
+                    "object": "Partage de la fiche Ressource \"[RESOURCE_FIRSTNAME] [RESOURCE_LASTNAME]\"",
+                    "body": "Destinataire(s) : [ALL_RECIPIENTS]\n\nBonjour,\n\nJe vous invite \u00e0 consulter la fiche Ressource suivante :\n[RESOURCE_URL]\n\nEmail : [RESOURCE_EMAIL1]\nT\u00e9l\u00e9phone : [RESOURCE_PHONE1]\nTitre : [RESOURCE_TITLE]\nDisponibilit\u00e9 : [RESOURCE_AVAILABILITY]\nDomaines d'applications : [RESOURCE_ACTIVITIES]\nDomaines d'interventions : [RESOURCE_EXPERTISES]\nExp\u00e9rience : [RESOURCE_EXPERIENCE]\nFormation : [RESOURCE_TRAINING]\nOutils : [RESOURCE_TOOLS]\nComp\u00e9tences : [RESOURCE_SKILLS]\n\nCordialement,\n\n[MANAGER_FIRSTNAME] [MANAGER_LASTNAME]"
+                },
+                "opportunity": {
+                    "object": "Partage de la fiche Besoin \"[OPPORTUNITY_TITLE]\"",
+                    "body": "Destinataire(s) : [ALL_RECIPIENTS]\n\nBonjour,\n\nJe vous invite \u00e0 consulter la fiche Besoin suivante :\n[OPPORTUNITY_URL]\n\nType : [OPPORTUNITY_TYPE]\nEtat : [OPPORTUNITY_STATE]\nD\u00e9marrage : [OPPORTUNITY_START]\nCrit\u00e8res requis : [OPPORTUNITY_CRITERIA]\nDomaine d'application : [OPPORTUNITY_ACTIVITY]\nDomaine d'intervention : [OPPORTUNITY_EXPERTISE]\nCA envisag\u00e9 : [OPPORTUNITY_ESTIMATEDTURNOVER]\nBudget envisag\u00e9 : [OPPORTUNITY_PROJECTEDBUDGET]\nClient : [CRMCONTACT_FIRSTNAME] [CRMCONTACT_LASTNAME]\nSoci\u00e9t\u00e9 : [CRMCOMPANY_NAME]\nDescription : [OPPORTUNITY_DESCRIPTION]\n\nCordialement,\n\n[MANAGER_FIRSTNAME] [MANAGER_LASTNAME]"
+                },
+                "candidate": {
+                    "object": "Partage de la fiche Candidat \"[CANDIDATE_FIRSTNAME] [CANDIDATE_LASTNAME]\"",
+                    "body": "Destinataire(s) : [ALL_RECIPIENTS]\n\nBonjour,\n\nJe vous invite \u00e0 consulter la fiche Candidat suivante :\n[CANDIDATE_URL]\n\nEmail : [CANDIDATE_EMAIL1]\nT\u00e9l\u00e9phone : [CANDIDATE_PHONE1]\nTitre : [CANDIDATE_TITLE]\nDisponibilit\u00e9 : [CANDIDATE_AVAILABILITY]\nEvaluation globale : [CANDIDATE_EVALUATION]\nSalaire actuel : [CANDIDATE_ACTUALSALARY]\nSalaire souhait\u00e9 : [CANDIDATE_DESIREDSALARY]\nContrat : [CANDIDATE_CONTRACT]\nNationalit\u00e9 : [CANDIDATE_NATIONALITY]\nDate de naissance : [CANDIDATE_DATEOFBIRTH]\nProvenance : [CANDIDATE_SOURCE]\nDomaines d'applications : [CANDIDATE_ACTIVITIES]\nDomaines d'interventions : [CANDIDATE_EXPERTISES]\nExp\u00e9rience : [CANDIDATE_EXPERIENCE]\nFormation : [CANDIDATE_TRAINING]\nOutils : [CANDIDATE_TOOLS]\nComp\u00e9tences : [CANDIDATE_SKILLS]\n\nCordialement,\n\n[MANAGER_FIRSTNAME] [MANAGER_LASTNAME]"
+                },
+                "contact": {
+                    "object": "Partage de la fiche Contact CRM \"[CRMCONTACT_FIRSTNAME] [CRMCONTACT_LASTNAME] - [CRMCOMPANY_NAME]\"",
+                    "body": "Destinataire(s) : [ALL_RECIPIENTS]\n\nBonjour,\n\nJe vous invite \u00e0 consulter la fiche Contact CRM suivante :\n[CRMCONTACT_URL]\n\nEmail : [CRMCONTACT_EMAIL1]\nT\u00e9l\u00e9phone : [CRMCONTACT_PHONE1]\n\nCordialement,\n\n[MANAGER_FIRSTNAME] [MANAGER_LASTNAME]"
+                },
+                "company": {
+                    "object": "Partage de la fiche Soci\u00e9t\u00e9 CRM \"[CRMCOMPANY_NAME]\"",
+                    "body": "Destinataire(s) : [ALL_RECIPIENTS]\n\nBonjour,\n\nJe vous invite \u00e0 consulter la fiche Soci\u00e9t\u00e9 CRM suivante :\n[CRMCOMPANY_URL]\n\nSite Web : [CRMCOMPANY_WEBSITE]\nT\u00e9l\u00e9phone : [CRMCOMPANY_PHONE]\n\nCordialement,\n\n[MANAGER_FIRSTNAME] [MANAGER_LASTNAME]"
+                },
+                "project": {
+                    "object": "Partage de la fiche Projet \"[PROJECT_REF]\"",
+                    "body": "Destinataire(s) : [ALL_RECIPIENTS]\n\nBonjour,\n\nJe vous invite \u00e0 consulter la fiche Projet suivante :\n[PROJECT_URL]\n\nType : [OPPORTUNITY_TYPE]\nD\u00e9but : [PROJECT_START]\nFin : [PROJECT_END]\nClient : [CRMCONTACT_FIRSTNAME] [CRMCONTACT_LASTNAME]\nSoci\u00e9t\u00e9 : [CRMCOMPANY_NAME]\n\nCordialement,\n\n[MANAGER_FIRSTNAME] [MANAGER_LASTNAME]"
+                },
+                "product": {
+                    "object": "Partage de la fiche Produit \"[PRODUCT_NAME]\"",
+                    "body": "Destinataire(s) : [ALL_RECIPIENTS]\n\nBonjour,\n\nJe vous invite \u00e0 consulter la fiche Produit suivante :\n[PRODUCT_URL]\n\nR\u00e9f\u00e9rence du produit : [PRODUCT_REF]\n\nCordialement,\n\n[MANAGER_FIRSTNAME] [MANAGER_LASTNAME]"
+                },
+                "purchase": {
+                    "object": "Partage de la fiche Achat \"[PURCHASE_TITLE]\"",
+                    "body": "Destinataire(s) : [ALL_RECIPIENTS]\n\nBonjour,\n\nJe vous invite \u00e0 consulter la fiche Achat suivante :\n[PURCHASE_URL]\n\nType : [PURCHASE_TYPE]\nD\u00e9but : [PURCHASE_START]\nFin : [PURCHASE_END]\n\nCordialement,\n\n[MANAGER_FIRSTNAME] [MANAGER_LASTNAME]"
+                },
+                "payment": {
+                    "object": "Partage de la fiche Paiement \"[PAYMENT_REFERENCE]\"",
+                    "body": "Destinataire(s) : [ALL_RECIPIENTS]\n\nBonjour,\n\nJe vous invite \u00e0 consulter la fiche Paiement suivante :\n[PAYMENT_URL]\n\nDate : [PAYMENT_DATE]\nMontant : [PAYMENT_AMOUNT]\nAchat : [PURCHASE_TITLE]\nType : [PURCHASE_TYPE]\nD\u00e9but : [PURCHASE_START]\nFin : [PURCHASE_END]\n\nCordialement,\n\n[MANAGER_FIRSTNAME] [MANAGER_LASTNAME]"
+                },
+                "positioning": {
+                    "object": "Partage de la fiche Positionnement \"[POSITIONING_REFERENCE]\"",
+                    "body": "Destinataire(s) : [ALL_RECIPIENTS]\n\nBonjour,\n\nJe vous invite \u00e0 consulter la fiche Positionnement suivante :\n[POSITIONING_URL]\n\nD\u00e9but : [POSITIONING_START]\nFin : [POSITIONING_END]\nBesoin : [OPPORTUNITY_TITLE]\nType : [OPPORTUNITY_TYPE]\nD\u00e9marrage pr\u00e9vu sur la fiche besoin : [OPPORTUNITY_START]\nDur\u00e9e pr\u00e9vue sur la fiche besoin : [OPPORTUNITY_DURATION]\n\nCordialement,\n\n[MANAGER_FIRSTNAME] [MANAGER_LASTNAME]"
+                },
+                "delivery": {
+                    "object": "Partage de la fiche Mission \"[MISSION_REFERENCE]\"",
+                    "body": "Destinataire(s) : [ALL_RECIPIENTS]\n\nBonjour,\n\nJe vous invite \u00e0 consulter la fiche Mission suivante :\n[MISSION_URL]\n\nProjet/Type : [MISSION_TYPE]\nD\u00e9but : [MISSION_START]\nFin : [MISSION_END]\n\nCordialement,\n\n[MANAGER_FIRSTNAME] [MANAGER_LASTNAME]"
+                },
+                "contract": {
+                    "object": "Partage de la fiche Contrat de la ressource \"[RESOURCE_FIRSTNAME] [RESOURCE_LASTNAME]\"",
+                    "body": "Destinataire(s) : [ALL_RECIPIENTS]\n\nBonjour,\n\nJe vous invite \u00e0 consulter la fiche Contrat suivante :\n[CONTRACT_URL]\n\nCat\u00e9gorie : [CONTRACT_CATEGORY]\nD\u00e9but : [CONTRACT_START]\nFin : [CONTRACT_END]\n\nCordialement,\n\n[MANAGER_FIRSTNAME] [MANAGER_LASTNAME]"
+                },
+                "advantage": {
+                    "object": "Partage de la fiche Avantage de la ressource \"[RESOURCE_FIRSTNAME] [RESOURCE_LASTNAME]\"",
+                    "body": "Destinataire(s) : [ALL_RECIPIENTS]\n\nBonjour,\n\nJe vous invite \u00e0 consulter la fiche Avantage suivante :\n[ADVANTAGE_URL]\n\nType : [ADVANTAGE_TYPE]\nCat\u00e9gorie : [ADVANTAGE_CATEGORY]\nDate : [ADVANTAGE_DATE]\n\nCordialement,\n\n[MANAGER_FIRSTNAME] [MANAGER_LASTNAME]"
+                },
+                "invoice": {
+                    "object": "Partage de la fiche Facture \"[BILL_REF]\"",
+                    "body": "Destinataire(s) : [ALL_RECIPIENTS]\n\nBonjour,\n\nJe vous invite \u00e0 consulter la fiche Facture suivante :\n[BILL_URL]\n\nEtat : [BILL_STATE]\nCommande : [ORDER_REF]\nProjet : [PROJECT_REF]\nClient : [CRMCONTACT_FIRSTNAME] [CRMCONTACT_LASTNAME]\nSoci\u00e9t\u00e9 : [CRMCOMPANY_NAME]\n\nCordialement,\n\n[MANAGER_FIRSTNAME] [MANAGER_LASTNAME]"
+                },
+                "order": {
+                    "object": "Partage de la fiche Commande \"[ORDER_REF]\"",
+                    "body": "Destinataire(s) : [ALL_RECIPIENTS]\n\nBonjour,\n\nJe vous invite \u00e0 consulter la fiche Commande suivante :\n[ORDER_URL]\n\nProjet : [PROJECT_REF]\nClient : [CRMCONTACT_FIRSTNAME] [CRMCONTACT_LASTNAME]\nSoci\u00e9t\u00e9 : [CRMCOMPANY_NAME]\n\nCordialement,\n\n[MANAGER_FIRSTNAME] [MANAGER_LASTNAME]"
+                },
+                "timesheet": {
+                    "object": "Partage de la Feuille des Temps [TIMESHEET_PERIOD] de [RESOURCE_FIRSTNAME] [RESOURCE_LASTNAME]",
+                    "body": "Destinataire(s) : [ALL_RECIPIENTS]\n\nBonjour,\n\nJe vous invite \u00e0 valider la Feuille des Temps suivante :\n[TIMESHEET_URL]\n\nCordialement,\n\n[MANAGER_FIRSTNAME] [MANAGER_LASTNAME]"
+                },
+                "expenses": {
+                    "object": "Partage de la Note de Frais [EXPENSES_PERIOD] de [RESOURCE_FIRSTNAME] [RESOURCE_LASTNAME]",
+                    "body": "Destinataire(s) : [ALL_RECIPIENTS]\n\nBonjour,\n\nJe vous invite \u00e0 valider la Note de Frais suivante :\n[EXPENSES_URL]\n\nCordialement,\n\n[MANAGER_FIRSTNAME] [MANAGER_LASTNAME]"
+                },
+                "absencesRequest": {
+                    "object": "Partage de la Demande d'Absence [ABSENCE_DATE] de [RESOURCE_FIRSTNAME] [RESOURCE_LASTNAME]",
+                    "body": "Destinataire(s) : [ALL_RECIPIENTS]\n\nBonjour,\n\nJe vous invite \u00e0 valider la Demande d'Absence suivante :\n[ABSENCE_URL]\n\nTitre : [ABSENCE_TITLE]\n\nCordialement,\n\n[MANAGER_FIRSTNAME] [MANAGER_LASTNAME]"
+                },
+                "action": {
+                    "object": "Partage de la fiche Action \"[ACTION_PROFILE]\"",
+                    "body": "Destinataire(s) : [ALL_RECIPIENTS]\n\nBonjour,\n\nJe vous invite \u00e0 consulter la fiche suivante :\n[ACTION_PARENTURL]\n\nDate : [ACTION_DATE]\nTitre : [ACTION_PROFILE]\nMessage :\n[ACTION_TEXT]\n\nCordialement,\n\n[MANAGER_FIRSTNAME] [MANAGER_LASTNAME]"
+                },
+                "groupment": {
+                    "object": "Partage de la fiche Groupement \"[MISSION_REFERENCE]\"",
+                    "body": "Destinataire(s) : [ALL_RECIPIENTS]\n\nBonjour,\n\nJe vous invite \u00e0 consulter la fiche Groupement suivante :\n[MISSION_URL]\n\nProjet/Type : [MISSION_TYPE]\nD\u00e9but : [MISSION_START]\nFin : [MISSION_END]\n\nCordialement,\n\n[MANAGER_FIRSTNAME] [MANAGER_LASTNAME]"
+                },
+                "inactivity": {
+                    "object": "Partage de la fiche Inactivit\u00e9 \"[MISSION_REFERENCE]\"",
+                    "body": "Destinataire(s) : [ALL_RECIPIENTS]\n\nBonjour,\n\nJe vous invite \u00e0 consulter la fiche Inactivit\u00e9 suivante :\n[MISSION_URL]\n\nD\u00e9but : [MISSION_START]\nFin : [MISSION_END]\n\nCordialement,\n\n[MANAGER_FIRSTNAME] [MANAGER_LASTNAME]"
+                }
+            },
+            "activityArea": [
+                {
+                    "id": "profils",
+                    "value": "Profils",
+                    "option": [
+                        {
+                            "id": "profilsdeveloppeur",
+                            "value": "D\u00e9veloppeur"
+                        },
+                        {
+                            "id": "profilschefdeprojet",
+                            "value": "Chef de projet"
+                        },
+                        {
+                            "id": "profilsproductowner",
+                            "value": "Product owner"
+                        }
+                    ]
+                },
+                {
+                    "id": "certifications",
+                    "value": "Certifications",
+                    "option": [
+                        {
+                            "id": "certificationscertification1",
+                            "value": "Certification 1"
+                        },
+                        {
+                            "id": "certificationscertification2",
+                            "value": "Certification 2"
+                        },
+                        {
+                            "id": "certificationscertification3",
+                            "value": "Certification 3"
+                        }
+                    ]
+                }
+            ],
+            "mobilityArea": [
+                {
+                    "id": "monde",
+                    "value": "Monde",
+                    "option": [
+                        {
+                            "id": "monde",
+                            "value": "Monde"
+                        },
+                        {
+                            "id": "mondeafrique",
+                            "value": "Afrique"
+                        },
+                        {
+                            "id": "mondeameriquesnord",
+                            "value": "Am\u00e9riques du Nord"
+                        },
+                        {
+                            "id": "mondeameriquessud",
+                            "value": "Am\u00e9riques du Sud"
+                        },
+                        {
+                            "id": "mondeasie",
+                            "value": "Asie"
+                        },
+                        {
+                            "id": "mondeaustralie",
+                            "value": "Australie"
+                        },
+                        {
+                            "id": "mondeeurope",
+                            "value": "Europe"
+                        }
+                    ]
+                },
+                {
+                    "id": "europe",
+                    "value": "Europe",
+                    "option": [
+                        {
+                            "id": "mondeeuropeallemagne",
+                            "value": "Allemagne"
+                        },
+                        {
+                            "id": "mondeeuropeautriche",
+                            "value": "Autriche"
+                        },
+                        {
+                            "id": "mondeeuropebelgique",
+                            "value": "Belgique"
+                        },
+                        {
+                            "id": "mondeeuropebulgarie",
+                            "value": "Bulgarie"
+                        },
+                        {
+                            "id": "mondeeuropechypre",
+                            "value": "Chypre"
+                        },
+                        {
+                            "id": "mondeeuropedanemark",
+                            "value": "Danemark"
+                        },
+                        {
+                            "id": "mondeeuropeespagne",
+                            "value": "Espagne"
+                        },
+                        {
+                            "id": "mondeeuropeestonie",
+                            "value": "Estonie"
+                        },
+                        {
+                            "id": "mondeeuropefinlande",
+                            "value": "Finlande"
+                        },
+                        {
+                            "id": "mondeeuropefrance",
+                            "value": "France"
+                        },
+                        {
+                            "id": "mondeeuropegr\u00e8ce",
+                            "value": "Gr\u00e8ce"
+                        },
+                        {
+                            "id": "mondeeuropehongrie",
+                            "value": "Hongrie"
+                        },
+                        {
+                            "id": "mondeeuropeirlande",
+                            "value": "Irlande"
+                        },
+                        {
+                            "id": "mondeeuropeitalie",
+                            "value": "Italie"
+                        },
+                        {
+                            "id": "mondeeuropelettonie",
+                            "value": "Lettonie"
+                        },
+                        {
+                            "id": "mondeeuropelituanie",
+                            "value": "Lituanie"
+                        },
+                        {
+                            "id": "mondeeuropeluxembourg",
+                            "value": "Luxembourg"
+                        },
+                        {
+                            "id": "mondeeuropemalte",
+                            "value": "Malte"
+                        },
+                        {
+                            "id": "mondeeuropepaysbas",
+                            "value": "Pays-Bas"
+                        },
+                        {
+                            "id": "mondeeuropepologne",
+                            "value": "Pologne"
+                        },
+                        {
+                            "id": "mondeeuropeportugal",
+                            "value": "Portugal"
+                        },
+                        {
+                            "id": "mondeeuroperepubliquetcheque",
+                            "value": "R\u00e9publique tch\u00e8que"
+                        },
+                        {
+                            "id": "mondeeuroperoumanie",
+                            "value": "Roumanie"
+                        },
+                        {
+                            "id": "mondeeuroperoyaumeuni",
+                            "value": "Royaume-Uni"
+                        },
+                        {
+                            "id": "mondeeuropeslovaquie",
+                            "value": "Slovaquie"
+                        },
+                        {
+                            "id": "mondeeuropeslovenie",
+                            "value": "Slov\u00e9nie"
+                        },
+                        {
+                            "id": "mondeeuropesuede",
+                            "value": "Su\u00e8de"
+                        },
+                        {
+                            "id": "mondeeuropesuisse",
+                            "value": "Suisse"
+                        }
+                    ]
+                },
+                {
+                    "id": "france",
+                    "value": "France",
+                    "option": [
+                        {
+                            "id": "mondeeuropefrancealsace",
+                            "value": "Alsace"
+                        },
+                        {
+                            "id": "mondeeuropefranceaquitaine",
+                            "value": "Aquitaine"
+                        },
+                        {
+                            "id": "mondeeuropefranceauvergne",
+                            "value": "Auvergne"
+                        },
+                        {
+                            "id": "mondeeuropefrancebourgogne",
+                            "value": "Bourgogne"
+                        },
+                        {
+                            "id": "mondeeuropefrancebretagne",
+                            "value": "Bretagne"
+                        },
+                        {
+                            "id": "mondeeuropefrancecentre",
+                            "value": "Centre"
+                        },
+                        {
+                            "id": "mondeeuropefrancechampagneardenne",
+                            "value": "Champagne-Ardenne"
+                        },
+                        {
+                            "id": "mondeeuropefrancecorse",
+                            "value": "Corse"
+                        },
+                        {
+                            "id": "mondeeuropefrancefranchecomte",
+                            "value": "Franche-Comt\u00e9"
+                        },
+                        {
+                            "id": "mondeeuropefranceiledefrance",
+                            "value": "Ile-de-France"
+                        },
+                        {
+                            "id": "mondeeuropefrancelanguedocroussillon",
+                            "value": "Languedoc-Roussillon"
+                        },
+                        {
+                            "id": "mondeeuropefrancelimousin",
+                            "value": "Limousin"
+                        },
+                        {
+                            "id": "mondeeuropefrancelorraine",
+                            "value": "Lorraine"
+                        },
+                        {
+                            "id": "mondeeuropefrancemidipyrenees",
+                            "value": "Midi-Pyr\u00e9n\u00e9es"
+                        },
+                        {
+                            "id": "mondeeuropefrancenordpasdecalais",
+                            "value": "Nord-Pas-de-Calais"
+                        },
+                        {
+                            "id": "mondeeuropefrancebassenormandie",
+                            "value": "Basse-Normandie"
+                        },
+                        {
+                            "id": "mondeeuropefrancehautenormandie",
+                            "value": "Haute-Normandie"
+                        },
+                        {
+                            "id": "mondeeuropefrancepaysdelaloire",
+                            "value": "Pays de la Loire"
+                        },
+                        {
+                            "id": "mondeeuropefrancepicardie",
+                            "value": "Picardie"
+                        },
+                        {
+                            "id": "mondeeuropefrancepoitoucharentes",
+                            "value": "Poitou-Charentes"
+                        },
+                        {
+                            "id": "mondeeuropefrancepaca",
+                            "value": "PACA"
+                        },
+                        {
+                            "id": "mondeeuropefrancerhonealpes",
+                            "value": "Rh\u00f4ne-Alpes"
+                        }
+                    ]
+                },
+                {
+                    "id": "iledefrance",
+                    "value": "Ile-de-France",
+                    "option": [
+                        {
+                            "id": "mondeeuropefranceiledefranceparis",
+                            "value": "Paris (75)"
+                        },
+                        {
+                            "id": "mondeeuropefranceiledefranceseineetmarne",
+                            "value": "Seine-et-Marne(77)"
+                        },
+                        {
+                            "id": "mondeeuropefranceiledefranceyvelines",
+                            "value": "Yvelines(78)"
+                        },
+                        {
+                            "id": "mondeeuropefranceiledefranceessone",
+                            "value": "Essone(91)"
+                        },
+                        {
+                            "id": "mondeeuropefranceiledefrancehautsdeseine(92)",
+                            "value": "Hauts-de-Seine(92)"
+                        },
+                        {
+                            "id": "mondeeuropefranceiledefranceseinesaintdenis",
+                            "value": "Seine-Saint-Denis(93)"
+                        },
+                        {
+                            "id": "mondeeuropefranceiledefrancevaldemarne",
+                            "value": "Val-de-Marne(94)"
+                        },
+                        {
+                            "id": "mondeeuropefranceiledefrancevaloise",
+                            "value": "Val-d'Oise(95)"
+                        }
+                    ]
+                },
+                {
+                    "id": "asie",
+                    "value": "Asie",
+                    "option": [
+                        {
+                            "id": "mondeasieinde",
+                            "value": "Inde"
+                        }
+                    ]
+                },
+                {
+                    "id": "afrique",
+                    "value": "Afrique",
+                    "option": [
+                        {
+                            "id": "mondeafriqueafriquedusud",
+                            "value": "Afrique du Sud"
+                        },
+                        {
+                            "id": "mondeafriquealgerie",
+                            "value": "Alg\u00e9rie"
+                        },
+                        {
+                            "id": "mondeafriqueangola",
+                            "value": "Angola"
+                        },
+                        {
+                            "id": "mondeafriquebenin",
+                            "value": "B\u00e9nin"
+                        },
+                        {
+                            "id": "mondeafriquebotswana",
+                            "value": "Botswana"
+                        },
+                        {
+                            "id": "mondeafriqueburkinafaso",
+                            "value": "Burkina Faso"
+                        },
+                        {
+                            "id": "mondeafriqueburundi",
+                            "value": "Burundi"
+                        },
+                        {
+                            "id": "mondeafriquecameroun",
+                            "value": "Cameroun"
+                        },
+                        {
+                            "id": "mondeafriquecapvert",
+                            "value": "Cap-Vert"
+                        },
+                        {
+                            "id": "mondeafriquecentreafricaine",
+                            "value": "R\u00e9publique Centreafricaine"
+                        },
+                        {
+                            "id": "mondeafriquecomores",
+                            "value": "Comores"
+                        },
+                        {
+                            "id": "mondeafriquecongo",
+                            "value": "R\u00e9publique du Congo"
+                        },
+                        {
+                            "id": "mondeafriquedemocratiqueducongo",
+                            "value": "R\u00e9publique d\u00e9mocratique du Congo"
+                        },
+                        {
+                            "id": "mondeafriquecoteivoire",
+                            "value": "C\u00f4te d'Ivoire"
+                        },
+                        {
+                            "id": "mondeafriquedjibouti",
+                            "value": "Djibouti"
+                        },
+                        {
+                            "id": "mondeafriqueegypte",
+                            "value": "Egypte"
+                        },
+                        {
+                            "id": "mondeafriqueerythree",
+                            "value": "Erythr\u00e9e"
+                        },
+                        {
+                            "id": "mondeafriqueethiopie",
+                            "value": "Ethiopie"
+                        },
+                        {
+                            "id": "mondeafriquegabon",
+                            "value": "Gabon"
+                        },
+                        {
+                            "id": "mondeafriqueghana",
+                            "value": "Ghana"
+                        },
+                        {
+                            "id": "mondeafriqueguinee",
+                            "value": "Guin\u00e9e"
+                        },
+                        {
+                            "id": "mondeafriqueguineebissau",
+                            "value": "Guin\u00e9e-Bissau"
+                        },
+                        {
+                            "id": "mondeafriqueguineeequatoriale",
+                            "value": "Guin\u00e9e \u00e9quatoriale"
+                        },
+                        {
+                            "id": "mondeafriquekenya",
+                            "value": "Kenya"
+                        },
+                        {
+                            "id": "mondeafriquelesotho",
+                            "value": "Lesotho"
+                        },
+                        {
+                            "id": "mondeafriqueliberia",
+                            "value": "Liberia"
+                        },
+                        {
+                            "id": "mondeafriquelibye",
+                            "value": "Libye"
+                        },
+                        {
+                            "id": "mondeafriquemadagascar",
+                            "value": "Madagascar"
+                        },
+                        {
+                            "id": "mondeafriquemalawi",
+                            "value": "Malawi"
+                        },
+                        {
+                            "id": "mondeafriquemali",
+                            "value": "Mali"
+                        },
+                        {
+                            "id": "mondeafriquemaroc",
+                            "value": "Maroc"
+                        },
+                        {
+                            "id": "mondeafriquemaurice",
+                            "value": "Maurice"
+                        },
+                        {
+                            "id": "mondeafriquemauritanie",
+                            "value": "Mauritanie"
+                        },
+                        {
+                            "id": "mondeafriquemozambique",
+                            "value": "Mozambique"
+                        },
+                        {
+                            "id": "mondeafriquenamibie",
+                            "value": "Namibie"
+                        },
+                        {
+                            "id": "mondeafriqueniger",
+                            "value": "Niger"
+                        },
+                        {
+                            "id": "mondeafriquenigeria",
+                            "value": "Nigeria"
+                        },
+                        {
+                            "id": "mondeafriqueouganda",
+                            "value": "Ouganda"
+                        },
+                        {
+                            "id": "mondeafriquerwanda",
+                            "value": "Rwanda"
+                        },
+                        {
+                            "id": "mondeafriquesaotomeetprincipe",
+                            "value": "Sao Tom\u00e9-et-Principe"
+                        },
+                        {
+                            "id": "mondeafriquesenegal",
+                            "value": "S\u00e9n\u00e9gal"
+                        },
+                        {
+                            "id": "mondeafriqueseychelles",
+                            "value": "Seychelles"
+                        },
+                        {
+                            "id": "mondeafriquesierraleone",
+                            "value": "Sierra Leone"
+                        },
+                        {
+                            "id": "mondeafriquesomalie",
+                            "value": "Somalie"
+                        },
+                        {
+                            "id": "mondeafriquesoudan",
+                            "value": "Soudan"
+                        },
+                        {
+                            "id": "mondeafriqueswaziland",
+                            "value": "Swaziland"
+                        },
+                        {
+                            "id": "mondeafriquetanzanie",
+                            "value": "Tanzanie"
+                        },
+                        {
+                            "id": "mondeafriquetchad",
+                            "value": "Tchad"
+                        },
+                        {
+                            "id": "mondeafriquetogo",
+                            "value": "Togo"
+                        },
+                        {
+                            "id": "mondeafriquetunisie",
+                            "value": "Tunisie"
+                        },
+                        {
+                            "id": "mondeafriquezambie",
+                            "value": "Zambie"
+                        },
+                        {
+                            "id": "mondeafriquezimbabwe",
+                            "value": "Zimbabwe"
+                        }
+                    ]
+                }
+            ],
+            "experience": [
+                {
+                    "id": 0,
+                    "value": "Pas d'exp\u00e9rience"
+                },
+                {
+                    "id": 1,
+                    "value": "1 \u00e0 2 ans"
+                },
+                {
+                    "id": 2,
+                    "value": "3 \u00e0 5 ans"
+                },
+                {
+                    "id": 3,
+                    "value": "6 \u00e0 10 ans"
+                },
+                {
+                    "id": 11,
+                    "value": "> 10 ans"
+                }
+            ],
+            "training": [
+                {
+                    "id": "Bac",
+                    "value": "Bac"
+                },
+                {
+                    "id": "Bac2",
+                    "value": "Bac+2"
+                },
+                {
+                    "id": "Bac3",
+                    "value": "Bac+3"
+                },
+                {
+                    "id": "Bac4",
+                    "value": "Bac+4"
+                },
+                {
+                    "id": "Bac5",
+                    "value": "Bac+5"
+                },
+                {
+                    "id": "Bac6",
+                    "value": "Bac+6"
+                },
+                {
+                    "id": "Bac7",
+                    "value": "Bac+7"
+                },
+                {
+                    "id": "Bac8",
+                    "value": "Bac+8"
+                }
+            ],
+            "expertiseArea": [
+                {
+                    "id": "Autres",
+                    "value": "Autres"
+                },
+                {
+                    "id": "A\u00e9ronautique",
+                    "value": "A\u00e9ronautique"
+                },
+                {
+                    "id": "A\u00e9rospatial",
+                    "value": "A\u00e9rospatial"
+                },
+                {
+                    "id": "Agroalimentaire",
+                    "value": "Agroalimentaire"
+                },
+                {
+                    "id": "Assurance",
+                    "value": "Assurance"
+                },
+                {
+                    "id": "Automobile",
+                    "value": "Automobile"
+                },
+                {
+                    "id": "Banque",
+                    "value": "Banque"
+                },
+                {
+                    "id": "B\u00e2timents",
+                    "value": "B\u00e2timents"
+                },
+                {
+                    "id": "Biom\u00e9dical",
+                    "value": "Biom\u00e9dical"
+                },
+                {
+                    "id": "Chimie",
+                    "value": "Chimie"
+                },
+                {
+                    "id": "Conseil",
+                    "value": "Conseil"
+                },
+                {
+                    "id": "D\u00e9fense",
+                    "value": "D\u00e9fense"
+                },
+                {
+                    "id": "Edition de logiciels",
+                    "value": "Edition de logiciels"
+                },
+                {
+                    "id": "Energie",
+                    "value": "Energie"
+                },
+                {
+                    "id": "Environnement",
+                    "value": "Environnement"
+                },
+                {
+                    "id": "Ferroviaire",
+                    "value": "Ferroviaire"
+                },
+                {
+                    "id": "Grande distribution",
+                    "value": "Grande distribution"
+                },
+                {
+                    "id": "Infrastructure",
+                    "value": "Infrastructure"
+                },
+                {
+                    "id": "Logistique",
+                    "value": "Logistique"
+                },
+                {
+                    "id": "M\u00e9dia",
+                    "value": "M\u00e9dia"
+                },
+                {
+                    "id": "M\u00e9tallurgie/sid\u00e9rurgie",
+                    "value": "M\u00e9tallurgie/sid\u00e9rurgie"
+                },
+                {
+                    "id": "Naval",
+                    "value": "Naval"
+                },
+                {
+                    "id": "Nucl\u00e9aire",
+                    "value": "Nucl\u00e9aire"
+                },
+                {
+                    "id": "Oil & Gaz",
+                    "value": "Oil & Gaz"
+                },
+                {
+                    "id": "P\u00e9trochimie",
+                    "value": "P\u00e9trochimie"
+                },
+                {
+                    "id": "Pharmacie",
+                    "value": "Pharmacie"
+                },
+                {
+                    "id": "Sant\u00e9",
+                    "value": "Sant\u00e9"
+                },
+                {
+                    "id": "Secteur public",
+                    "value": "Secteur public"
+                },
+                {
+                    "id": "Services",
+                    "value": "Services"
+                },
+                {
+                    "id": "T\u00e9l\u00e9communications",
+                    "value": "T\u00e9l\u00e9communications"
+                }
+            ],
+            "duration": [
+                {
+                    "id": 0,
+                    "value": "< 1 mois"
+                },
+                {
+                    "id": 1,
+                    "value": "1 mois"
+                },
+                {
+                    "id": 2,
+                    "value": "2 mois"
+                },
+                {
+                    "id": 3,
+                    "value": "3 mois"
+                },
+                {
+                    "id": 4,
+                    "value": "4 mois"
+                },
+                {
+                    "id": 5,
+                    "value": "5 mois"
+                },
+                {
+                    "id": 6,
+                    "value": "6 mois"
+                },
+                {
+                    "id": 7,
+                    "value": "> 6 mois"
+                },
+                {
+                    "id": 255,
+                    "value": "Ind\u00e9termin\u00e9e"
+                }
+            ],
+            "languageLevel": [
+                {
+                    "id": "scolaire",
+                    "value": "Scolaire"
+                },
+                {
+                    "id": "interm\u00e9diaire",
+                    "value": "Interm\u00e9diaire"
+                },
+                {
+                    "id": "courant",
+                    "value": "Courant"
+                },
+                {
+                    "id": "maternel",
+                    "value": "Maternel"
+                }
+            ],
+            "languageSpoken": [
+                {
+                    "id": "anglais",
+                    "value": "Anglais"
+                },
+                {
+                    "id": "espagnol",
+                    "value": "Espagnol"
+                },
+                {
+                    "id": "allemand",
+                    "value": "Allemand"
+                }
+            ],
+            "availability": [
+                {
+                    "id": 0,
+                    "value": "Imm\u00e9diate"
+                },
+                {
+                    "id": 1,
+                    "value": "< 1 mois"
+                },
+                {
+                    "id": 2,
+                    "value": "De 1 \u00e0 3 mois"
+                },
+                {
+                    "id": 3,
+                    "value": "3 mois"
+                },
+                {
+                    "id": 4,
+                    "value": "> 3 mois"
+                }
+            ],
+            "evaluation": [
+                {
+                    "id": "A",
+                    "value": "A"
+                },
+                {
+                    "id": "B",
+                    "value": "B"
+                },
+                {
+                    "id": "C",
+                    "value": "C"
+                },
+                {
+                    "id": "D",
+                    "value": "D"
+                }
+            ],
+            "origin": [
+                {
+                    "id": 0,
+                    "value": "Prospection"
+                },
+                {
+                    "id": 1,
+                    "value": "Apporteur"
+                },
+                {
+                    "id": 2,
+                    "value": "Coll\u00e8gue"
+                },
+                {
+                    "id": 3,
+                    "value": "R\u00e9seau"
+                },
+                {
+                    "id": 4,
+                    "value": "Appel d'offre"
+                },
+                {
+                    "id": 5,
+                    "value": "Appel entrant"
+                },
+                {
+                    "id": 6,
+                    "value": "Client"
+                },
+                {
+                    "id": 7,
+                    "value": "Salon"
+                },
+                {
+                    "id": 8,
+                    "value": "Google"
+                }
+            ],
+            "classification": [
+                {
+                    "id": "Position 1.1 - Coefficient 95",
+                    "value": "Position 1.1 - Coefficient 95"
+                },
+                {
+                    "id": "Position 1.2 - Coefficient 100",
+                    "value": "Position 1.2 - Coefficient 100"
+                },
+                {
+                    "id": "Position 2.1 - Coefficient 105",
+                    "value": "Position 2.1 - Coefficient 105"
+                },
+                {
+                    "id": "Position 2.1 - Coefficient 115",
+                    "value": "Position 2.1 - Coefficient 115"
+                },
+                {
+                    "id": "Position 2.2 - Coefficient 130",
+                    "value": "Position 2.2 - Coefficient 130"
+                },
+                {
+                    "id": "Position 2.3 - Coefficient 150",
+                    "value": "Position 2.3 - Coefficient 150"
+                },
+                {
+                    "id": "Position 3.1 - Coefficient 170",
+                    "value": "Position 3.1 - Coefficient 170"
+                },
+                {
+                    "id": "Position 3.2 - Coefficient 210",
+                    "value": "Position 3.2 - Coefficient 210"
+                },
+                {
+                    "id": "Position 3.3 - Coefficient 270",
+                    "value": "Position 3.3 - Coefficient 270"
+                },
+                {
+                    "id": "Position 1.1 - Coefficient 200",
+                    "value": "Position 1.1 - Coefficient 200"
+                },
+                {
+                    "id": "Position 1.2 - Coefficient 210",
+                    "value": "Position 1.2 - Coefficient 210"
+                },
+                {
+                    "id": "Position 1.3.1 - Coefficient 220",
+                    "value": "Position 1.3.1 - Coefficient 220"
+                },
+                {
+                    "id": "Position 1.1 - Coefficient 230",
+                    "value": "Position 1.1 - Coefficient 230"
+                },
+                {
+                    "id": "Position 1.2 - Coefficient 240",
+                    "value": "Position 1.2 - Coefficient 240"
+                },
+                {
+                    "id": "Position 1.3 - Coefficient 250",
+                    "value": "Position 1.3 - Coefficient 250"
+                },
+                {
+                    "id": "Position 2.1 - Coefficient 275",
+                    "value": "Position 2.1 - Coefficient 275"
+                },
+                {
+                    "id": "Position 2.2 - Coefficient 310",
+                    "value": "Position 2.2 - Coefficient 310"
+                },
+                {
+                    "id": "Position 2.3 - Coefficient 355",
+                    "value": "Position 2.3 - Coefficient 355"
+                },
+                {
+                    "id": "Position 3.1 - Coefficient 400",
+                    "value": "Position 3.1 - Coefficient 400"
+                },
+                {
+                    "id": "Position 3.2 - Coefficient 450",
+                    "value": "Position 3.2 - Coefficient 450"
+                },
+                {
+                    "id": "Position 3.3 - Coefficient 500",
+                    "value": "Position 3.3 - Coefficient 500"
+                }
+            ],
+            "source": [
+                {
+                    "id": 0,
+                    "value": "LinkedIn"
+                },
+                {
+                    "id": 1,
+                    "value": "Cooptation"
+                },
+                {
+                    "id": 2,
+                    "value": "Candidature spontan\u00e9e"
+                },
+                {
+                    "id": 3,
+                    "value": "Salon"
+                },
+                {
+                    "id": 4,
+                    "value": "Jobboard"
+                },
+                {
+                    "id": 5,
+                    "value": "Autre"
+                }
+            ],
+            "criteria": [
+                {
+                    "id": 0,
+                    "value": "Relationnel"
+                },
+                {
+                    "id": 1,
+                    "value": "Technique"
+                }
+            ],
+            "tool": [
+                {
+                    "id": "outil1",
+                    "value": "Outil 1"
+                },
+                {
+                    "id": "outil2",
+                    "value": "Outil 2"
+                },
+                {
+                    "id": "outil3",
+                    "value": "Outil 3"
+                }
+            ],
+            "situation": [
+                {
+                    "id": 0,
+                    "value": "C\u00e9libataire"
+                },
+                {
+                    "id": 1,
+                    "value": "Mari\u00e9(e)"
+                },
+                {
+                    "id": 2,
+                    "value": "Concubinage"
+                },
+                {
+                    "id": 3,
+                    "value": "Divorc\u00e9(e)"
+                },
+                {
+                    "id": 4,
+                    "value": "Veuf(ve)"
+                },
+                {
+                    "id": 5,
+                    "value": "PACS"
+                }
+            ],
+            "civility": [
+                {
+                    "id": 0,
+                    "value": "M."
+                },
+                {
+                    "id": 1,
+                    "value": "Mme."
+                }
+            ],
+            "defaultNationality": "mainManagerCountry",
+            "timezone": "Europe/Paris",
+            "cache": {
+                "reporting": {
+                    "state": false,
+                    "duration": 7
+                }
+            },
+            "defaultAction": {
+                "pushResource": "Push du CV {resume} vers {contacts}",
+                "pushCandidate": "Push du CV {resume} vers {contacts}",
+                "pushContact": "Push des CVs {resumes}"
+            },
+            "contractEndReason": [
+                {
+                    "id": 0,
+                    "value": "Rupture conventionnelle"
+                },
+                {
+                    "id": 1,
+                    "value": "D\u00e9mission"
+                },
+                {
+                    "id": 2,
+                    "value": "Licenciement"
+                }
+            ],
+            "additionalTurnoverTypes": {
+                "state": false
+            }
+        },
+        "country": [
+            {
+                "id": "Afghanistan",
+                "iso": "AF",
+                "value": "Afghanistan"
+            },
+            {
+                "id": "Afrique_du_sud",
+                "iso": "ZA",
+                "value": "Afrique du Sud"
+            },
+            {
+                "id": "Albanie",
+                "iso": "AL",
+                "value": "Albanie"
+            },
+            {
+                "id": "Algerie",
+                "iso": "DZ",
+                "value": "Alg\u00e9rie"
+            },
+            {
+                "id": "Allemagne",
+                "iso": "DE",
+                "value": "Allemagne"
+            },
+            {
+                "id": "Andorre",
+                "iso": "AD",
+                "value": "Andorre"
+            },
+            {
+                "id": "Angola",
+                "iso": "AO",
+                "value": "Angola"
+            },
+            {
+                "id": "Anguilla",
+                "iso": "AI",
+                "value": "Anguilla"
+            },
+            {
+                "id": "Antarctica",
+                "iso": "AQ",
+                "value": "Antarctique"
+            },
+            {
+                "id": "Antigua and Barbuda",
+                "iso": "AG",
+                "value": "Antigua-et-Barbuda"
+            },
+            {
+                "id": "Arabie_Saoudite",
+                "iso": "SA",
+                "value": "Arabie Saoudite"
+            },
+            {
+                "id": "Argentine",
+                "iso": "AR",
+                "value": "Argentine"
+            },
+            {
+                "id": "Armenie",
+                "iso": "AM",
+                "value": "Arm\u00e9nie"
+            },
+            {
+                "id": "Aruba",
+                "iso": "AW",
+                "value": "Aruba"
+            },
+            {
+                "id": "Australie",
+                "iso": "AU",
+                "value": "Australie"
+            },
+            {
+                "id": "Autriche",
+                "iso": "AT",
+                "value": "Autriche"
+            },
+            {
+                "id": "Azerbaidjan",
+                "iso": "AZ",
+                "value": "Azerba\u00efdjan"
+            },
+            {
+                "id": "Bahamas",
+                "iso": "BS",
+                "value": "Bahamas"
+            },
+            {
+                "id": "Bahrein",
+                "iso": "BH",
+                "value": "Bahre\u00efn"
+            },
+            {
+                "id": "Bangladesh",
+                "iso": "BD",
+                "value": "Bangladesh"
+            },
+            {
+                "id": "Barbade",
+                "iso": "BB",
+                "value": "Barbade"
+            },
+            {
+                "id": "Belgique",
+                "iso": "BE",
+                "value": "Belgique"
+            },
+            {
+                "id": "Belize",
+                "iso": "BZ",
+                "value": "Belize"
+            },
+            {
+                "id": "Bermudes",
+                "iso": "BM",
+                "value": "Bermudes"
+            },
+            {
+                "id": "Bhoutan",
+                "iso": "BT",
+                "value": "Bhoutan"
+            },
+            {
+                "id": "Bielorussie",
+                "iso": "BY",
+                "value": "Bi\u00e9lorussie"
+            },
+            {
+                "id": "Bolivie",
+                "iso": "BO",
+                "value": "Bolivie"
+            },
+            {
+                "id": "Bonaire, Sint Eustatius and Saba",
+                "iso": "BQ",
+                "value": "Bonaire, Saint-Eustache et Saba"
+            },
+            {
+                "id": "Boznie_Herzegovine",
+                "iso": "BA",
+                "value": "Bosnie-Herz\u00e9govine"
+            },
+            {
+                "id": "Botswana",
+                "iso": "BW",
+                "value": "Botswana"
+            },
+            {
+                "id": "Brunei",
+                "iso": "BN",
+                "value": "Brunei"
+            },
+            {
+                "id": "Bresil",
+                "iso": "BR",
+                "value": "Br\u00e9sil"
+            },
+            {
+                "id": "Bulgarie",
+                "iso": "BG",
+                "value": "Bulgarie"
+            },
+            {
+                "id": "Burkina_Faso",
+                "iso": "BF",
+                "value": "Burkina Faso"
+            },
+            {
+                "id": "Burundi",
+                "iso": "BI",
+                "value": "Burundi"
+            },
+            {
+                "id": "Benin",
+                "iso": "BJ",
+                "value": "B\u00e9nin"
+            },
+            {
+                "id": "Cambodge",
+                "iso": "KH",
+                "value": "Cambodge"
+            },
+            {
+                "id": "Cameroun",
+                "iso": "CM",
+                "value": "Cameroun"
+            },
+            {
+                "id": "Canada",
+                "iso": "CA",
+                "value": "Canada"
+            },
+            {
+                "id": "Cap_vert",
+                "iso": "CV",
+                "value": "Cap Vert"
+            },
+            {
+                "id": "Chili",
+                "iso": "CL",
+                "value": "Chili"
+            },
+            {
+                "id": "Chine",
+                "iso": "CN",
+                "value": "Chine"
+            },
+            {
+                "id": "Chypre",
+                "iso": "CY",
+                "value": "Chypre"
+            },
+            {
+                "id": "Colombie",
+                "iso": "CO",
+                "value": "Colombie"
+            },
+            {
+                "id": "Comores",
+                "iso": "KM",
+                "value": "Comores"
+            },
+            {
+                "id": "Congo",
+                "iso": "CG",
+                "value": "Congo"
+            },
+            {
+                "id": "Congo_democratique",
+                "iso": "CD",
+                "value": "Congo (R\u00e9p. d\u00e9m.)"
+            },
+            {
+                "id": "Coree_du_Sud",
+                "iso": "KP",
+                "value": "Cor\u00e9e du Nord"
+            },
+            {
+                "id": "Coree_du_Nord",
+                "iso": "KR",
+                "value": "Cor\u00e9e du Sud"
+            },
+            {
+                "id": "Costa_Rica",
+                "iso": "CR",
+                "value": "Costa Rica"
+            },
+            {
+                "id": "Croatie",
+                "iso": "HR",
+                "value": "Croatie"
+            },
+            {
+                "id": "Cuba",
+                "iso": "CU",
+                "value": "Cuba"
+            },
+            {
+                "id": "Cura\u00e7ao",
+                "iso": "CW",
+                "value": "Cura\u00e7ao"
+            },
+            {
+                "id": "Cote_d_Ivoire",
+                "iso": "CI",
+                "value": "C\u00f4te d'Ivoire"
+            },
+            {
+                "id": "Danemark",
+                "iso": "DK",
+                "value": "Danemark"
+            },
+            {
+                "id": "Djibouti",
+                "iso": "DJ",
+                "value": "Djibouti"
+            },
+            {
+                "id": "Dominique",
+                "iso": "DM",
+                "value": "Dominique"
+            },
+            {
+                "id": "Espagne",
+                "iso": "ES",
+                "value": "Espagne"
+            },
+            {
+                "id": "Estonie",
+                "iso": "EE",
+                "value": "Estonie"
+            },
+            {
+                "id": "Fidji",
+                "iso": "FJ",
+                "value": "Fidji"
+            },
+            {
+                "id": "Finlande",
+                "iso": "FI",
+                "value": "Finlande"
+            },
+            {
+                "id": "France",
+                "iso": "FR",
+                "value": "France"
+            },
+            {
+                "id": "Gabon",
+                "iso": "GA",
+                "value": "Gabon"
+            },
+            {
+                "id": "Gambie",
+                "iso": "GM",
+                "value": "Gambie"
+            },
+            {
+                "id": "Ghana",
+                "iso": "GH",
+                "value": "Ghana"
+            },
+            {
+                "id": "Gibraltar",
+                "iso": "GI",
+                "value": "Gibraltar"
+            },
+            {
+                "id": "Grenade",
+                "iso": "GD",
+                "value": "Grenade"
+            },
+            {
+                "id": "Groenland",
+                "iso": "GL",
+                "value": "Groenland"
+            },
+            {
+                "id": "Grece",
+                "iso": "GR",
+                "value": "Gr\u00e8ce"
+            },
+            {
+                "id": "Guadeloupe",
+                "iso": "GP",
+                "value": "Guadeloupe"
+            },
+            {
+                "id": "Guam",
+                "iso": "GU",
+                "value": "Guam"
+            },
+            {
+                "id": "Guatemala",
+                "iso": "GT",
+                "value": "Guatemala"
+            },
+            {
+                "id": "Guyane_Francaise ",
+                "iso": "GF",
+                "value": "Guayane"
+            },
+            {
+                "id": "Guernesey",
+                "iso": "GG",
+                "value": "Guernesey"
+            },
+            {
+                "id": "Guinee",
+                "iso": "GN",
+                "value": "Guin\u00e9e"
+            },
+            {
+                "id": "Guinee_Bissau",
+                "iso": "GW",
+                "value": "Guin\u00e9e-Bissau"
+            },
+            {
+                "id": "Guinee equatoriale",
+                "iso": "GQ",
+                "value": "Guin\u00e9e-\u00c9quatoriale"
+            },
+            {
+                "id": "Guyana",
+                "iso": "GY",
+                "value": "Guyane"
+            },
+            {
+                "id": "Georgie",
+                "iso": "GE",
+                "value": "G\u00e9orgie"
+            },
+            {
+                "id": "South Georgia and the South Sandwich Islands",
+                "iso": "GS",
+                "value": "G\u00e9orgie du Sud-et-les \u00celes Sandwich du Sud"
+            },
+            {
+                "id": "Haiti",
+                "iso": "HT",
+                "value": "Ha\u00efti"
+            },
+            {
+                "id": "Honduras",
+                "iso": "HN",
+                "value": "Honduras"
+            },
+            {
+                "id": "Hong_Kong",
+                "iso": "HK",
+                "value": "Hong Kong"
+            },
+            {
+                "id": "Hongrie",
+                "iso": "HU",
+                "value": "Hongrie"
+            },
+            {
+                "id": "Inde",
+                "iso": "IN",
+                "value": "Inde"
+            },
+            {
+                "id": "Indonesie",
+                "iso": "ID",
+                "value": "Indon\u00e9sie"
+            },
+            {
+                "id": "Iraq",
+                "iso": "IQ",
+                "value": "Irak"
+            },
+            {
+                "id": "Iran",
+                "iso": "IR",
+                "value": "Iran"
+            },
+            {
+                "id": "Irlande",
+                "iso": "IE",
+                "value": "Irlande"
+            },
+            {
+                "id": "Islande",
+                "iso": "IS",
+                "value": "Islande"
+            },
+            {
+                "id": "Israel",
+                "iso": "IL",
+                "value": "Isra\u00ebl"
+            },
+            {
+                "id": "Italie",
+                "iso": "IT",
+                "value": "Italie"
+            },
+            {
+                "id": "Jamaique",
+                "iso": "JM",
+                "value": "Jama\u00efque"
+            },
+            {
+                "id": "Japon",
+                "iso": "JP",
+                "value": "Japon"
+            },
+            {
+                "id": "Jersey",
+                "iso": "JE",
+                "value": "Jersey"
+            },
+            {
+                "id": "Jordanie",
+                "iso": "JO",
+                "value": "Jordanie"
+            },
+            {
+                "id": "Kazakhstan",
+                "iso": "KZ",
+                "value": "Kazakhstan"
+            },
+            {
+                "id": "Kenya",
+                "iso": "KE",
+                "value": "Kenya"
+            },
+            {
+                "id": "Kirghizstan",
+                "iso": "KG",
+                "value": "Kirghizistan"
+            },
+            {
+                "id": "Kiribati",
+                "iso": "KI",
+                "value": "Kiribati"
+            },
+            {
+                "id": "Republic of Kosovo",
+                "iso": "XK",
+                "value": "Kosovo"
+            },
+            {
+                "id": "Koweit",
+                "iso": "KW",
+                "value": "Kowe\u00eft"
+            },
+            {
+                "id": "Laos",
+                "iso": "LA",
+                "value": "Laos"
+            },
+            {
+                "id": "Lesotho",
+                "iso": "LS",
+                "value": "Lesotho"
+            },
+            {
+                "id": "Lettonie",
+                "iso": "LV",
+                "value": "Lettonie"
+            },
+            {
+                "id": "Liban",
+                "iso": "LB",
+                "value": "Liban"
+            },
+            {
+                "id": "Liberia",
+                "iso": "LR",
+                "value": "Liberia"
+            },
+            {
+                "id": "Lybie",
+                "iso": "LY",
+                "value": "Libye"
+            },
+            {
+                "id": "Liechtenstein",
+                "iso": "LI",
+                "value": "Liechtenstein"
+            },
+            {
+                "id": "Lituanie",
+                "iso": "LT",
+                "value": "Lituanie"
+            },
+            {
+                "id": "Luxembourg",
+                "iso": "LU",
+                "value": "Luxembourg"
+            },
+            {
+                "id": "Macao",
+                "iso": "MO",
+                "value": "Macao"
+            },
+            {
+                "id": "Macedoine",
+                "iso": "MK",
+                "value": "Mac\u00e9doine"
+            },
+            {
+                "id": "Madagascar",
+                "iso": "MG",
+                "value": "Madagascar"
+            },
+            {
+                "id": "Malaisie",
+                "iso": "MY",
+                "value": "Malaisie"
+            },
+            {
+                "id": "Malawi",
+                "iso": "MW",
+                "value": "Malawi"
+            },
+            {
+                "id": "Maldives",
+                "iso": "MV",
+                "value": "Maldives"
+            },
+            {
+                "id": "Mali",
+                "iso": "ML",
+                "value": "Mali"
+            },
+            {
+                "id": "Malte",
+                "iso": "MT",
+                "value": "Malte"
+            },
+            {
+                "id": "Maroc",
+                "iso": "MA",
+                "value": "Maroc"
+            },
+            {
+                "id": "Martinique",
+                "iso": "MQ",
+                "value": "Martinique"
+            },
+            {
+                "id": "Mauritanie",
+                "iso": "MR",
+                "value": "Mauritanie"
+            },
+            {
+                "id": "Mayotte",
+                "iso": "YT",
+                "value": "Mayotte"
+            },
+            {
+                "id": "Mexique",
+                "iso": "MX",
+                "value": "Mexique"
+            },
+            {
+                "id": "Micronesie",
+                "iso": "FM",
+                "value": "Micron\u00e9sie"
+            },
+            {
+                "id": "Moldavie",
+                "iso": "MD",
+                "value": "Moldavie"
+            },
+            {
+                "id": "Monaco",
+                "iso": "MC",
+                "value": "Monaco"
+            },
+            {
+                "id": "Mongolie",
+                "iso": "MN",
+                "value": "Mongolie"
+            },
+            {
+                "id": "Montserrat",
+                "iso": "MS",
+                "value": "Montserrat"
+            },
+            {
+                "id": "Montenegro",
+                "iso": "ME",
+                "value": "Mont\u00e9n\u00e9gro"
+            },
+            {
+                "id": "Mozambique",
+                "iso": "MZ",
+                "value": "Mozambique"
+            },
+            {
+                "id": "Birmanie",
+                "iso": "MM",
+                "value": "Myanmar"
+            },
+            {
+                "id": "Namibie",
+                "iso": "NA",
+                "value": "Namibie"
+            },
+            {
+                "id": "Nauru",
+                "iso": "NR",
+                "value": "Nauru"
+            },
+            {
+                "id": "Nicaragua",
+                "iso": "NI",
+                "value": "Nicaragua"
+            },
+            {
+                "id": "Niger",
+                "iso": "NE",
+                "value": "Niger"
+            },
+            {
+                "id": "Nigeria",
+                "iso": "NG",
+                "value": "Nig\u00e9ria"
+            },
+            {
+                "id": "Niue",
+                "iso": "NU",
+                "value": "Niue"
+            },
+            {
+                "id": "Norvege",
+                "iso": "NO",
+                "value": "Norv\u00e8ge"
+            },
+            {
+                "id": "Nouvelle_Caledonie",
+                "iso": "NC",
+                "value": "Nouvelle-Cal\u00e9donie"
+            },
+            {
+                "id": "Nouvelle_Zelande",
+                "iso": "NZ",
+                "value": "Nouvelle-Z\u00e9lande"
+            },
+            {
+                "id": "Nepal",
+                "iso": "NP",
+                "value": "N\u00e9pal"
+            },
+            {
+                "id": "Oman",
+                "iso": "OM",
+                "value": "Oman"
+            },
+            {
+                "id": "Ouzbekistan",
+                "iso": "UZ",
+                "value": "Ouzb\u00e9kistan"
+            },
+            {
+                "id": "Pakistan",
+                "iso": "PK",
+                "value": "Pakistan"
+            },
+            {
+                "id": "Palau",
+                "iso": "PW",
+                "value": "Palaos"
+            },
+            {
+                "id": "Palestine",
+                "iso": "PS",
+                "value": "Palestine"
+            },
+            {
+                "id": "Panama",
+                "iso": "PA",
+                "value": "Panama"
+            },
+            {
+                "id": "Papouasie_Nouvelle_Guinee",
+                "iso": "PG",
+                "value": "Papouasie-Nouvelle-Guin\u00e9e"
+            },
+            {
+                "id": "Paraguay",
+                "iso": "PY",
+                "value": "Paraguay"
+            },
+            {
+                "id": "Pays_Bas",
+                "iso": "NL",
+                "value": "Pays-Bas"
+            },
+            {
+                "id": "Philippines",
+                "iso": "PH",
+                "value": "Philippines"
+            },
+            {
+                "id": "Pologne",
+                "iso": "PL",
+                "value": "Pologne"
+            },
+            {
+                "id": "Polynesie",
+                "iso": "PF",
+                "value": "Polyn\u00e9sie fran\u00e7aise"
+            },
+            {
+                "id": "Porto_Rico",
+                "iso": "PR",
+                "value": "Porto Rico"
+            },
+            {
+                "id": "Portugal",
+                "iso": "PT",
+                "value": "Portugal"
+            },
+            {
+                "id": "Perou",
+                "iso": "PE",
+                "value": "P\u00e9rou"
+            },
+            {
+                "id": "Qatar",
+                "iso": "QA",
+                "value": "Qatar"
+            },
+            {
+                "id": "Roumanie",
+                "iso": "RO",
+                "value": "Roumanie"
+            },
+            {
+                "id": "Royaume_Uni",
+                "iso": "GB",
+                "value": "Royaume-Uni"
+            },
+            {
+                "id": "Russie",
+                "iso": "RU",
+                "value": "Russie"
+            },
+            {
+                "id": "Rwanda",
+                "iso": "RW",
+                "value": "Rwanda"
+            },
+            {
+                "id": "Afrique_Centrale",
+                "iso": "CF",
+                "value": "R\u00e9publique centrafricaine"
+            },
+            {
+                "id": "Republique_Dominicaine",
+                "iso": "DO",
+                "value": "R\u00e9publique dominicaine"
+            },
+            {
+                "id": "Republique_Tcheque",
+                "iso": "CZ",
+                "value": "R\u00e9publique tch\u00e8que"
+            },
+            {
+                "id": "Reunion",
+                "iso": "RE",
+                "value": "R\u00e9union"
+            },
+            {
+                "id": "Sahara Occidental",
+                "iso": "EH",
+                "value": "Sahara Occidental"
+            },
+            {
+                "id": "Sint Maarten (Dutch part)",
+                "iso": "SX",
+                "value": "Saint Martin (partie n\u00e9erlandaise)"
+            },
+            {
+                "id": "Saint Barth\u00e9lemy",
+                "iso": "BL",
+                "value": "Saint-Barth\u00e9lemy"
+            },
+            {
+                "id": "Saint Kitts and Nevis",
+                "iso": "KN",
+                "value": "Saint-Christophe-et-Ni\u00e9v\u00e8s"
+            },
+            {
+                "id": "Sainte_Lucie",
+                "iso": "LC",
+                "value": "Saint-Lucie"
+            },
+            {
+                "id": "Saint_Marin",
+                "iso": "SM",
+                "value": "Saint-Marin"
+            },
+            {
+                "id": "Saint Martin (French part)",
+                "iso": "MF",
+                "value": "Saint-Martin"
+            },
+            {
+                "id": "Saint Pierre and Miquelon",
+                "iso": "PM",
+                "value": "Saint-Pierre-et-Miquelon"
+            },
+            {
+                "id": "Saint Vincent and the Grenadines",
+                "iso": "VC",
+                "value": "Saint-Vincent-et-les-Grenadines"
+            },
+            {
+                "id": "Tristan da cunha",
+                "iso": "SH",
+                "value": "Sainte-H\u00e9l\u00e8ne"
+            },
+            {
+                "id": "Salvador",
+                "iso": "SV",
+                "value": "Salvador"
+            },
+            {
+                "id": "Samoa_Occidentales",
+                "iso": "WS",
+                "value": "Samoa"
+            },
+            {
+                "id": "Samoa_Americaine",
+                "iso": "AS",
+                "value": "Samoa am\u00e9ricaines"
+            },
+            {
+                "id": "Sao_Tome_et_Principe",
+                "iso": "ST",
+                "value": "Sao Tom\u00e9-et-Principe"
+            },
+            {
+                "id": "Serbia",
+                "iso": "RS",
+                "value": "Serbie"
+            },
+            {
+                "id": "Seychelles",
+                "iso": "SC",
+                "value": "Seychelles"
+            },
+            {
+                "id": "Sierra Leone",
+                "iso": "SL",
+                "value": "Sierra Leone"
+            },
+            {
+                "id": "Singapour",
+                "iso": "SG",
+                "value": "Singapour"
+            },
+            {
+                "id": "Slovaquie",
+                "iso": "SK",
+                "value": "Slovaquie"
+            },
+            {
+                "id": "Slovenie",
+                "iso": "SI",
+                "value": "Slov\u00e9nie"
+            },
+            {
+                "id": "Somalie",
+                "iso": "SO",
+                "value": "Somalie"
+            },
+            {
+                "id": "Soudan",
+                "iso": "SD",
+                "value": "Soudan"
+            },
+            {
+                "id": "South Sudan",
+                "iso": "SS",
+                "value": "Soudan du Sud"
+            },
+            {
+                "id": "Sri_Lanka",
+                "iso": "LK",
+                "value": "Sri Lanka"
+            },
+            {
+                "id": "Suisse",
+                "iso": "CH",
+                "value": "Suisse"
+            },
+            {
+                "id": "Surinam",
+                "iso": "SR",
+                "value": "Surinam"
+            },
+            {
+                "id": "Suede",
+                "iso": "SE",
+                "value": "Su\u00e8de"
+            },
+            {
+                "id": "Jan Mayen",
+                "iso": "SJ",
+                "value": "Svalbard et Jan Mayen"
+            },
+            {
+                "id": "Swaziland",
+                "iso": "SZ",
+                "value": "Swaziland"
+            },
+            {
+                "id": "Syrie",
+                "iso": "SY",
+                "value": "Syrie"
+            },
+            {
+                "id": "Senegal",
+                "iso": "SN",
+                "value": "S\u00e9n\u00e9gal"
+            },
+            {
+                "id": "Tadjikistan",
+                "iso": "TJ",
+                "value": "Tadjikistan"
+            },
+            {
+                "id": "Tanzanie",
+                "iso": "TZ",
+                "value": "Tanzanie"
+            },
+            {
+                "id": "Taiwan",
+                "iso": "TW",
+                "value": "Ta\u00efwan"
+            },
+            {
+                "id": "Tchad",
+                "iso": "TD",
+                "value": "Tchad"
+            },
+            {
+                "id": "French Southern Territories",
+                "iso": "TF",
+                "value": "Terres australes et antarctiques fran\u00e7aises"
+            },
+            {
+                "id": "British Indian Ocean Territory",
+                "iso": "IO",
+                "value": "Territoire britannique de l'oc\u00e9an Indien"
+            },
+            {
+                "id": "Thailande",
+                "iso": "TH",
+                "value": "Tha\u00eflande"
+            },
+            {
+                "id": "Timor_Oriental",
+                "iso": "TL",
+                "value": "Timor oriental"
+            },
+            {
+                "id": "Togo",
+                "iso": "TG",
+                "value": "Togo"
+            },
+            {
+                "id": "Tokelau",
+                "iso": "TK",
+                "value": "Tokelau"
+            },
+            {
+                "id": "Tonga",
+                "iso": "TO",
+                "value": "Tonga"
+            },
+            {
+                "id": "Trinite_et_Tobago",
+                "iso": "TT",
+                "value": "Trinit\u00e9 et Tobago"
+            },
+            {
+                "id": "Tunisie",
+                "iso": "TN",
+                "value": "Tunisie"
+            },
+            {
+                "id": "Turkmenistan",
+                "iso": "TM",
+                "value": "Turkm\u00e9nistan"
+            },
+            {
+                "id": "Turquie",
+                "iso": "TR",
+                "value": "Turquie"
+            },
+            {
+                "id": "Tuvalu",
+                "iso": "TV",
+                "value": "Tuvalu"
+            },
+            {
+                "id": "Ouganda",
+                "iso": "UG",
+                "value": "Uganda"
+            },
+            {
+                "id": "Ukraine",
+                "iso": "UA",
+                "value": "Ukraine"
+            },
+            {
+                "id": "Uruguay",
+                "iso": "UY",
+                "value": "Uruguay"
+            },
+            {
+                "id": "Vanuatu",
+                "iso": "VU",
+                "value": "Vanuatu"
+            },
+            {
+                "id": "Venezuela",
+                "iso": "VE",
+                "value": "Venezuela"
+            },
+            {
+                "id": "Vietnam",
+                "iso": "VN",
+                "value": "Vi\u00eat Nam"
+            },
+            {
+                "id": "Vatican",
+                "iso": "VA",
+                "value": "voir Saint"
+            },
+            {
+                "id": "Wallis et Futuma",
+                "iso": "WF",
+                "value": "Wallis-et-Futuna"
+            },
+            {
+                "id": "Yemen",
+                "iso": "YE",
+                "value": "Y\u00e9men"
+            },
+            {
+                "id": "Zambie",
+                "iso": "ZM",
+                "value": "Zambie"
+            },
+            {
+                "id": "Zimbabwe",
+                "iso": "ZW",
+                "value": "Zimbabwe"
+            },
+            {
+                "id": "\u00c5land Islands",
+                "iso": "AX",
+                "value": "\u00c5land"
+            },
+            {
+                "id": "Egypte",
+                "iso": "EG",
+                "value": "\u00c9gypte"
+            },
+            {
+                "id": "Emirats_Arabes_Unis",
+                "iso": "AE",
+                "value": "\u00c9mirats arabes unis"
+            },
+            {
+                "id": "Equateur",
+                "iso": "EC",
+                "value": "\u00c9quateur"
+            },
+            {
+                "id": "Erythree",
+                "iso": "ER",
+                "value": "\u00c9rythr\u00e9e"
+            },
+            {
+                "id": "Etats_Unis",
+                "iso": "US",
+                "value": "\u00c9tats-Unis"
+            },
+            {
+                "id": "Ethiopie",
+                "iso": "ET",
+                "value": "\u00c9thiopie"
+            },
+            {
+                "id": "Bouvet Island",
+                "iso": "BV",
+                "value": "\u00cele Bouvet"
+            },
+            {
+                "id": "Christmas Island",
+                "iso": "CX",
+                "value": "\u00cele Christmas"
+            },
+            {
+                "id": "Man",
+                "iso": "IM",
+                "value": "\u00cele de Man"
+            },
+            {
+                "id": "Norfolk",
+                "iso": "NF",
+                "value": "\u00cele de Norfolk"
+            },
+            {
+                "id": "Maurice",
+                "iso": "MU",
+                "value": "\u00cele Maurice"
+            },
+            {
+                "id": "Caiman",
+                "iso": "KY",
+                "value": "\u00celes Ca\u00efmans"
+            },
+            {
+                "id": "Cocos (Keeling) Islands",
+                "iso": "CC",
+                "value": "\u00celes Cocos"
+            },
+            {
+                "id": "Cook",
+                "iso": "CK",
+                "value": "\u00celes Cook"
+            },
+            {
+                "id": "Feroe",
+                "iso": "FO",
+                "value": "\u00celes F\u00e9ro\u00e9"
+            },
+            {
+                "id": "Heard Island and McDonald Islands",
+                "iso": "HM",
+                "value": "\u00celes Heard-et-MacDonald"
+            },
+            {
+                "id": "Falkland",
+                "iso": "FK",
+                "value": "\u00celes Malouines"
+            },
+            {
+                "id": "Mariannes du Nord",
+                "iso": "MP",
+                "value": "\u00celes Mariannes du Nord"
+            },
+            {
+                "id": "Marshall",
+                "iso": "MH",
+                "value": "\u00celes Marshall"
+            },
+            {
+                "id": "United States Minor Outlying Islands",
+                "iso": "UM",
+                "value": "\u00celes mineures \u00e9loign\u00e9es des \u00c9tats-Unis"
+            },
+            {
+                "id": "Pitcairn",
+                "iso": "PN",
+                "value": "\u00celes Pitcairn"
+            },
+            {
+                "id": "Salomon",
+                "iso": "SB",
+                "value": "\u00celes Salomon"
+            },
+            {
+                "id": "Turks and Caicos Islands",
+                "iso": "TC",
+                "value": "\u00celes Turques-et-Ca\u00efques"
+            },
+            {
+                "id": "Vierges_Britanniques",
+                "iso": "VG",
+                "value": "\u00celes Vierges britanniques"
+            },
+            {
+                "id": "Vierges_Americaines",
+                "iso": "VI",
+                "value": "\u00celes Vierges des \u00c9tats-Unis"
+            }
+        ],
+        "nationality": [
+            {
+                "id": "Afghanistan",
+                "value": "Afghane",
+                "iso": "AF"
+            },
+            {
+                "id": "\u00c5land Islands",
+                "value": "Alandaise",
+                "iso": "AX"
+            },
+            {
+                "id": "Albanie",
+                "value": "Albanaise",
+                "iso": "AL"
+            },
+            {
+                "id": "Algerie",
+                "value": "Alg\u00e9rienne",
+                "iso": "DZ"
+            },
+            {
+                "id": "Allemagne",
+                "value": "Allemande",
+                "iso": "DE"
+            },
+            {
+                "id": "Etats_Unis",
+                "value": "Am\u00e9ricaine",
+                "iso": "US"
+            },
+            {
+                "id": "Andorre",
+                "value": "Andorrane",
+                "iso": "AD"
+            },
+            {
+                "id": "Tristan da cunha",
+                "value": "Anglaise",
+                "iso": "SH"
+            },
+            {
+                "id": "Angola",
+                "value": "Angolaise",
+                "iso": "AO"
+            },
+            {
+                "id": "Antarctica",
+                "value": "Antarctiquaise",
+                "iso": "AQ"
+            },
+            {
+                "id": "Argentine",
+                "value": "Argentine",
+                "iso": "AR"
+            },
+            {
+                "id": "Armenie",
+                "value": "Arm\u00e9nienne",
+                "iso": "AM"
+            },
+            {
+                "id": "Aruba",
+                "value": "Arubanaise",
+                "iso": "AW"
+            },
+            {
+                "id": "Australie",
+                "value": "Australienne",
+                "iso": "AU"
+            },
+            {
+                "id": "Autriche",
+                "value": "Autrichienne",
+                "iso": "AT"
+            },
+            {
+                "id": "Azerbaidjan",
+                "value": "Azerba\u00efdjanaise",
+                "iso": "AZ"
+            },
+            {
+                "id": "Bahamas",
+                "value": "Bahamienne",
+                "iso": "BS"
+            },
+            {
+                "id": "Bahrein",
+                "value": "Bahreinienne",
+                "iso": "BH"
+            },
+            {
+                "id": "Bangladesh",
+                "value": "Bangladaise",
+                "iso": "BD"
+            },
+            {
+                "id": "Barbade",
+                "value": "Barbadienne",
+                "iso": "BB"
+            },
+            {
+                "id": "Belgique",
+                "value": "Belge",
+                "iso": "BE"
+            },
+            {
+                "id": "Bhoutan",
+                "value": "Bhoutanaise",
+                "iso": "BT"
+            },
+            {
+                "id": "Birmanie",
+                "value": "Birmane",
+                "iso": "MM"
+            },
+            {
+                "id": "Guinee_Bissau",
+                "value": "Bissau-Guin\u00e9enne",
+                "iso": "GW"
+            },
+            {
+                "id": "Bielorussie",
+                "value": "Bi\u00e9lorusse",
+                "iso": "BY"
+            },
+            {
+                "id": "Bolivie",
+                "value": "Bolivienne",
+                "iso": "BO"
+            },
+            {
+                "id": "Boznie_Herzegovine",
+                "value": "Bosniaque",
+                "iso": "BA"
+            },
+            {
+                "id": "Botswana",
+                "value": "Botswanaise",
+                "iso": "BW"
+            },
+            {
+                "id": "Royaume_Uni",
+                "value": "Britannique",
+                "iso": "GB"
+            },
+            {
+                "id": "Brunei",
+                "value": "Brun\u00e9ienne",
+                "iso": "BN"
+            },
+            {
+                "id": "Bresil",
+                "value": "Br\u00e9silienne",
+                "iso": "BR"
+            },
+            {
+                "id": "Bulgarie",
+                "value": "Bulgare",
+                "iso": "BG"
+            },
+            {
+                "id": "Burkina_Faso",
+                "value": "Burkinab\u00e9e",
+                "iso": "BF"
+            },
+            {
+                "id": "Burundi",
+                "value": "Burundaise",
+                "iso": "BI"
+            },
+            {
+                "id": "Belize",
+                "value": "B\u00e9lizienne",
+                "iso": "BZ"
+            },
+            {
+                "id": "Benin",
+                "value": "B\u00e9ninoise",
+                "iso": "BJ"
+            },
+            {
+                "id": "Cambodge",
+                "value": "Cambodgienne",
+                "iso": "KH"
+            },
+            {
+                "id": "Cameroun",
+                "value": "Camerounaise",
+                "iso": "CM"
+            },
+            {
+                "id": "Canada",
+                "value": "Canadienne",
+                "iso": "CA"
+            },
+            {
+                "id": "Cap_vert",
+                "value": "Cap-Verdienne",
+                "iso": "CV"
+            },
+            {
+                "id": "Afrique_Centrale",
+                "value": "Centre-Africaine",
+                "iso": "CF"
+            },
+            {
+                "id": "Chili",
+                "value": "Chilienne",
+                "iso": "CL"
+            },
+            {
+                "id": "Chine",
+                "value": "Chinoise",
+                "iso": "CN"
+            },
+            {
+                "id": "Chypre",
+                "value": "Chypriote",
+                "iso": "CY"
+            },
+            {
+                "id": "Colombie",
+                "value": "Colombienne",
+                "iso": "CO"
+            },
+            {
+                "id": "Comores",
+                "value": "Comorienne",
+                "iso": "KM"
+            },
+            {
+                "id": "Congo_democratique",
+                "value": "Congolaise",
+                "iso": "CD"
+            },
+            {
+                "id": "Congo",
+                "value": "Congolaise",
+                "iso": "CG"
+            },
+            {
+                "id": "Cook",
+                "value": "Cookienne",
+                "iso": "CK"
+            },
+            {
+                "id": "Costa_Rica",
+                "value": "Costaricaine",
+                "iso": "CR"
+            },
+            {
+                "id": "Croatie",
+                "value": "Croate",
+                "iso": "HR"
+            },
+            {
+                "id": "Cuba",
+                "value": "Cubaine",
+                "iso": "CU"
+            },
+            {
+                "id": "Antigua and Barbuda",
+                "value": "d'Antigua-et-Barbuda",
+                "iso": "AG"
+            },
+            {
+                "id": "Danemark",
+                "value": "Danoise",
+                "iso": "DK"
+            },
+            {
+                "id": "Bonaire, Sint Eustatius and Saba",
+                "value": "de Bonaire, Saint-Eustache et Saba",
+                "iso": "BQ"
+            },
+            {
+                "id": "Bouvet Island",
+                "value": "de l'Ile Bouvet",
+                "iso": "BV"
+            },
+            {
+                "id": "Saint Kitts and Nevis",
+                "value": "de Saint-Christophe-et-Nevis",
+                "iso": "KN"
+            },
+            {
+                "id": "Saint Vincent and the Grenadines",
+                "value": "de Saint-Vincent-et-les-Grenadines",
+                "iso": "VC"
+            },
+            {
+                "id": "Djibouti",
+                "value": "Djiboutienne",
+                "iso": "DJ"
+            },
+            {
+                "id": "Republique_Dominicaine",
+                "value": "Dominicaine",
+                "iso": "DO"
+            },
+            {
+                "id": "Dominique",
+                "value": "Dominiquaise",
+                "iso": "DM"
+            },
+            {
+                "id": "Egypte",
+                "value": "Egyptienne",
+                "iso": "EG"
+            },
+            {
+                "id": "Equateur",
+                "value": "Equatorienne",
+                "iso": "EC"
+            },
+            {
+                "id": "Espagne",
+                "value": "Espagnole",
+                "iso": "ES"
+            },
+            {
+                "id": "Estonie",
+                "value": "Estonienne",
+                "iso": "EE"
+            },
+            {
+                "id": "Ethiopie",
+                "value": "Ethiopienne",
+                "iso": "ET"
+            },
+            {
+                "id": "Fidji",
+                "value": "Fidjienne",
+                "iso": "FJ"
+            },
+            {
+                "id": "Finlande",
+                "value": "Finlandaise",
+                "iso": "FI"
+            },
+            {
+                "id": "France",
+                "value": "Fran\u00e7aise",
+                "iso": "FR"
+            },
+            {
+                "id": "Feroe",
+                "value": "F\u00e9ro\u00efenne",
+                "iso": "FO"
+            },
+            {
+                "id": "Gabon",
+                "value": "Gabonaise",
+                "iso": "GA"
+            },
+            {
+                "id": "Gambie",
+                "value": "Gambienne",
+                "iso": "GM"
+            },
+            {
+                "id": "Georgie",
+                "value": "Georgienne",
+                "iso": "GE"
+            },
+            {
+                "id": "Ghana",
+                "value": "Ghan\u00e9enne",
+                "iso": "GH"
+            },
+            {
+                "id": "Gibraltar",
+                "value": "Gibraltarienne",
+                "iso": "GI"
+            },
+            {
+                "id": "Grece",
+                "value": "Grecque",
+                "iso": "GR"
+            },
+            {
+                "id": "Grenade",
+                "value": "Grenadienne",
+                "iso": "GD"
+            },
+            {
+                "id": "Groenland",
+                "value": "Groenlandaise",
+                "iso": "GL"
+            },
+            {
+                "id": "Guatemala",
+                "value": "Guat\u00e9malt\u00e8que",
+                "iso": "GT"
+            },
+            {
+                "id": "Guinee",
+                "value": "Guin\u00e9enne",
+                "iso": "GN"
+            },
+            {
+                "id": "Guyane_Francaise",
+                "value": "Guyane Fran\u00e7aise",
+                "iso": "GF"
+            },
+            {
+                "id": "Guyana",
+                "value": "Guyanienne",
+                "iso": "GY"
+            },
+            {
+                "id": "Haiti",
+                "value": "Ha\u00eftienne",
+                "iso": "HT"
+            },
+            {
+                "id": "Honduras",
+                "value": "Hondurienne",
+                "iso": "HN"
+            },
+            {
+                "id": "Hongrie",
+                "value": "Hongroise",
+                "iso": "HU"
+            },
+            {
+                "id": "Inde",
+                "value": "Indienne",
+                "iso": "IN"
+            },
+            {
+                "id": "Indonesie",
+                "value": "Indon\u00e9sienne",
+                "iso": "ID"
+            },
+            {
+                "id": "Iran",
+                "value": "Iranienne",
+                "iso": "IR"
+            },
+            {
+                "id": "Iraq",
+                "value": "Iraquienne",
+                "iso": "IQ"
+            },
+            {
+                "id": "Irlande",
+                "value": "Irlandaise",
+                "iso": "IE"
+            },
+            {
+                "id": "Islande",
+                "value": "Islandaise",
+                "iso": "IS"
+            },
+            {
+                "id": "Israel",
+                "value": "Isra\u00e9lienne",
+                "iso": "IL"
+            },
+            {
+                "id": "Italie",
+                "value": "Italienne",
+                "iso": "IT"
+            },
+            {
+                "id": "Cote_d_Ivoire",
+                "value": "Ivoirienne",
+                "iso": "CI"
+            },
+            {
+                "id": "Jamaique",
+                "value": "Jama\u00efcaine",
+                "iso": "JM"
+            },
+            {
+                "id": "Japon",
+                "value": "Japonaise",
+                "iso": "JP"
+            },
+            {
+                "id": "Jordanie",
+                "value": "Jordanienne",
+                "iso": "JO"
+            },
+            {
+                "id": "Kazakhstan",
+                "value": "Kazakhe",
+                "iso": "KZ"
+            },
+            {
+                "id": "Kenya",
+                "value": "Kenyanne",
+                "iso": "KE"
+            },
+            {
+                "id": "Kirghizstan",
+                "value": "Kirghize",
+                "iso": "KG"
+            },
+            {
+                "id": "Kiribati",
+                "value": "Kiribatienne",
+                "iso": "KI"
+            },
+            {
+                "id": "Republic of Kosovo",
+                "value": "Kosovare",
+                "iso": "XK"
+            },
+            {
+                "id": "Koweit",
+                "value": "Kowe\u00eftienne",
+                "iso": "KW"
+            },
+            {
+                "id": "Laos",
+                "value": "Laotienne",
+                "iso": "LA"
+            },
+            {
+                "id": "Lesotho",
+                "value": "Lesothane",
+                "iso": "LS"
+            },
+            {
+                "id": "Lettonie",
+                "value": "Lettone",
+                "iso": "LV"
+            },
+            {
+                "id": "Liban",
+                "value": "Libanaise",
+                "iso": "LB"
+            },
+            {
+                "id": "Lybie",
+                "value": "Libyenne",
+                "iso": "LY"
+            },
+            {
+                "id": "Liberia",
+                "value": "Lib\u00e9rienne",
+                "iso": "LR"
+            },
+            {
+                "id": "Liechtenstein",
+                "value": "Liechtensteinoise",
+                "iso": "LI"
+            },
+            {
+                "id": "Lituanie",
+                "value": "Lituanienne",
+                "iso": "LT"
+            },
+            {
+                "id": "Luxembourg",
+                "value": "Luxembourgeoise",
+                "iso": "LU"
+            },
+            {
+                "id": "Macao",
+                "value": "Macanaise",
+                "iso": "MO"
+            },
+            {
+                "id": "Macedoine",
+                "value": "Mac\u00e9donienne",
+                "iso": "MK"
+            },
+            {
+                "id": "Mayotte",
+                "value": "Mahoraise",
+                "iso": "YT"
+            },
+            {
+                "id": "Malaisie",
+                "value": "Malaisienne",
+                "iso": "MY"
+            },
+            {
+                "id": "Malawi",
+                "value": "Malawienne",
+                "iso": "MW"
+            },
+            {
+                "id": "Maldives",
+                "value": "Maldivienne",
+                "iso": "MV"
+            },
+            {
+                "id": "Madagascar",
+                "value": "Malgache",
+                "iso": "MG"
+            },
+            {
+                "id": "Mali",
+                "value": "Malienne",
+                "iso": "ML"
+            },
+            {
+                "id": "Malte",
+                "value": "Maltaise",
+                "iso": "MT"
+            },
+            {
+                "id": "Maroc",
+                "value": "Marocaine",
+                "iso": "MA"
+            },
+            {
+                "id": "Marshall",
+                "value": "Marshallaise",
+                "iso": "MH"
+            },
+            {
+                "id": "Maurice",
+                "value": "Mauricienne",
+                "iso": "MU"
+            },
+            {
+                "id": "Mauritanie",
+                "value": "Mauritanienne",
+                "iso": "MR"
+            },
+            {
+                "id": "Mexique",
+                "value": "Mexicaine",
+                "iso": "MX"
+            },
+            {
+                "id": "Micronesie",
+                "value": "Micron\u00e9sienne",
+                "iso": "FM"
+            },
+            {
+                "id": "Moldavie",
+                "value": "Moldave",
+                "iso": "MD"
+            },
+            {
+                "id": "Mongolie",
+                "value": "Mongole",
+                "iso": "MN"
+            },
+            {
+                "id": "Montenegro",
+                "value": "Mont\u00e9n\u00e9grine",
+                "iso": "ME"
+            },
+            {
+                "id": "Monaco",
+                "value": "Mon\u00e9gasque",
+                "iso": "MC"
+            },
+            {
+                "id": "Mozambique",
+                "value": "Mozambicaine",
+                "iso": "MZ"
+            },
+            {
+                "id": "Namibie",
+                "value": "Namibienne",
+                "iso": "NA"
+            },
+            {
+                "id": "Nauru",
+                "value": "Nauruanne",
+                "iso": "NR"
+            },
+            {
+                "id": "Nicaragua",
+                "value": "Nicaraguayenne",
+                "iso": "NI"
+            },
+            {
+                "id": "Niger",
+                "value": "Nigerienne",
+                "iso": "NE"
+            },
+            {
+                "id": "Nigeria",
+                "value": "Nig\u00e9riane",
+                "iso": "NG"
+            },
+            {
+                "id": "Niue",
+                "value": "Niu\u00e9enne",
+                "iso": "NU"
+            },
+            {
+                "id": "Coree_du_Nord",
+                "value": "Nord Cor\u00e9enne",
+                "iso": "KR"
+            },
+            {
+                "id": "Norvege",
+                "value": "Norv\u00e9gienne",
+                "iso": "NO"
+            },
+            {
+                "id": "Pays-Bas",
+                "value": "N\u00e9erlandaise",
+                "iso": "NL"
+            },
+            {
+                "id": "Nouvelle-Zelande",
+                "value": "N\u00e9o-Z\u00e9landaise",
+                "iso": "NZ"
+            },
+            {
+                "id": "Nepal",
+                "value": "N\u00e9palaise",
+                "iso": "NP"
+            },
+            {
+                "id": "Oman",
+                "value": "Omanaise",
+                "iso": "OM"
+            },
+            {
+                "id": "Ouganda",
+                "value": "Ougandaise",
+                "iso": "UG"
+            },
+            {
+                "id": "Ouzbekistan",
+                "value": "Ouzb\u00e9ke",
+                "iso": "UZ"
+            },
+            {
+                "id": "Pakistan",
+                "value": "Pakistanaise",
+                "iso": "PK"
+            },
+            {
+                "id": "Territoire_palestinien",
+                "value": "Palestinienne",
+                "iso": "PS"
+            },
+            {
+                "id": "Palau",
+                "value": "Paluanne",
+                "iso": "PW"
+            },
+            {
+                "id": "Panama",
+                "value": "Panam\u00e9enne",
+                "iso": "PA"
+            },
+            {
+                "id": "Papouasie_Nouvelle_Guinee",
+                "value": "Papouane-N\u00e9o-Guin\u00e9enne",
+                "iso": "PG"
+            },
+            {
+                "id": "Paraguay",
+                "value": "Paraguayenne",
+                "iso": "PY"
+            },
+            {
+                "id": "Philippines",
+                "value": "Philippine",
+                "iso": "PH"
+            },
+            {
+                "id": "Pologne",
+                "value": "Polonaise",
+                "iso": "PL"
+            },
+            {
+                "id": "Portugal",
+                "value": "Portugaise",
+                "iso": "PT"
+            },
+            {
+                "id": "Perou",
+                "value": "P\u00e9ruvienne",
+                "iso": "PE"
+            },
+            {
+                "id": "Qatar",
+                "value": "Qatarienne",
+                "iso": "QA"
+            },
+            {
+                "id": "Roumanie",
+                "value": "Roumaine",
+                "iso": "RO"
+            },
+            {
+                "id": "Russie",
+                "value": "Russe",
+                "iso": "RU"
+            },
+            {
+                "id": "Rwanda",
+                "value": "Rwandaise",
+                "iso": "RW"
+            },
+            {
+                "id": "Sahara Occidental",
+                "value": "Sahraouite",
+                "iso": "EH"
+            },
+            {
+                "id": "Sainte_Lucie",
+                "value": "Saint-Lucienne",
+                "iso": "LC"
+            },
+            {
+                "id": "Saint_Marin",
+                "value": "Saint-Marinaise",
+                "iso": "SM"
+            },
+            {
+                "id": "Salomon",
+                "value": "Salomonaise",
+                "iso": "SB"
+            },
+            {
+                "id": "Salvador",
+                "value": "Salvadorienne",
+                "iso": "SV"
+            },
+            {
+                "id": "Samoa_Americaine",
+                "value": "Samoane Am\u00e9ricaine",
+                "iso": "AS"
+            },
+            {
+                "id": "Samoa_Occidentales",
+                "value": "Samoane Occidentale",
+                "iso": "WS"
+            },
+            {
+                "id": "Sao_Tome_et_Principe",
+                "value": "Santom\u00e9enne",
+                "iso": "ST"
+            },
+            {
+                "id": "Arabie_Saoudite",
+                "value": "Saoudienne",
+                "iso": "SA"
+            },
+            {
+                "id": "Serbia",
+                "value": "Serbe",
+                "iso": "RS"
+            },
+            {
+                "id": "Seychelles",
+                "value": "Seychelloise",
+                "iso": "SC"
+            },
+            {
+                "id": "Sierra Leone",
+                "value": "Sierral\u00e9onaise",
+                "iso": "SL"
+            },
+            {
+                "id": "Singapour",
+                "value": "Singapourienne",
+                "iso": "SG"
+            },
+            {
+                "id": "Slovaquie",
+                "value": "Slovaque",
+                "iso": "SK"
+            },
+            {
+                "id": "Slovenie",
+                "value": "Slov\u00e8ne",
+                "iso": "SI"
+            },
+            {
+                "id": "Somalia",
+                "value": "Somalienne",
+                "iso": "SO"
+            },
+            {
+                "id": "Sudan",
+                "value": "Soudanaise",
+                "iso": "SD"
+            },
+            {
+                "id": "Sri Lanka",
+                "value": "Sri-lankaise",
+                "iso": "LK"
+            },
+            {
+                "id": "Coree_du_Sud",
+                "value": "Sud Cor\u00e9enne",
+                "iso": "KP"
+            },
+            {
+                "id": "Afrique_du_sud",
+                "value": "Sud-Africaine",
+                "iso": "ZA"
+            },
+            {
+                "id": "Suisse",
+                "value": "Suisse",
+                "iso": "CH"
+            },
+            {
+                "id": "Surinam",
+                "value": "Surinamaise",
+                "iso": "SR"
+            },
+            {
+                "id": "Suede",
+                "value": "Su\u00e9doise",
+                "iso": "SE"
+            },
+            {
+                "id": "Swaziland",
+                "value": "Swazie",
+                "iso": "SZ"
+            },
+            {
+                "id": "Syrie",
+                "value": "Syrienne",
+                "iso": "SY"
+            },
+            {
+                "id": "Senegal",
+                "value": "S\u00e9n\u00e9galaise",
+                "iso": "SN"
+            },
+            {
+                "id": "Tadjikistan",
+                "value": "Tadjike",
+                "iso": "TJ"
+            },
+            {
+                "id": "Tanzanie",
+                "value": "Tanzanienne",
+                "iso": "TZ"
+            },
+            {
+                "id": "Taiwan",
+                "value": "Ta\u00efwanaise",
+                "iso": "TW"
+            },
+            {
+                "id": "Tchad",
+                "value": "Tchadienne",
+                "iso": "TD"
+            },
+            {
+                "id": "Republique_tcheque",
+                "value": "Tch\u00e8que",
+                "iso": "CZ"
+            },
+            {
+                "id": "Thailande",
+                "value": "Thailandaise",
+                "iso": "TH"
+            },
+            {
+                "id": "Togo",
+                "value": "Togolaise",
+                "iso": "TG"
+            },
+            {
+                "id": "Tonga",
+                "value": "Tonguienne",
+                "iso": "TO"
+            },
+            {
+                "id": "Trinite_et_Tobago",
+                "value": "Trinidadienne",
+                "iso": "TT"
+            },
+            {
+                "id": "Tunisie",
+                "value": "Tunisienne",
+                "iso": "TN"
+            },
+            {
+                "id": "Turkmenistan",
+                "value": "Turkm\u00e8ne",
+                "iso": "TM"
+            },
+            {
+                "id": "Turquie",
+                "value": "Turque",
+                "iso": "TR"
+            },
+            {
+                "id": "Tuvalu",
+                "value": "Tuvaluane",
+                "iso": "TV"
+            },
+            {
+                "id": "Ukraine",
+                "value": "Ukrainienne",
+                "iso": "UA"
+            },
+            {
+                "id": "Uruguay",
+                "value": "Uruguayenne",
+                "iso": "UY"
+            },
+            {
+                "id": "Vanuatu",
+                "value": "Vanuatuane",
+                "iso": "VU"
+            },
+            {
+                "id": "Vatican",
+                "value": "Vaticane",
+                "iso": "VA"
+            },
+            {
+                "id": "Vietnam",
+                "value": "Vietnamienne",
+                "iso": "VN"
+            },
+            {
+                "id": "Venezuela",
+                "value": "V\u00e9n\u00e9zu\u00e9lienne",
+                "iso": "VE"
+            },
+            {
+                "id": "Wallis et Futuna",
+                "value": "Wallisian",
+                "iso": "WF"
+            },
+            {
+                "id": "Yemen",
+                "value": "Y\u00e9m\u00e9nite",
+                "iso": "YE"
+            },
+            {
+                "id": "Zambie",
+                "value": "Zambienne",
+                "iso": "ZM"
+            },
+            {
+                "id": "Zimbabwe",
+                "value": "Zimbabw\u00e9enne",
+                "iso": "ZW"
+            },
+            {
+                "id": "Emirats_Arabes_Unis",
+                "value": "\u00c9mirienne",
+                "iso": "AE"
+            },
+            {
+                "id": "Guinee equatoriale",
+                "value": "\u00c9quatoguin\u00e9enne",
+                "iso": "GQ"
+            },
+            {
+                "id": "Erythree",
+                "value": "\u00c9rythr\u00e9enne",
+                "iso": "ER"
+            }
+        ],
+        "lastBackupDate": "2020-06-16T22:48:39+0200"
+    }
+}

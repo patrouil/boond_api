@@ -1,0 +1,1555 @@
+{
+    "meta": {
+        "version": "7.9.0.22",
+        "isLogged": true,
+        "language": "fr"
+    },
+    "data": {
+        "id": "161",
+        "type": "currentuser",
+        "attributes": {
+            "firstName": "Compte",
+            "lastName": "Partners / Manager",
+            "email1": "partners@biaconsulting.fr",
+            "phone1": "",
+            "language": "fr",
+            "login": "partners@biaconsulting.fr",
+            "level": "manager",
+            "userToken": "36362e67726f757065626961",
+            "modules": {
+                "apps": true,
+                "resources": true,
+                "projects": false,
+                "opportunities": true,
+                "candidates": true,
+                "products": false,
+                "crm": true,
+                "purchases": false,
+                "reporting": true,
+                "activityExpenses": false,
+                "billing": false,
+                "actions": true,
+                "dashboard": true,
+                "flags": true,
+                "positionings": true,
+                "downloadCenter": true,
+                "activityIntranet": false,
+                "subscription": false
+            },
+            "navigationBar": [
+                "actions",
+                "candidates",
+                "resources",
+                "products",
+                "crm",
+                "opportunities",
+                "positionings",
+                "projects",
+                "purchases",
+                "activityExpenses",
+                "billing",
+                "reporting"
+            ],
+            "rights": {
+                "main": {
+                    "showGroupe": false,
+                    "showAllManagers": "none",
+                    "showBuPoles": false,
+                    "showAllPoles": "none",
+                    "showAllAgencies": "none",
+                    "administrator": false
+                },
+                "resources": {
+                    "creation": false,
+                    "writeAll": "simple",
+                    "extraction": false,
+                    "assignment": false,
+                    "deletion": false,
+                    "showAll": "all",
+                    "editCreationDate": false,
+                    "administrative": "none",
+                    "actions": false
+                },
+                "candidates": {
+                    "creation": true,
+                    "showAll": "all",
+                    "writeAll": "extended",
+                    "extraction": false,
+                    "assignment": false,
+                    "deletion": false,
+                    "editCreationDate": false,
+                    "actions": true
+                },
+                "flags": {
+                    "showAll": "personal"
+                },
+                "opportunities": {
+                    "editCreationDate": false,
+                    "showAll": "all",
+                    "writeAll": "extended",
+                    "extraction": false,
+                    "assignment": false,
+                    "deletion": false,
+                    "maskData": false
+                },
+                "crm": {
+                    "showAll": "all",
+                    "writeAll": "extended",
+                    "extraction": false,
+                    "assignment": false,
+                    "deletion": false,
+                    "exportation": false,
+                    "editCreationDate": false
+                },
+                "products": {
+                    "creation": false,
+                    "showAll": "personal",
+                    "writeAll": "simple",
+                    "extraction": false,
+                    "assignment": false,
+                    "deletion": false
+                },
+                "projects": {
+                    "editCreationDate": false,
+                    "showAll": "personal",
+                    "writeAll": "simple",
+                    "extraction": false,
+                    "assignment": false,
+                    "deletion": false,
+                    "administrative": false
+                },
+                "billing": {
+                    "editReference": false,
+                    "showAll": "personal",
+                    "writeAll": "simple",
+                    "extraction": false,
+                    "assignment": false,
+                    "deletion": false,
+                    "editDate": false,
+                    "exportation": false,
+                    "readDocuments": false
+                },
+                "reporting": {
+                    "showAll": "personal",
+                    "extraction": false,
+                    "reporting": false,
+                    "distributionCustomers": false,
+                    "projects": false,
+                    "resources": false,
+                    "productionPlans": false
+                },
+                "actions": {
+                    "writeAll": "simple",
+                    "extraction": false,
+                    "assignment": true,
+                    "deletion": true
+                },
+                "activityExpenses": {
+                    "writeAll": "extended",
+                    "extraction": false,
+                    "assignment": false,
+                    "deletion": false,
+                    "exportation": false
+                },
+                "purchases": {
+                    "showAll": "personal",
+                    "writeAll": "simple",
+                    "extraction": false,
+                    "assignment": false,
+                    "deletion": false,
+                    "exportation": false
+                }
+            },
+            "lastLogInDate": "2020-11-25T17:16:04+0100",
+            "homepage": "dashboard",
+            "nodeSignedRequest": "OWFmODYzMWU2NDEyZGY4MDgxMDJjNDY3MTlhYzFlNGU0NDBjYTViMGFkNTU4ZTY2Nzk5YTZlYmQwMGQ5Y2U5Nw==.eyJpZF91c2VyIjo2NiwiaWRfcHJvZmlsIjoiMTYxIiwidXJsX3dlYiI6Imdyb3VwZWJpYSIsIm5vbSI6IlBhcnRuZXJzIFwvIE1hbmFnZXIiLCJwcmVub20iOiJDb21wdGUiLCJ0eXBlX3Byb2ZpbCI6Im1hbmFnZXIiLCJlbWFpbCI6InBhcnRuZXJzQGJpYWNvbnN1bHRpbmcuZnIiLCJzb2NpZXRlIjoiR1JPVVBFIEJJQSIsImlzc3VlZF9hdCI6MTYwNjMyMTA0NH0=",
+            "nodeUrl": "https://node.boondmanager.com:8385",
+            "timezone": "Europe/Paris",
+            "narrowPerimeter": true,
+            "defaultSearchSaving": true,
+            "commercialSynthesisScorecards": [
+                {
+                    "reference": "turnoverSignedExcludingTax",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "costsSignedExcludingTax",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "marginSignedExcludingTax",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "profitabilitySigned",
+                    "typeOf": "percentage"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "averageSignedRate",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "averageSignedRateForEmployees",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "averageSignedRateForExternals",
+                    "typeOf": "money"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "averageDailyCostSigned",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "averageDailyCostSignedForEmployees",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "averageDailyCostSignedForExternals",
+                    "typeOf": "money"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "dailyProfitabilitySigned",
+                    "typeOf": "percentage"
+                },
+                {
+                    "reference": "dailyProfitabilitySignedForEmployees",
+                    "typeOf": "percentage"
+                },
+                {
+                    "reference": "dailyProfitabilitySignedForExternals",
+                    "typeOf": "percentage"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "numberOfProjectsCreated",
+                    "typeOf": "number"
+                },
+                {
+                    "reference": "numberOfProjectsInProgress",
+                    "typeOf": "number"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "turnoverWeightedExcludingTax",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "numberOfOpportunitiesCreated",
+                    "typeOf": "number"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "numberOfOpportunitiesPerStates",
+                    "typeOf": "number",
+                    "dictionaryId": 0
+                },
+                {
+                    "reference": "numberOfOpportunitiesPerStates",
+                    "typeOf": "number",
+                    "dictionaryId": 4
+                },
+                {
+                    "reference": "numberOfOpportunitiesPerStates",
+                    "typeOf": "number",
+                    "dictionaryId": 5
+                },
+                {
+                    "reference": "numberOfOpportunitiesPerStates",
+                    "typeOf": "number",
+                    "dictionaryId": 9
+                },
+                {
+                    "reference": "numberOfOpportunitiesPerStates",
+                    "typeOf": "number",
+                    "dictionaryId": 1
+                },
+                {
+                    "reference": "numberOfOpportunitiesPerStates",
+                    "typeOf": "number",
+                    "dictionaryId": 2
+                },
+                {
+                    "reference": "numberOfOpportunitiesPerStates",
+                    "typeOf": "number",
+                    "dictionaryId": 3
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "numberOfPositioningsCreated",
+                    "typeOf": "number"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "numberOfCompaniesCreated",
+                    "typeOf": "number"
+                },
+                {
+                    "reference": "numberOfContactsCreated",
+                    "typeOf": "number"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "numberOfActionsOnContactsPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 2
+                },
+                {
+                    "reference": "numberOfActionsOnContactsPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 3
+                },
+                {
+                    "reference": "numberOfActionsOnContactsPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 10
+                },
+                {
+                    "reference": "numberOfActionsOnContactsPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 11
+                },
+                {
+                    "reference": "numberOfActionsOnContactsPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 60
+                },
+                {
+                    "reference": "numberOfActionsOnContactsPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 61
+                },
+                {
+                    "reference": "numberOfActionsOnContactsPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 62
+                },
+                {
+                    "reference": "numberOfActionsOnContactsPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 63
+                },
+                {
+                    "reference": "numberOfActionsOnContactsPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 64
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "numberOfActionsOnProjectsPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 30
+                },
+                {
+                    "reference": "numberOfActionsOnProjectsPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 31
+                },
+                {
+                    "reference": "numberOfActionsOnProjectsPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 32
+                },
+                {
+                    "reference": "numberOfActionsOnProjectsPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 33
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "numberOfActionsOnOpportunitiesPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 50
+                },
+                {
+                    "reference": "numberOfActionsOnOpportunitiesPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 51
+                },
+                {
+                    "reference": "numberOfActionsOnOpportunitiesPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 52
+                },
+                {
+                    "reference": "numberOfActionsOnOpportunitiesPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 53
+                }
+            ],
+            "humanResourcesSynthesisScorecards": [
+                {
+                    "reference": "numberOfStaff",
+                    "typeOf": "number"
+                },
+                {
+                    "reference": "numberOfBillableStaff",
+                    "typeOf": "number"
+                },
+                {
+                    "reference": "numberOfBillableEmployees",
+                    "typeOf": "number"
+                },
+                {
+                    "reference": "numberOfBillableExternals",
+                    "typeOf": "number"
+                },
+                {
+                    "reference": "numberOfStructuralStaff",
+                    "typeOf": "number"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "numberOfInternalStaff",
+                    "typeOf": "number"
+                },
+                {
+                    "reference": "numberOfExternalStaff",
+                    "typeOf": "number"
+                },
+                {
+                    "reference": "numberOfHired",
+                    "typeOf": "number"
+                },
+                {
+                    "reference": "numberOfDepartures",
+                    "typeOf": "number"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "staffTakenActivityRateLeavesExcludedForBillableEmployees",
+                    "typeOf": "percentage"
+                },
+                {
+                    "reference": "staffTakenActivityRateLeavesIncludedForBillableEmployees",
+                    "typeOf": "percentage"
+                },
+                {
+                    "reference": "staffTakenActivityRateLeavesIncludedForBillableExternals",
+                    "typeOf": "percentage"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "internalActivityRate",
+                    "typeOf": "percentage"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "unbilledTakenStaffActivityRateForBillableEmployees",
+                    "typeOf": "percentage"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "numberOfActionsOnResourcesPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 4
+                },
+                {
+                    "reference": "numberOfActionsOnResourcesPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 5
+                },
+                {
+                    "reference": "numberOfActionsOnResourcesPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 8
+                },
+                {
+                    "reference": "numberOfActionsOnResourcesPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 9
+                },
+                {
+                    "reference": "numberOfActionsOnResourcesPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 80
+                },
+                {
+                    "reference": "numberOfActionsOnResourcesPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 81
+                },
+                {
+                    "reference": "numberOfActionsOnResourcesPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 82
+                },
+                {
+                    "reference": "numberOfActionsOnResourcesPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 83
+                },
+                {
+                    "reference": "numberOfActionsOnResourcesPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 84
+                },
+                {
+                    "reference": "numberOfActionsOnResourcesPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 85
+                }
+            ],
+            "recruitmentSynthesisScorecards": [
+                {
+                    "reference": "numberOfCandidatesCreated",
+                    "typeOf": "number"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "numberOfCandidatesCreatedPerStates",
+                    "typeOf": "number",
+                    "dictionaryId": 0
+                },
+                {
+                    "reference": "numberOfCandidatesCreatedPerStates",
+                    "typeOf": "number",
+                    "dictionaryId": 1
+                },
+                {
+                    "reference": "numberOfCandidatesCreatedPerStates",
+                    "typeOf": "number",
+                    "dictionaryId": 2
+                },
+                {
+                    "reference": "numberOfCandidatesCreatedPerStates",
+                    "typeOf": "number",
+                    "dictionaryId": 4
+                },
+                {
+                    "reference": "numberOfCandidatesCreatedPerStates",
+                    "typeOf": "number",
+                    "dictionaryId": 6
+                },
+                {
+                    "reference": "numberOfCandidatesCreatedPerStates",
+                    "typeOf": "number",
+                    "dictionaryId": 7
+                },
+                {
+                    "reference": "numberOfCandidatesCreatedPerStates",
+                    "typeOf": "number",
+                    "dictionaryId": 13
+                },
+                {
+                    "reference": "numberOfCandidatesCreatedPerStates",
+                    "typeOf": "number",
+                    "dictionaryId": 14
+                },
+                {
+                    "reference": "numberOfCandidatesCreatedPerStates",
+                    "typeOf": "number",
+                    "dictionaryId": 3
+                },
+                {
+                    "reference": "numberOfCandidatesCreatedPerStates",
+                    "typeOf": "number",
+                    "dictionaryId": 5
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "numberOfActionsOnCandidatesPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 13
+                },
+                {
+                    "reference": "numberOfActionsOnCandidatesPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 1
+                },
+                {
+                    "reference": "numberOfActionsOnCandidatesPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 0
+                },
+                {
+                    "reference": "numberOfActionsOnCandidatesPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 12
+                },
+                {
+                    "reference": "numberOfActionsOnCandidatesPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 40
+                },
+                {
+                    "reference": "numberOfActionsOnCandidatesPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 41
+                },
+                {
+                    "reference": "numberOfActionsOnCandidatesPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 42
+                },
+                {
+                    "reference": "numberOfActionsOnCandidatesPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 43
+                },
+                {
+                    "reference": "numberOfActionsOnCandidatesPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 44
+                },
+                {
+                    "reference": "numberOfActionsOnCandidatesPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 45
+                },
+                {
+                    "reference": "numberOfActionsOnCandidatesPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 130
+                },
+                {
+                    "reference": "numberOfActionsOnCandidatesPerTypes",
+                    "typeOf": "number",
+                    "dictionaryId": 131
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "numberOfPositioningsCreated",
+                    "typeOf": "number"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "numberOfCandidatesCreatedPerSources",
+                    "typeOf": "number",
+                    "dictionaryId": 0
+                },
+                {
+                    "reference": "numberOfCandidatesCreatedPerSources",
+                    "typeOf": "number",
+                    "dictionaryId": 1
+                },
+                {
+                    "reference": "numberOfCandidatesCreatedPerSources",
+                    "typeOf": "number",
+                    "dictionaryId": 2
+                },
+                {
+                    "reference": "numberOfCandidatesCreatedPerSources",
+                    "typeOf": "number",
+                    "dictionaryId": 4
+                },
+                {
+                    "reference": "numberOfCandidatesCreatedPerSources",
+                    "typeOf": "number",
+                    "dictionaryId": 5
+                },
+                {
+                    "reference": "numberOfCandidatesCreatedPerSources",
+                    "typeOf": "number",
+                    "dictionaryId": 3
+                },
+                {
+                    "reference": "numberOfCandidatesCreatedPerSources",
+                    "typeOf": "number",
+                    "dictionaryId": 6
+                },
+                {
+                    "reference": "numberOfCandidatesCreatedPerSources",
+                    "typeOf": "number",
+                    "dictionaryId": 7
+                },
+                {
+                    "reference": "numberOfCandidatesCreatedPerSources",
+                    "typeOf": "number",
+                    "dictionaryId": 8
+                },
+                {
+                    "reference": "numberOfCandidatesCreatedPerSources",
+                    "typeOf": "number",
+                    "dictionaryId": 9
+                },
+                {
+                    "reference": "numberOfCandidatesCreatedPerSources",
+                    "typeOf": "number",
+                    "dictionaryId": 10
+                },
+                {
+                    "reference": "numberOfCandidatesCreatedPerSources",
+                    "typeOf": "number",
+                    "dictionaryId": 11
+                },
+                {
+                    "reference": "numberOfCandidatesCreatedPerSources",
+                    "typeOf": "number",
+                    "dictionaryId": 12
+                }
+            ],
+            "activityExpensesSynthesisScorecards": [
+                {
+                    "reference": "durationOfAllSignedTime",
+                    "typeOf": "day"
+                },
+                {
+                    "reference": "durationOfAllPlannedTime",
+                    "typeOf": "day"
+                },
+                {
+                    "reference": "durationOfAllUsedTime",
+                    "typeOf": "day"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "costsOfSignedExpensesExcludingTax",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "costsOfUsedExpensesExcludingTax",
+                    "typeOf": "money"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "numberOfValidatedTimesReports",
+                    "typeOf": "number"
+                },
+                {
+                    "reference": "numberOfRejectedTimesReports",
+                    "typeOf": "number"
+                },
+                {
+                    "reference": "numberOfWaitingForValidationTimesReports",
+                    "typeOf": "number"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "numberOfValidatedExpensesReports",
+                    "typeOf": "number"
+                },
+                {
+                    "reference": "numberOfRejectedExpensesReports",
+                    "typeOf": "number"
+                },
+                {
+                    "reference": "numberOfWaitingForValidationExpensesReports",
+                    "typeOf": "number"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "numberOfValidatedAbsencesReports",
+                    "typeOf": "number"
+                },
+                {
+                    "reference": "numberOfRejectedAbsencesReports",
+                    "typeOf": "number"
+                },
+                {
+                    "reference": "numberOfWaitingForValidationAbsencesReports",
+                    "typeOf": "number"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "costsOfAllUsedTimeExcludingTaxPerActivity",
+                    "typeOf": "money",
+                    "dictionaryId": 0
+                },
+                {
+                    "reference": "costsOfAllUsedTimeExcludingTaxPerActivity",
+                    "typeOf": "money",
+                    "dictionaryId": 1
+                },
+                {
+                    "reference": "costsOfAllUsedTimeExcludingTaxPerActivity",
+                    "typeOf": "money",
+                    "dictionaryId": 2
+                },
+                {
+                    "reference": "costsOfAllUsedTimeExcludingTaxPerActivity",
+                    "typeOf": "money",
+                    "dictionaryId": 3
+                },
+                {
+                    "reference": "costsOfAllUsedTimeExcludingTaxPerActivity",
+                    "typeOf": "money",
+                    "dictionaryId": 4
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "costsOfProductionAndExceptionalUsedTimeAndCalendarExcludingTax",
+                    "typeOf": "money"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "durationOfAllUsedTimePerActivity",
+                    "typeOf": "day",
+                    "dictionaryId": 0
+                },
+                {
+                    "reference": "durationOfAllUsedTimePerActivity",
+                    "typeOf": "day",
+                    "dictionaryId": 1
+                },
+                {
+                    "reference": "durationOfAllUsedTimePerActivity",
+                    "typeOf": "day",
+                    "dictionaryId": 2
+                },
+                {
+                    "reference": "durationOfAllUsedTimePerActivity",
+                    "typeOf": "hour",
+                    "dictionaryId": 3
+                },
+                {
+                    "reference": "durationOfAllUsedTimePerActivity",
+                    "typeOf": "day",
+                    "dictionaryId": 4
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "durationOfProductionAndExceptionalUsedTimeAndCalendar",
+                    "typeOf": "day|hour|day"
+                }
+            ],
+            "billingSynthesisScorecards": [
+                {
+                    "reference": "turnoverInvoicedProFormaExcludingTaxFollowingInvoicesDate",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "turnoverInvoicedExcludingTaxFollowingInvoicesDatePerStates",
+                    "typeOf": "money",
+                    "dictionaryId": 0
+                },
+                {
+                    "reference": "turnoverInvoicedExcludingTaxFollowingInvoicesDatePerStates",
+                    "typeOf": "money",
+                    "dictionaryId": 1
+                },
+                {
+                    "reference": "turnoverInvoicedExcludingTaxFollowingInvoicesDatePerStates",
+                    "typeOf": "money",
+                    "dictionaryId": 4
+                },
+                {
+                    "reference": "turnoverInvoicedExcludingTaxFollowingInvoicesDatePerStates",
+                    "typeOf": "money",
+                    "dictionaryId": 5
+                },
+                {
+                    "reference": "turnoverInvoicedExcludingTaxFollowingInvoicesDatePerStates",
+                    "typeOf": "money",
+                    "dictionaryId": 9
+                },
+                {
+                    "reference": "turnoverInvoicedExcludingTaxFollowingInvoicesDatePerStates",
+                    "typeOf": "money",
+                    "dictionaryId": 2
+                },
+                {
+                    "reference": "turnoverInvoicedExcludingTaxFollowingInvoicesDatePerStates",
+                    "typeOf": "money",
+                    "dictionaryId": 3
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "turnoverInvoicedExcludingTaxFollowingInvoicesDate",
+                    "typeOf": "money"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "turnoverInvoicedExcludingTaxFollowingCommandsPeriod",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "turnoverOrderedExcludingTax",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "deltaInvoicedExcludingTaxFollowingInvoicesDate",
+                    "typeOf": "money"
+                }
+            ],
+            "globalSynthesisScorecards": [
+                {
+                    "reference": "turnoverProductionExcludingTax",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "costsRealExcludingTax",
+                    "typeOf": "money"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "marginRealContributiveProductionExcludingTax",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "profitabilityRealContributiveProduction",
+                    "typeOf": "percentage"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "turnoverInvoicedExcludingTaxFollowingInvoicesDate",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "marginRealContributiveInvoicedExcludingTaxFollowingInvoicesDate",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "profitabilityRealContributiveInvoicedFollowingInvoicesDate",
+                    "typeOf": "percentage"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "staffTakenActivityRateLeavesExcludedForBillableEmployees",
+                    "typeOf": "percentage"
+                },
+                {
+                    "reference": "staffTakenActivityRateLeavesIncludedForBillableEmployees",
+                    "typeOf": "percentage"
+                },
+                {
+                    "reference": "staffTakenActivityRateLeavesIncludedForBillableExternals",
+                    "typeOf": "percentage"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "averageTakenRate",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "averageTakenRateForEmployees",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "averageTakenRateForExternals",
+                    "typeOf": "money"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "averageDailyCostTaken",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "averageDailyCostTakenForEmployees",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "averageDailyCostTakenForExternals",
+                    "typeOf": "money"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "dailyProfitabilityTaken",
+                    "typeOf": "percentage"
+                },
+                {
+                    "reference": "dailyProfitabilityTakenForEmployees",
+                    "typeOf": "percentage"
+                },
+                {
+                    "reference": "dailyProfitabilityTakenForExternals",
+                    "typeOf": "percentage"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "unbilledTakenStaffActivityRateForBillableEmployees",
+                    "typeOf": "percentage"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "numberOfStaff",
+                    "typeOf": "number"
+                },
+                {
+                    "reference": "numberOfBillableStaff",
+                    "typeOf": "number"
+                },
+                {
+                    "reference": "numberOfBillableEmployees",
+                    "typeOf": "number"
+                },
+                {
+                    "reference": "numberOfBillableExternals",
+                    "typeOf": "number"
+                },
+                {
+                    "reference": "numberOfStructuralStaff",
+                    "typeOf": "number"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "globalStructureCost",
+                    "typeOf": "money"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "marginRealExploitationProductionExcludingTax",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "profitabilityRealExploitationProduction",
+                    "typeOf": "percentage"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "marginRealExploitationInvoicedExcludingTaxFollowingInvoicesDate",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "profitabilityRealExploitationInvoicedFollowingInvoicesDate",
+                    "typeOf": "percentage"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "structuralPurchases",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "costOfUnbilledForInternals",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "costOfUnbilledForExternals",
+                    "typeOf": "money"
+                }
+            ],
+            "companiesScorecards": [
+                {
+                    "reference": "numberOfProjectsInProgress",
+                    "typeOf": "number"
+                },
+                {
+                    "reference": "numberOfTechnicalAssistanceProjectsInProgress",
+                    "typeOf": "number"
+                },
+                {
+                    "reference": "numberOfPackageProjectsInProgress",
+                    "typeOf": "number"
+                },
+                {
+                    "reference": "numberOfRecruitmentProjectsInProgress",
+                    "typeOf": "number"
+                },
+                {
+                    "reference": "numberOfProductProjectsInProgress",
+                    "typeOf": "number"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "numberOfResourcesOnDeliveries",
+                    "typeOf": "number"
+                },
+                {
+                    "reference": "numberOfInternalResourcesOnDeliveries",
+                    "typeOf": "number"
+                },
+                {
+                    "reference": "numberOfExternalResourcesOnDeliveries",
+                    "typeOf": "number"
+                }
+            ],
+            "projectsScorecards": [
+                {
+                    "reference": "company",
+                    "typeOf": "string"
+                },
+                {
+                    "reference": "reference",
+                    "typeOf": "string"
+                },
+                {
+                    "reference": "typeOf",
+                    "typeOf": "number"
+                },
+                {
+                    "reference": "state",
+                    "typeOf": "string"
+                },
+                {
+                    "reference": "startDate",
+                    "typeOf": "date"
+                },
+                {
+                    "reference": "endDate",
+                    "typeOf": "date"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "turnoverSignedExcludingTax",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "costsSignedExcludingTax",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "marginSignedExcludingTax",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "profitabilitySigned",
+                    "typeOf": "percentage"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "durationOfProductionSignedTime",
+                    "typeOf": "day"
+                },
+                {
+                    "reference": "durationOfProductionUsedTime",
+                    "typeOf": "day"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "advancementProductionUsedTime",
+                    "typeOf": "percentage"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "restBudgetProductionUsedTime",
+                    "typeOf": "day"
+                },
+                {
+                    "reference": "remainsToBeDone",
+                    "typeOf": "day"
+                },
+                {
+                    "reference": "remainsToBeDoneSignedRate",
+                    "typeOf": "percentage"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "costsProductionExcludingTax",
+                    "typeOf": "money"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "turnoverProductionExcludingTax",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "marginGrossProductionExcludingTax",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "profitabilityGrossProduction",
+                    "typeOf": "percentage"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "turnoverInvoicedExcludingTaxFollowingInvoicesDate",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "marginGrossInvoicedExcludingTax",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "profitabilityGrossInvoiced",
+                    "typeOf": "percentage"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "turnoverInvoicedPaidExcludingTaxFollowingInvoicesDate",
+                    "typeOf": "money"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "turnoverOrderedExcludingTax",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "deltaInvoicedExcludingTaxFollowingInvoicesDate",
+                    "typeOf": "money"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "durationOfProductionSignedAndUsedTime",
+                    "typeOf": "day|day"
+                }
+            ],
+            "resourcesScorecards": [
+                {
+                    "reference": "numberOfWorkingDays",
+                    "typeOf": "day"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "turnoverSignedExcludingTax",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "costsSignedExcludingTax",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "marginSignedExcludingTax",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "profitabilitySigned",
+                    "typeOf": "percentage"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "occupationRateSignedSmoothedOnPeriod",
+                    "typeOf": "percentage"
+                },
+                {
+                    "reference": "loadingRateSignedSmoothedOnPeriod",
+                    "typeOf": "percentage"
+                },
+                {
+                    "reference": "averageDailyProductionSignedPriceExcludingTax",
+                    "typeOf": "money"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "turnoverProductionExcludingTax",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "costsRealExcludingTax",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "marginRealProductionExcludingTax",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "profitabilityRealProduction",
+                    "typeOf": "percentage"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "occupationRateUsed",
+                    "typeOf": "percentage"
+                },
+                {
+                    "reference": "loadingRateUsed",
+                    "typeOf": "percentage"
+                },
+                {
+                    "reference": "averageDailyProductionUsedPriceExcludingTax",
+                    "typeOf": "money"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "durationOfProductionUsedTime",
+                    "typeOf": "day"
+                },
+                {
+                    "reference": "durationOfAbsencesUsedTime",
+                    "typeOf": "day"
+                },
+                {
+                    "reference": "costsOfAbsencesUsedTime",
+                    "typeOf": "money"
+                },
+                {
+                    "reference": "durationOfInternalUsedTime",
+                    "typeOf": "day"
+                },
+                {
+                    "reference": "costsOfInternalUsedTime",
+                    "typeOf": "money"
+                },
+                {
+                    "typeOf": "separator"
+                },
+                {
+                    "reference": "disponibilityUsed",
+                    "typeOf": "day"
+                }
+            ]
+        },
+        "relationships": {
+            "apps": {
+                "data": [
+                    {
+                        "id": "1050",
+                        "type": "app"
+                    },
+                    {
+                        "id": "1022",
+                        "type": "app"
+                    },
+                    {
+                        "id": "1031",
+                        "type": "app"
+                    },
+                    {
+                        "id": "1164",
+                        "type": "app"
+                    }
+                ]
+            },
+            "agency": {
+                "data": {
+                    "id": "1",
+                    "type": "agency"
+                }
+            },
+            "pole": {
+                "data": null
+            },
+            "otherAgencies": {
+                "data": []
+            },
+            "otherPoles": {
+                "data": []
+            },
+            "advancedAppCalendar": {
+                "data": null
+            },
+            "advancedAppMail": {
+                "data": null
+            },
+            "advancedAppViewer": {
+                "data": null
+            },
+            "advancedAppEmailing": {
+                "data": null
+            },
+            "role": {
+                "data": {
+                    "id": "6",
+                    "type": "role"
+                }
+            }
+        }
+    },
+    "included": [
+        {
+            "id": "1050",
+            "type": "app",
+            "attributes": {
+                "name": "Notifications",
+                "title": "Alertes & Warnings",
+                "description": "Son objectif est de vous inciter \u00e0 traiter des rappels/warnings/incoh\u00e9rences pr\u00e9sents sur BoondManager : \r\n- traiter des rappels / actions \u00e0 r\u00e9aliser\r\n- effectuer des suivis de candidats, ressources, besoins, projets, commandes, factures\r\n- \u00eatre alert\u00e9 de dates d'anniversaire de ressources\r\n- valider des feuilles de temps, notes de frais et demandes d'absences \r\n- ...",
+                "category": "other",
+                "code": "wnotifications",
+                "integration": "module",
+                "url": "https://ui.boondmanager.com/api/apps/notifications",
+                "v6Url": "https://app.boondmanager.com/api/wnotifications",
+                "logo": "https://ui.boondmanager.com/img/marketplace/apps/1050.png?filemtime=1605607429",
+                "buttonsSetting": [],
+                "iFramesSetting": [
+                    {
+                        "page": "dashboard",
+                        "scrolling": true,
+                        "height": 1500,
+                        "isHalfWidth": false,
+                        "function": ""
+                    }
+                ],
+                "triggersSetting": []
+            }
+        },
+        {
+            "id": "1022",
+            "type": "app",
+            "attributes": {
+                "name": "PlanProduction",
+                "title": "Affichage graphique des temps remont\u00e9es et demandes d'absences",
+                "description": "PlanProduction permet d'afficher les plans de production de toutes vos ressources :\n- Affichage des plans de charge\n- Affichage des temps planifi\u00e9s gr\u00e2ce \u00e0 l'App ResourcePlanner\n- Affichage des temps saisis sur les feuilles des temps\n- Affichage des demandes d'absences\n- Acc\u00e8s rapide \u00e0 l'App ResourcePlanner\n- Acc\u00e8s rapide aux feuilles des temps existantes et \u00e0 cr\u00e9er\n\nGr\u00e2ce \u00e0 cette App, vos managers et vos ressources peuvent donc :\n- Contr\u00f4ler rapidement les temps planifi\u00e9s et les temps r\u00e9ellement point\u00e9s\n- Contr\u00f4ler rapidement les plans de charge aux temps planifi\u00e9s/point\u00e9s\n- Contr\u00f4ler rapidement les demandes d'absences et les absences r\u00e9ellement pos\u00e9es\n- Superviser la production r\u00e9elle et pr\u00e9visionnelle\n- Pr\u00e9-remplir rapidement les donn\u00e9es de planification en fonction des projets & opportunit\u00e9\n- Pr\u00e9-remplir rapidement les Feuilles de Temps en fonction des projets",
+                "category": "other",
+                "code": "wplanproduction",
+                "integration": "module",
+                "url": "https://ui.boondmanager.com/api/apps/planproduction",
+                "v6Url": "https://app.boondmanager.com/api/wplanproduction",
+                "logo": "https://ui.boondmanager.com/img/marketplace/apps/1022.png?filemtime=1605607420",
+                "buttonsSetting": [
+                    {
+                        "page": "projects/@id/orders",
+                        "title": "PlanProduction",
+                        "function": ""
+                    },
+                    {
+                        "page": "resources",
+                        "title": "PlanProduction",
+                        "function": ""
+                    }
+                ],
+                "iFramesSetting": [],
+                "triggersSetting": []
+            }
+        },
+        {
+            "id": "1031",
+            "type": "app",
+            "attributes": {
+                "name": "HireAbility",
+                "title": "Cr\u00e9ation automatique d'une fiche Candidat avec un CV / Document",
+                "description": "Permet de cr\u00e9er automatiquement une fiche Candidat dans BoondManager sur la base d'un fichier Word, Texte et PDF. L'App pr\u00e9-remplit certains champs identifi\u00e9s comme : pr\u00e9nom, nom, t\u00e9l\u00e9phone, email, comp\u00e9tences, dipl\u00f4mes ...",
+                "category": "other",
+                "code": "hireability",
+                "integration": "module",
+                "url": "https://ui.boondmanager.com/api/apps/hireability",
+                "v6Url": "https://app.boondmanager.com/api/hireability",
+                "logo": "https://ui.boondmanager.com/img/marketplace/apps/1031.png?filemtime=1605607423",
+                "buttonsSetting": [
+                    {
+                        "page": "candidates",
+                        "title": "HireAbility",
+                        "function": ""
+                    },
+                    {
+                        "page": "candidates/@id/information",
+                        "title": "HireAbility",
+                        "function": ""
+                    }
+                ],
+                "iFramesSetting": [],
+                "triggersSetting": []
+            }
+        },
+        {
+            "id": "1164",
+            "type": "app",
+            "attributes": {
+                "name": "CorporateDocs",
+                "title": "Mettez des fichiers \u00e0 disposition de vos ressources",
+                "description": "Cette application vous permet de rendre disponible au t\u00e9l\u00e9chargement certains documents pour vos ressources. Vous pouvez \u00e9galement choisir \u00e0 quels types de ressources (Consultants Internes/Externes, Ing\u00e9nieurs d'Affaires, ...) vous souhaitez les rendre visibles.\r\n\r\nAinsi, si vous disposez de documents comme une charte de confidentialit\u00e9, un r\u00e8glement ou tout autre document devant \u00eatre accessible par un ensemble de ressources, cette application est faite pour vous !",
+                "category": "other",
+                "code": "corporatedocs",
+                "integration": "module",
+                "url": "https://ui.boondmanager.com/api/apps/corporatedocuments",
+                "v6Url": "https://app.boondmanager.com/api/corporatedocs",
+                "logo": "https://ui.boondmanager.com/img/marketplace/apps/1164.png?filemtime=1605607426",
+                "buttonsSetting": [],
+                "iFramesSetting": [],
+                "triggersSetting": []
+            }
+        },
+        {
+            "id": "1",
+            "type": "agency",
+            "attributes": {
+                "name": "NAKEL HOLDING",
+                "groupLogo": "https://ui.boondmanager.com/img/_clients/groupebia/logo.jpg?filemtime=1602144101",
+                "group": "GROUPE BIA",
+                "code": "groupebia",
+                "currency": 0,
+                "exchangeRate": 1,
+                "labAccess": "permanentForAll",
+                "jDay": "actualDay",
+                "allowResourcesToViewAbsencesAccounts": false
+            }
+        }
+    ]
+}

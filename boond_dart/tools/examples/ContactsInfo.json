@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "version": "7.9.4.19",
+        "isLogged": true,
+        "language": "fr"
+    },
+    "data": {
+        "id": "5",
+        "type": "contact",
+        "attributes": {
+            "creationDate": "2021-09-21T23:01:31+0200",
+            "updateDate": "2021-09-21T23:01:31+0200",
+            "civility": 0,
+            "firstName": "Marie",
+            "lastName": "DUPOND",
+            "thumbnail": "",
+            "state": 7,
+            "email1": "marie.dupond@acme.com",
+            "email2": "",
+            "email3": "",
+            "phone1": "",
+            "phone2": "",
+            "fax": "",
+            "address": "33 rue de Paris",
+            "postcode": "75001",
+            "town": "Paris",
+            "country": "France",
+            "origin": {
+                "typeOf": -1,
+                "detail": ""
+            },
+            "activityAreas": [],
+            "informationComments": "",
+            "tools": [],
+            "department": "",
+            "function": "Commercial",
+            "socialNetworks": []
+        },
+        "relationships": {
+            "mainManager": {
+                "data": {
+                    "id": "57",
+                    "type": "resource"
+                }
+            },
+            "createdBy": {
+                "data": {
+                    "id": "57",
+                    "type": "resource"
+                }
+            },
+            "agency": {
+                "data": {
+                    "id": "2",
+                    "type": "agency"
+                }
+            },
+            "influencers": {
+                "data": []
+            },
+            "company": {
+                "data": {
+                    "id": "3",
+                    "type": "company"
+                }
+            }
+        }
+    },
+    "included": [
+        {
+            "id": "57",
+            "type": "resource",
+            "attributes": {
+                "lastName": "Consulting",
+                "firstName": "Jean"
+            }
+        },
+        {
+            "id": "2",
+            "type": "agency",
+            "attributes": {
+                "name": "Entite Consulting"
+            }
+        },
+        {
+            "id": "3",
+            "type": "company",
+            "attributes": {
+                "name": "ACME",
+                "phone1": "",
+                "postcode": "75001",
+                "website": "",
+                "fax": "",
+                "town": "Paris",
+                "address": "33 rue de Paris",
+                "country": "France",
+                "state": 7,
+                "staff": 0,
+                "informationComments": "Un partenaire est un lient au statut 'Partenaire'.",
+                "departments": [],
+                "expertiseArea": ""
+            },
+            "relationships": {
+                "parentCompany": {
+                    "data": null
+                }
+            }
+        }
+    ]
+}

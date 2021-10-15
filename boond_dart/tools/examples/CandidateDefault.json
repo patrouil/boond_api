@@ -1,0 +1,53 @@
+{
+    "meta": {
+        "version": "7.7.0.16",
+        "isLogged": true,
+        "language": "fr"
+    },
+    "data": {
+        "id": "0",
+        "type": "candidate",
+        "attributes": {
+            "civility": 0,
+            "state": 0,
+            "country": "France"
+        },
+        "relationships": {
+            "mainManager": {
+                "data": {
+                    "id": "1",
+                    "type": "resource"
+                }
+            },
+            "hrManager": {
+                "data": {
+                    "id": "1",
+                    "type": "resource"
+                }
+            },
+            "agency": {
+                "data": {
+                    "id": "1",
+                    "type": "agency"
+                }
+            }
+        }
+    },
+    "included": [
+        {
+            "id": "1",
+            "type": "resource",
+            "attributes": {
+                "lastName": "rouillon",
+                "firstName": "patrick"
+            }
+        },
+        {
+            "id": "1",
+            "type": "agency",
+            "attributes": {
+                "name": "GROUPE BIA"
+            }
+        }
+    ]
+}

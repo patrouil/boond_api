@@ -1,0 +1,129 @@
+{
+    "meta": {
+        "version": "7.9.3.30",
+        "isLogged": true,
+        "language": "fr"
+    },
+    "data": {
+        "id": "2",
+        "type": "opportunity",
+        "attributes": {
+            "creationDate": "2020-02-20T00:00:00+0100",
+            "updateDate": "2021-04-05T18:42:44+0200",
+            "title": "DEV Java",
+            "reference": "20022",
+            "state": 0,
+            "typeOf": 1,
+            "mode": 1,
+            "origin": {
+                "typeOf": -1,
+                "detail": ""
+            },
+            "description": "Recherche programmeur Java",
+            "criteria": "Grand \naux petits pieds.",
+            "expertiseArea": "Banque",
+            "activityAreas": [],
+            "tools": [
+                "outil1"
+            ],
+            "place": "monde",
+            "duration": 255,
+            "turnoverWeightedExcludingTax": 0,
+            "estimatesExcludingTax": 0,
+            "turnoverEstimatedExcludingTax": 0,
+            "weighting": 100,
+            "isVisible": true,
+            "startDate": "immediate",
+            "closingDate": "",
+            "answerDate": "",
+            "currency": 0,
+            "currencyAgency": 0,
+            "exchangeRate": 1,
+            "exchangeRateAgency": 1,
+            "validateSimulation": false,
+            "numberOfProjects": 0
+        },
+        "relationships": {
+            "mainManager": {
+                "data": {
+                    "id": "1",
+                    "type": "resource"
+                }
+            },
+            "hrManager": {
+                "data": null
+            },
+            "createdBy": {
+                "data": {
+                    "id": "1",
+                    "type": "resource"
+                }
+            },
+            "agency": {
+                "data": {
+                    "id": "1",
+                    "type": "agency"
+                }
+            },
+            "company": {
+                "data": {
+                    "id": "1",
+                    "type": "company"
+                }
+            },
+            "contact": {
+                "data": {
+                    "id": "1",
+                    "type": "contact"
+                }
+            },
+            "files": {
+                "data": [
+                    {
+                        "id": "17_document",
+                        "type": "document"
+                    }
+                ]
+            }
+        }
+    },
+    "included": [
+        {
+            "id": "1",
+            "type": "resource",
+            "attributes": {
+                "lastName": "rouillon",
+                "firstName": "patrick"
+            }
+        },
+        {
+            "id": "1",
+            "type": "agency",
+            "attributes": {
+                "name": "BIG COMPANY"
+            }
+        },
+        {
+            "id": "1",
+            "type": "company",
+            "attributes": {
+                "name": "BIA"
+            }
+        },
+        {
+            "id": "1",
+            "type": "contact",
+            "attributes": {
+                "lastName": "FirstCRM",
+                "firstName": "Pr\u00e9nomCRM"
+            }
+        },
+        {
+            "id": "17_document",
+            "type": "document",
+            "attributes": {
+                "name": "Pourquoi il est si difficile de mettre tous les Franc\u0327ais (qui le peuvent) au te\u0301le\u0301travail.pdf"
+            }
+        }
+    ]
+}

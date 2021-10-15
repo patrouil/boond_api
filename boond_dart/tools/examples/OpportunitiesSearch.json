@@ -1,0 +1,179 @@
+{
+    "meta": {
+        "totals": {
+            "rows": 2,
+            "turnoverWeightedExcludingTax": "0.00000000000000000000",
+            "turnoverEstimatedExcludingTax": "0.0000000000"
+        },
+        "version": "7.9.3.30",
+        "isLogged": true,
+        "language": "fr"
+    },
+    "data": [
+        {
+            "id": "2",
+            "type": "opportunity",
+            "attributes": {
+                "creationDate": "2020-02-20T00:00:00+0100",
+                "title": "DEV Java",
+                "reference": "20022",
+                "typeOf": 1,
+                "mode": 1,
+                "state": 0,
+                "place": "monde",
+                "isVisible": true,
+                "startDate": "immediate",
+                "closingDate": "",
+                "answerDate": "",
+                "duration": 255,
+                "currency": 0,
+                "exchangeRate": 1,
+                "currencyAgency": 0,
+                "exchangeRateAgency": 1,
+                "turnoverWeightedExcludingTax": 0,
+                "estimatesExcludingTax": 0,
+                "turnoverEstimatedExcludingTax": 0,
+                "expertiseArea": "Banque",
+                "activityAreas": [],
+                "origin": {
+                    "detail": "",
+                    "typeOf": -1
+                },
+                "tools": [
+                    "outil1"
+                ],
+                "numberOfActivePositionings": 0,
+                "canShowContact": true,
+                "canShowCompany": true
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                },
+                "pole": {
+                    "data": null
+                },
+                "agency": {
+                    "data": {
+                        "id": "1",
+                        "type": "agency"
+                    }
+                },
+                "contact": {
+                    "data": {
+                        "id": "1",
+                        "type": "contact"
+                    }
+                },
+                "company": {
+                    "data": {
+                        "id": "1",
+                        "type": "company"
+                    }
+                }
+            }
+        },
+        {
+            "id": "1",
+            "type": "opportunity",
+            "attributes": {
+                "creationDate": "2019-02-18T00:00:00+0100",
+                "title": "MOA",
+                "reference": "Ref-0001",
+                "typeOf": 1,
+                "mode": 1,
+                "state": 0,
+                "place": "",
+                "isVisible": true,
+                "startDate": "immediate",
+                "closingDate": "",
+                "answerDate": "",
+                "duration": 255,
+                "currency": 0,
+                "exchangeRate": 1,
+                "currencyAgency": 0,
+                "exchangeRateAgency": 1,
+                "turnoverWeightedExcludingTax": 0,
+                "estimatesExcludingTax": 0,
+                "turnoverEstimatedExcludingTax": 0,
+                "expertiseArea": "Banque",
+                "activityAreas": [],
+                "origin": {
+                    "detail": "",
+                    "typeOf": -1
+                },
+                "tools": [],
+                "numberOfActivePositionings": 1,
+                "canShowContact": true,
+                "canShowCompany": true
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                },
+                "pole": {
+                    "data": null
+                },
+                "agency": {
+                    "data": {
+                        "id": "1",
+                        "type": "agency"
+                    }
+                },
+                "contact": {
+                    "data": {
+                        "id": "1",
+                        "type": "contact"
+                    }
+                },
+                "company": {
+                    "data": {
+                        "id": "1",
+                        "type": "company"
+                    }
+                }
+            }
+        }
+    ],
+    "included": [
+        {
+            "id": "1",
+            "type": "resource",
+            "attributes": {
+                "firstName": "patrick",
+                "lastName": "rouillon"
+            }
+        },
+        {
+            "id": "1",
+            "type": "agency",
+            "attributes": {
+                "name": "BIG COMPANY"
+            }
+        },
+        {
+            "id": "1",
+            "type": "contact",
+            "attributes": {
+                "firstName": "Pr\u00e9nomCRM",
+                "lastName": "FirstCRM",
+                "canReadContact": true
+            }
+        },
+        {
+            "id": "1",
+            "type": "company",
+            "attributes": {
+                "name": "BIA",
+                "thumbnail": "",
+                "canReadCompany": true
+            }
+        }
+    ]
+}

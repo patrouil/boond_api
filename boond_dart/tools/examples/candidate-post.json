@@ -1,0 +1,24 @@
+{
+ "data": {
+  "attributes": {
+   "mobilityAreas": ["paris", "london"],
+   "phone1": "0668591968", 
+   "firstName": "test insert", 
+   "title": "", 
+   "skills": "", 
+   "lastName": "jean", 
+   "civility": 0, 
+   "phone2": "", 
+   "state": 0, 
+   "updateDate": "2019-09-04T18:07:55+0200", 
+   "numberOfActivePositionings": 0, 
+   "isVisible": true, 
+   "numberOfResumes": 0, 
+   "availability": 2, 
+   "email1": "rue.test@gmail.com"
+  }, 
+  "type": "candidate", 
+  "id": "17"
+ }
+}
+

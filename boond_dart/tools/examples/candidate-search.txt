@@ -1,0 +1,269 @@
+{
+    "meta": {
+        "totals": {
+            "rows": 8
+        },
+        "solr": false,
+        "version": "7.1.1",
+        "isLogged": true,
+        "language": "fr"
+    },
+    "data": [
+        {
+            "id": "17",
+            "type": "candidate",
+            "attributes": {
+                "updateDate": "2019-09-04T18:07:55+0200",
+                "civility": 0,
+                "firstName": "test insert",
+                "lastName": "jean",
+                "state": 0,
+                "isVisible": true,
+                "availability": 2,
+                "skills": "",
+                "mobilityAreas": ["paris", "london"],
+                "title": "",
+                "email1": "rue.test@gmail.com",
+                "phone1": "0668591968",
+                "phone2": "",
+                "numberOfResumes": 0,
+                "numberOfActivePositionings": 0
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "6",
+                        "type": "resource"
+                    }
+                }
+            }
+        },
+        {
+            "id": "16",
+            "type": "candidate",
+            "attributes": {
+                "updateDate": "2019-09-04T18:07:14+0200",
+                "civility": 0,
+                "firstName": "test insert",
+                "lastName": "jean",
+                "state": 0,
+                "isVisible": true,
+                "availability": 2,
+                "skills": "",
+                "mobilityAreas": ["paris", "london"],
+                "title": "",
+                "email1": "rue.test@gmail.com",
+                "phone1": "0668591968",
+                "phone2": "",
+                "numberOfResumes": 0,
+                "numberOfActivePositionings": 0
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "6",
+                        "type": "resource"
+                    }
+                }
+            }
+        },
+        {
+            "id": "15",
+            "type": "candidate",
+            "attributes": {
+                "updateDate": "2019-09-04T18:05:48+0200",
+                "civility": 0,
+                "firstName": "test insert",
+                "lastName": "jean",
+                "state": 0,
+                "isVisible": true,
+                "availability": 2,
+                "skills": "",
+                "mobilityAreas": ["paris", "london"],
+                "title": "",
+                "email1": "rue.test@gmail.com",
+                "phone1": "0668591968",
+                "phone2": "",
+                "numberOfResumes": 0,
+                "numberOfActivePositionings": 0
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "6",
+                        "type": "resource"
+                    }
+                }
+            }
+        },
+        {
+            "id": "3",
+            "type": "candidate",
+            "attributes": {
+                "updateDate": "2019-09-04T18:05:05+0200",
+                "civility": 0,
+                "firstName": "AAAAA",
+                "lastName": "jean",
+                "state": 0,
+                "isVisible": true,
+                "availability": 2,
+                "skills": "",
+                "mobilityAreas": ["paris", "london"],
+                "title": "",
+                "email1": "rue.test@gmail.com",
+                "phone1": "0668591968",
+                "phone2": "",
+                "numberOfResumes": 1,
+                "numberOfActivePositionings": 1
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                },
+                "resume": {
+                    "data": {
+                        "id": "1_resume",
+                        "type": "document"
+                    }
+                }
+            }
+        },
+        {
+            "id": "14",
+            "type": "candidate",
+            "attributes": {
+                "updateDate": "2019-09-04T18:03:36+0200",
+                "civility": 0,
+                "firstName": "test insert",
+                "lastName": "jean",
+                "state": 0,
+                "isVisible": true,
+                "availability": 2,
+                "skills": "",
+                "mobilityAreas": ["paris", "london"],
+                "title": "",
+                "email1": "rue.test@gmail.com",
+                "phone1": "0668591968",
+                "phone2": "",
+                "numberOfResumes": 0,
+                "numberOfActivePositionings": 0
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "6",
+                        "type": "resource"
+                    }
+                }
+            }
+        },
+        {
+            "id": "10",
+            "type": "candidate",
+            "attributes": {
+                "updateDate": "2019-08-28T12:16:32+0200",
+                "civility": 0,
+                "firstName": "test insert",
+                "lastName": "jean",
+                "state": 0,
+                "isVisible": true,
+                "availability": 2,
+                "skills": "",
+                "mobilityAreas": [],
+                "title": "",
+                "email1": "rue.test@gmail.com",
+                "phone1": "0668591968",
+                "phone2": "",
+                "numberOfResumes": 0,
+                "numberOfActivePositionings": 0
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "6",
+                        "type": "resource"
+                    }
+                }
+            }
+        },
+        {
+            "id": "9",
+            "type": "candidate",
+            "attributes": {
+                "updateDate": "2019-08-27T11:28:02+0200",
+                "civility": 0,
+                "firstName": "test insert",
+                "lastName": "jean",
+                "state": 0,
+                "isVisible": true,
+                "availability": 2,
+                "skills": "",
+                "mobilityAreas": [],
+                "title": "",
+                "email1": "rue.test@gmail.com",
+                "phone1": "0668591968",
+                "phone2": "",
+                "numberOfResumes": 0,
+                "numberOfActivePositionings": 0
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "6",
+                        "type": "resource"
+                    }
+                }
+            }
+        },
+        {
+            "id": "8",
+            "type": "candidate",
+            "attributes": {
+                "updateDate": "2019-08-27T10:58:36+0200",
+                "civility": 0,
+                "firstName": "test insert",
+                "lastName": "jean",
+                "state": 0,
+                "isVisible": true,
+                "availability": 2,
+                "skills": "",
+                "mobilityAreas": [],
+                "title": "",
+                "email1": "rue.test@gmail.com",
+                "phone1": "0668591968",
+                "phone2": "",
+                "numberOfResumes": 0,
+                "numberOfActivePositionings": 0
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "6",
+                        "type": "resource"
+                    }
+                }
+            }
+        }
+    ],
+    "included": [
+        {
+            "id": "6",
+            "type": "resource",
+            "attributes": {
+                "lastName": "patrners",
+                "firstName": "BIA"
+            }
+        },
+        {
+            "id": "1",
+            "type": "resource",
+            "attributes": {
+                "lastName": "rouillon",
+                "firstName": "patrick"
+            }
+        }
+    ]
+}

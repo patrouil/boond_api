@@ -1,0 +1,81 @@
+{
+    "meta": {
+        "totals": {
+            "rows": 1
+        },
+        "solr": false,
+        "version": "7.9.4.19",
+        "isLogged": true,
+        "language": "fr"
+    },
+    "data": [
+        {
+            "id": "5",
+            "type": "contact",
+            "attributes": {
+                "civility": 0,
+                "firstName": "Marie",
+                "lastName": "DUPOND",
+                "thumbnail": "",
+                "state": 7,
+                "function": "Commercial",
+                "department": "",
+                "email1": "marie.dupond@acme.com",
+                "phone1": "",
+                "phone2": "",
+                "town": "Paris",
+                "country": "France",
+                "canReadContact": true,
+                "canWriteContact": true
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "58",
+                        "type": "resource"
+                    }
+                },
+                "company": {
+                    "data": {
+                        "id": "3",
+                        "type": "company"
+                    }
+                },
+                "agency": {
+                    "data": {
+                        "id": "2",
+                        "type": "agency"
+                    }
+                },
+                "pole": {
+                    "data": null
+                }
+            }
+        }
+    ],
+    "included": [
+        {
+            "id": "58",
+            "type": "resource",
+            "attributes": {
+                "firstName": "Jean",
+                "lastName": "LEASING"
+            }
+        },
+        {
+            "id": "3",
+            "type": "company",
+            "attributes": {
+                "name": "ACME",
+                "expertiseArea": ""
+            }
+        },
+        {
+            "id": "2",
+            "type": "agency",
+            "attributes": {
+                "name": "Entite Consulting"
+            }
+        }
+    ]
+}

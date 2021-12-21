@@ -16,7 +16,6 @@
 // ignore: file_names
 import 'package:flutter/material.dart';
 //import 'package:logging/logging.dart';
-import 'package:flutter/cupertino.dart';
 
 typedef LabelGetter<T> = String Function(T value);
 typedef IdGetter<T> = int Function(T value);

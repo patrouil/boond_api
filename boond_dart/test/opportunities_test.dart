@@ -1,5 +1,5 @@
 /*
- * Copyright (c) patrouil ($year).This work is licensed under the
+ * Copyright (c) patrouil (2021).This work is licensed under the
  * Creative Commons Attribution-ShareAlike 4.0 International License.
  * To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
  *
@@ -10,7 +10,6 @@
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
- *
  *
  */
 
@@ -39,8 +38,8 @@ void traceHandler() {
 }
 
 void main() {
-  String _testUser = "patrick.rouillon@alteam.com";
-  String _testPwd = "5c5c2a5";
+  String _testUser = "XXXXXX";
+  String _testPwd = "XXXXXX";
   late BoondApi api;
   Logger log = Logger.root;
   log.level = Level.FINE;
@@ -54,7 +53,7 @@ void main() {
     cli = BoondAuth.basicAuth(
         user: _testUser, password: _testPwd, traceLevel: Level.FINEST);
 
-    api = BoondApi(cli, BoondApi.kSandboxHostname);
+    api = BoondApi(cli, BoondApi.kLiveHostname);
   });
 
   group('first test', () {

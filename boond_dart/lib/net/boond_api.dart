@@ -1,5 +1,5 @@
 /*
- * Copyright (c) patrouil (2020).This work is licensed under the
+ * Copyright (c) patrouil (2021).This work is licensed under the
  * Creative Commons Attribution-ShareAlike 4.0 International License.
  * To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
  *
@@ -10,7 +10,6 @@
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
- *
  *
  */
 
@@ -45,12 +44,13 @@ class BoondApi {
   // const attributes.
   static const kScheme = "https";
 
-  /// there a two categories of workspaces.
-  /// sandbox for tests purpose.
-  static const kSandboxHostname = "sandboxui.boondmanager.com";
+  // there a two categories of workspaces.
+  // sandbox for tests purpose.
+  // dec  2021 sandbox no longer exist.
+  //static const kSandboxHostname = "sandboxui.boondmanager.com";
 
   /// ui for production site.
-  static const kLiveHostname = "ui.boondmanager.com";
+  static const kLiveHostname = 'ui.boondmanager.com';
 
   /// The http client MUST be obtained with a [BoondAuth]
   final http.Client httpClient;
@@ -83,10 +83,10 @@ class BoondApi {
   ContactsApi get contacts => ContactsApi(this);
 
   /// API handled constructor. [httpClient] is returned by a BoondAuth athentication method.
-  /// [hostName] is a sandbox or ui.
+  /// [hostName] is always ui.
   /// To change trace level : BoondAuth.log.level = Level.FINEST;
   const BoondApi(this.httpClient, this.hostName)
-      : assert(hostName == kSandboxHostname || hostName == kLiveHostname);
+      : assert(hostName == kLiveHostname);
 }
 
 /// @nodocs

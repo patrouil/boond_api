@@ -15,4 +15,4 @@
 
 library boond_flutter;
 
-export 'BoondDropdownFormField.dart';
+export 'boond_dropdown_form_field.dart';

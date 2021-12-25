@@ -1,0 +1,150 @@
+{
+    "meta": {
+        "version": "7.1.1",
+        "isLogged": true,
+        "language": "fr"
+    },
+    "data": {
+        "id": "5",
+        "type": "candidate",
+        "attributes": {
+            "creationDate": "2019-06-07T16:28:51+0200",
+            "updateDate": "2019-08-30T17:50:13+0200",
+            "civility": 0,
+            "lastName": "jean",
+            "firstName": "jean",
+            "title": "",
+            "state": 0,
+            "email1": "dhdhd@alteam.com",
+            "email2": "",
+            "email3": "",
+            "phone1": "",
+            "phone2": "",
+            "phone3": "",
+            "fax": "",
+            "address": "",
+            "postcode": "",
+            "town": "",
+            "country": "France",
+            "source": {
+                "typeOf": -1,
+                "detail": ""
+            },
+            "dateOfBirth": "2002-01-01",
+            "mobilityAreas": ["paris"],
+            "globalEvaluation": "B",
+            "evaluations": ["bien", "acceptable"],
+            "availability": 2,
+            "isVisible": true,
+            "informationComments": "commentaire \u00e0 faire.",
+            "socialNetworks": ["skype"]
+        },
+        "relationships": {
+            "mainManager": {
+                "data": {
+                    "id": "1",
+                    "type": "resource"
+                }
+            },
+            "hrManager": {
+                "data": {
+                    "id": "6",
+                    "type": "resource"
+                }
+            },
+            "agency": {
+                "data": {
+                    "id": "1",
+                    "type": "agency"
+                }
+            },
+            "resource": {
+                "data": null
+            },
+            "resumes": {
+                "data": [
+                    {
+                        "id": "3_resume",
+                        "type": "document"
+                    },
+                    {
+                        "id": "14_resume",
+                        "type": "document"
+                    },
+                    {
+                        "id": "18_resume",
+                        "type": "document"
+                    },
+                    {
+                        "id": "19_resume",
+                        "type": "document"
+                    },
+                    {
+                        "id": "20_resume",
+                        "type": "document"
+                    }
+                ]
+            }
+        }
+    },
+    "included": [
+        {
+            "id": "1",
+            "type": "resource",
+            "attributes": {
+                "lastName": "rouillon",
+                "firstName": "patrick"
+            }
+        },
+        {
+            "id": "6",
+            "type": "resource",
+            "attributes": {
+                "lastName": "patrners",
+                "firstName": "BIA"
+            }
+        },
+        {
+            "id": "1",
+            "type": "agency",
+            "attributes": {
+                "name": "GROUPE BIA"
+            }
+        },
+        {
+            "id": "3_resume",
+            "type": "document",
+            "attributes": {
+                "name": "Proactive Monitoring Scenarios_V2.pdf"
+            }
+        },
+        {
+            "id": "14_resume",
+            "type": "document",
+            "attributes": {
+                "name": "toto.txt"
+            }
+        },
+        {
+            "id": "18_resume",
+            "type": "document",
+            "attributes": {
+                "name": "toto.txt"
+            }
+        },
+        {
+            "id": "19_resume",
+            "type": "document",
+            "attributes": {
+                "name": "toto.txt"
+            }
+        },
+        {
+            "id": "20_resume",
+            "type": "document",
+            "attributes": {
+                "name": "toto.txt"
+            }
+        }
+    ]
+}

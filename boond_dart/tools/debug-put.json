@@ -1,0 +1,54 @@
+{
+  "data": {
+    "id": 2,
+    "type": "candidate",
+    "attributes": {
+      "creationDate": "2019-02-17T18:29:03+0100",
+      "updateDate": "2020-09-15T18:56:44+0200",
+      "civility": 0,
+      "lastName": "SMITH",
+      "firstName": "John",
+      "title": "",
+      "state": 0,
+      "email1": "toto@nowhere.com",
+      "email2": "mettre ici le mais de reponse si different",
+      "email3": "",
+      "phone1": "",
+      "phone2": "",
+      "phone3": "",
+      "fax": "",
+      "address": "",
+      "postcode": "",
+      "town": "",
+      "country": "France",
+      "source": {
+        "typeOf": 5,
+        "detail": "mail recrutement"
+      },
+      "mobilityAreas": [],
+      "globalEvaluation": -1,
+      "evaluations": [],
+      "availability": -1,
+      "isVisible": true,
+      "informationComments": "Mettre ici le texte du mail",
+      "socialNetworks": []
+    },
+    "relationships": {
+      "mainManager": {
+        "data": {
+          "id": 1,
+          "type": "resource"
+        }
+      },
+      "hrManager": {
+        "data": {
+          "id": 1,
+          "type": "resource"
+        }
+      },
+      "agency": {
+        "data": {
+          "id": 1, "type": "agency"
+        }},
+      "resource": {}, "resumes": {
+      "data": []}}}}

@@ -1,0 +1,48 @@
+{
+    "meta": {
+        "version": "7.9.4.19",
+        "isLogged": true,
+        "language": "fr"
+    },
+    "data": {
+        "id": "5",
+        "type": "contact",
+        "attributes": {
+            "civility": 0,
+            "updateDate": "2021-09-21T23:01:31+0200",
+            "creationDate": "2021-09-21T23:01:31+0200",
+            "firstName": "Marie",
+            "lastName": "DUPOND",
+            "thumbnail": ""
+        },
+        "relationships": {
+            "mainManager": {
+                "data": {
+                    "id": "57",
+                    "type": "resource"
+                }
+            },
+            "company": {
+                "data": {
+                    "id": "3",
+                    "type": "company"
+                }
+            },
+            "agency": {
+                "data": {
+                    "id": "2",
+                    "type": "agency"
+                }
+            }
+        }
+    },
+    "included": [
+        {
+            "id": "3",
+            "type": "company",
+            "attributes": {
+                "name": "ACME"
+            }
+        }
+    ]
+}

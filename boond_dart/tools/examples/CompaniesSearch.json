@@ -1,0 +1,141 @@
+{
+    "meta": {
+        "totals": {
+            "rows": 3
+        },
+        "solr": false,
+        "version": "7.9.4.19",
+        "isLogged": true,
+        "language": "fr"
+    },
+    "data": [
+        {
+            "id": "3",
+            "type": "company",
+            "attributes": {
+                "name": "ACME",
+                "expertiseArea": "",
+                "state": 7,
+                "informationComments": "Un partenaire est un lient au statut 'Partenaire'.",
+                "website": "",
+                "thumbnail": "company_3_3133d188763524d6a3bf439f891ecb5517657700",
+                "phone1": "",
+                "town": "Paris",
+                "country": "France"
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "57",
+                        "type": "resource"
+                    }
+                },
+                "agency": {
+                    "data": {
+                        "id": "2",
+                        "type": "agency"
+                    }
+                },
+                "pole": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": "2",
+            "type": "company",
+            "attributes": {
+                "name": "Alteam",
+                "expertiseArea": "Assurance",
+                "state": 0,
+                "informationComments": "",
+                "website": "",
+                "thumbnail": "",
+                "phone1": "",
+                "town": "",
+                "country": "France"
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                },
+                "agency": {
+                    "data": {
+                        "id": "1",
+                        "type": "agency"
+                    }
+                },
+                "pole": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "id": "1",
+            "type": "company",
+            "attributes": {
+                "name": "BIA",
+                "expertiseArea": "Banque",
+                "state": 0,
+                "informationComments": "",
+                "website": "",
+                "thumbnail": "",
+                "phone1": "0103040206",
+                "town": "Paris",
+                "country": "France"
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                },
+                "agency": {
+                    "data": {
+                        "id": "1",
+                        "type": "agency"
+                    }
+                },
+                "pole": {
+                    "data": null
+                }
+            }
+        }
+    ],
+    "included": [
+        {
+            "id": "57",
+            "type": "resource",
+            "attributes": {
+                "firstName": "Jean",
+                "lastName": "Consulting"
+            }
+        },
+        {
+            "id": "2",
+            "type": "agency",
+            "attributes": {
+                "name": "Entite Consulting"
+            }
+        },
+        {
+            "id": "1",
+            "type": "resource",
+            "attributes": {
+                "firstName": "patrick",
+                "lastName": "rouillon"
+            }
+        },
+        {
+            "id": "1",
+            "type": "agency",
+            "attributes": {
+                "name": "Entite Conseil"
+            }
+        }
+    ]
+}

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8c60a7de-f118-43ae-88a1-e490d93a31f7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="Dart Class" />
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="patrouil &lt;patrouil@gmail.com&gt;Huge code reorganisayion. Divided in two" />
+        <option value="patrouil" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="01ce5ff7-8572-4d81-8e99-7220d641c17c" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dGB0Ovs8MQUKB1L0Vr0vD0ZILl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.force.activate" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/boond_flutter/lib" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/boond_flutter/lib" />
+      <recent name="$PROJECT_DIR$/boond_dart/lib/net" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/test/current-user" />
+      <recent name="$PROJECT_DIR$/../boond_wf" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/boond_dart/lib/net" />
+      <recent name="$PROJECT_DIR$/api" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Dart Command Line App.test_api">
+    <configuration name="test_api" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="filePath" value="$PROJECT_DIR$/api/test/opportunities_test.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in opportunities_test.dart" type="DartTestRunConfigurationType" factoryName="Dart Test" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/api/test/opportunities_test.dart" />
+      <option name="testName" value="opportunities_test.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c60a7de-f118-43ae-88a1-e490d93a31f7" name="Default Changelist" comment="" />
+      <created>1592041326104</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592041326104</updated>
+      <workItem from="1592041336448" duration="3808000" />
+      <workItem from="1592045200058" duration="1350000" />
+      <workItem from="1592064286096" duration="507000" />
+      <workItem from="1592064830911" duration="793000" />
+      <workItem from="1592216677500" duration="679000" />
+      <workItem from="1592249372380" duration="1282000" />
+      <workItem from="1592252198770" duration="84000" />
+      <workItem from="1592252324456" duration="166000" />
+      <workItem from="1592252527022" duration="415000" />
+      <workItem from="1592302336145" duration="1203000" />
+      <workItem from="1592404387056" duration="1031000" />
+      <workItem from="1592469252855" duration="198000" />
+      <workItem from="1592513305969" duration="587000" />
+      <workItem from="1592560793469" duration="799000" />
+      <workItem from="1592569453334" duration="597000" />
+      <workItem from="1592572554267" duration="618000" />
+      <workItem from="1592682357361" duration="881000" />
+      <workItem from="1592683563419" duration="4015000" />
+      <workItem from="1592916130087" duration="2200000" />
+      <workItem from="1592918420136" duration="106000" />
+      <workItem from="1592918656429" duration="3629000" />
+      <workItem from="1593093069444" duration="3482000" />
+      <workItem from="1593436630058" duration="1234000" />
+      <workItem from="1593634008858" duration="1243000" />
+      <workItem from="1593640165507" duration="132000" />
+      <workItem from="1593640356578" duration="257000" />
+      <workItem from="1593640667397" duration="137000" />
+      <workItem from="1593782232566" duration="468000" />
+      <workItem from="1593782823832" duration="6172000" />
+      <workItem from="1594063181160" duration="1353000" />
+      <workItem from="1594150935299" duration="1193000" />
+      <workItem from="1594227271595" duration="871000" />
+      <workItem from="1594237824589" duration="659000" />
+      <workItem from="1594239547063" duration="1080000" />
+      <workItem from="1594410478056" duration="53000" />
+      <workItem from="1594410598203" duration="605000" />
+      <workItem from="1594446536117" duration="8355000" />
+      <workItem from="1595104099026" duration="712000" />
+      <workItem from="1595430386460" duration="596000" />
+      <workItem from="1595447374568" duration="639000" />
+      <workItem from="1595535009180" duration="64000" />
+      <workItem from="1595535186675" duration="1806000" />
+      <workItem from="1595624463953" duration="1318000" />
+      <workItem from="1596217699050" duration="309000" />
+      <workItem from="1596218101298" duration="1972000" />
+      <workItem from="1596399610099" duration="603000" />
+      <workItem from="1596659707160" duration="62000" />
+      <workItem from="1597844113691" duration="620000" />
+      <workItem from="1598039118529" duration="1199000" />
+      <workItem from="1598453388195" duration="598000" />
+      <workItem from="1598990536687" duration="602000" />
+      <workItem from="1599248882396" duration="599000" />
+      <workItem from="1599249759770" duration="592000" />
+      <workItem from="1599855410283" duration="593000" />
+      <workItem from="1599856056009" duration="52000" />
+      <workItem from="1599856147049" duration="597000" />
+      <workItem from="1600112649179" duration="1323000" />
+      <workItem from="1600182285737" duration="10684000" />
+      <workItem from="1600260779593" duration="113000" />
+      <workItem from="1600260959919" duration="598000" />
+      <workItem from="1600284843798" duration="597000" />
+      <workItem from="1600445486945" duration="9381000" />
+      <workItem from="1600784567653" duration="5064000" />
+      <workItem from="1600865683688" duration="592000" />
+      <workItem from="1601147298492" duration="10043000" />
+      <workItem from="1601494746490" duration="568000" />
+      <workItem from="1601496459548" duration="1311000" />
+      <workItem from="1601578339139" duration="696000" />
+      <workItem from="1601579587762" duration="3926000" />
+      <workItem from="1601671508277" duration="588000" />
+      <workItem from="1601757971143" duration="828000" />
+      <workItem from="1602013819194" duration="617000" />
+      <workItem from="1602420617411" duration="6985000" />
+      <workItem from="1602539961630" duration="1996000" />
+      <workItem from="1602854857097" duration="13419000" />
+      <workItem from="1602886704068" duration="272000" />
+      <workItem from="1602970663839" duration="6000" />
+      <workItem from="1602970700455" duration="184000" />
+      <workItem from="1603052164233" duration="3433000" />
+      <workItem from="1603055742603" duration="799000" />
+      <workItem from="1603056562409" duration="246000" />
+      <workItem from="1603114804704" duration="630000" />
+      <workItem from="1603115464407" duration="691000" />
+      <workItem from="1603116287390" duration="599000" />
+      <workItem from="1603122057191" duration="1187000" />
+      <workItem from="1603125401225" duration="1239000" />
+      <workItem from="1603308828760" duration="1581000" />
+      <workItem from="1603398839841" duration="1458000" />
+      <workItem from="1605105108055" duration="1742000" />
+      <workItem from="1605111446723" duration="5482000" />
+      <workItem from="1605122065032" duration="148000" />
+      <workItem from="1608221294203" duration="391000" />
+      <workItem from="1608221751803" duration="1856000" />
+      <workItem from="1608236263878" duration="591000" />
+      <workItem from="1608289096948" duration="597000" />
+      <workItem from="1608484496095" duration="597000" />
+      <workItem from="1608543969430" duration="914000" />
+      <workItem from="1608569322309" duration="9815000" />
+      <workItem from="1608646346091" duration="1000" />
+      <workItem from="1608656886266" duration="1279000" />
+      <workItem from="1609097342097" duration="1208000" />
+      <workItem from="1609273474054" duration="598000" />
+      <workItem from="1614715558926" duration="835000" />
+      <workItem from="1614716442652" duration="596000" />
+      <workItem from="1615152014058" duration="707000" />
+      <workItem from="1616017143306" duration="75000" />
+      <workItem from="1616017259871" duration="178000" />
+      <workItem from="1616017468883" duration="77000" />
+      <workItem from="1616861269591" duration="70000" />
+      <workItem from="1616861374628" duration="589000" />
+      <workItem from="1617046817431" duration="590000" />
+      <workItem from="1617180106032" duration="13000" />
+      <workItem from="1617565112328" duration="11480000" />
+      <workItem from="1617699882257" duration="4899000" />
+      <workItem from="1617811600333" duration="599000" />
+      <workItem from="1617913618084" duration="1377000" />
+      <workItem from="1617998678368" duration="605000" />
+      <workItem from="1618063300631" duration="599000" />
+      <workItem from="1618064208356" duration="5000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial release 0.0.1">
+      <created>1603054576419</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603054576419</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial release 0.0.1">
+      <created>1603054616549</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603054616549</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial release 0.0.1">
+      <created>1603055014917</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603055014917</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initial release 0.0.1">
+      <created>1603055039578</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603055039578</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Initial release 0.0.1">
+      <created>1603055054904</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603055054904</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Initial release 0.0.1">
+      <created>1603055064456</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603055064456</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Initial release 0.0.1">
+      <created>1603055074739</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603055074739</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Initial release 0.0.1">
+      <created>1603055232217</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603055232217</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Mise a jours du format du message AppDictionnary. Le Calendar n'est plus un String mais une classe.">
+      <created>1605121933820</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605121933820</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Fix du bug sur la zone navigationBar de current-user. Ajout de la premiere methode de test">
+      <created>1608657383901</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608657383901</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Forgotten DEBUG mod removed.">
+      <created>1608657461163</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608657461163</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Updated Dependencies">
+      <created>1608657576821</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608657576821</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Updated DependenciesHuge code reorganisation.&#10;Division into two sub project. The APIs in dart and some Boonds Widget in Flutter.&#10;Added Companies and Contacts API.">
+      <created>1634333981230</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1634333981230</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial release 0.0.1" />
+    <MESSAGE value="Mise a jours du format du message AppDictionnary. Le Calendar n'est plus un String mais une classe." />
+    <MESSAGE value="Fix du bug sur la zone navigationBar de current-user. Ajout de la premiere methode de test" />
+    <MESSAGE value="Forgotten DEBUG mod removed." />
+    <MESSAGE value="Updated Dependencies" />
+    <MESSAGE value="Updated DependenciesHuge code reorganisation.&#10;Division into two sub project. The APIs in dart and some Boonds Widget in Flutter.&#10;Added Companies and Contacts API." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated DependenciesHuge code reorganisation.&#10;Division into two sub project. The APIs in dart and some Boonds Widget in Flutter.&#10;Added Companies and Contacts API." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/boond_dart/lib/entities/contacts_entity.g.dart</url>
+          <line>75</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

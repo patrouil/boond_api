@@ -1,0 +1,102 @@
+{
+    "meta": {
+        "version": "7.9.4.19",
+        "isLogged": true,
+        "language": "fr"
+    },
+    "data": {
+        "id": "3",
+        "type": "company",
+        "attributes": {
+            "creationDate": "2021-09-21T22:54:39+0200",
+            "updateDate": "2021-10-02T16:58:09+0200",
+            "name": "ACME",
+            "state": 7,
+            "website": "",
+            "thumbnail": "company_3_3133d188763524d6a3bf439f891ecb5517657700",
+            "phone1": "",
+            "fax": "",
+            "postcode": "75001",
+            "address": "33 rue de Paris",
+            "town": "Paris",
+            "country": "France",
+            "number": "ACM01",
+            "origin": {
+                "typeOf": -1,
+                "detail": ""
+            },
+            "staff": 0,
+            "expertiseArea": "",
+            "informationComments": "Un partenaire est un lient au statut 'Partenaire'.",
+            "departments": [],
+            "vatNumber": "FR222222",
+            "registrationNumber": "",
+            "legalStatus": "SARL",
+            "registeredOffice": "",
+            "apeCode": "ZZ999",
+            "billingDetails": [],
+            "socialNetworks": []
+        },
+        "relationships": {
+            "mainManager": {
+                "data": {
+                    "id": "57",
+                    "type": "resource"
+                }
+            },
+            "createdBy": {
+                "data": {
+                    "id": "57",
+                    "type": "resource"
+                }
+            },
+            "agency": {
+                "data": {
+                    "id": "2",
+                    "type": "agency"
+                }
+            },
+            "files": {
+                "data": [
+                    {
+                        "id": "18_document",
+                        "type": "document"
+                    }
+                ]
+            },
+            "influencers": {
+                "data": []
+            },
+            "parentCompany": {
+                "data": null
+            },
+            "subsidiaries": {
+                "data": []
+            }
+        }
+    },
+    "included": [
+        {
+            "id": "57",
+            "type": "resource",
+            "attributes": {
+                "lastName": "Consulting",
+                "firstName": "Jean"
+            }
+        },
+        {
+            "id": "2",
+            "type": "agency",
+            "attributes": {
+                "name": "Entite Consulting"
+            }
+        },
+        {
+            "id": "18_document",
+            "type": "document",
+            "attributes": {
+                "name": "bareme.xlsx"
+            }
+        }
+    ]
+}

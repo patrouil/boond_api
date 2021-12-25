@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "version": "7.9.4.19",
+        "isLogged": true,
+        "language": "fr"
+    },
+    "data": {
+        "id": "3",
+        "type": "company",
+        "attributes": {
+            "name": "ACME",
+            "creationDate": "2021-09-21T22:54:39+0200",
+            "updateDate": "2021-09-21T22:56:32+0200",
+            "thumbnail": "company_3_3133d188763524d6a3bf439f891ecb5517657700"
+        },
+        "relationships": {
+            "mainManager": {
+                "data": {
+                    "id": "57",
+                    "type": "resource"
+                }
+            },
+            "agency": {
+                "data": {
+                    "id": "2",
+                    "type": "agency"
+                }
+            }
+        }
+    }
+}

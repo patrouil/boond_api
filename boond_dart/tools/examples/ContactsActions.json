@@ -1,0 +1,62 @@
+{
+    "meta": {
+        "totals": {
+            "rows": 1
+        },
+        "version": "7.9.4.19",
+        "isLogged": true,
+        "language": "fr"
+    },
+    "data": [
+        {
+            "id": "169",
+            "type": "action",
+            "attributes": {
+                "startDate": "2021-09-21T23:00:00+0200",
+                "creationDate": "2021-09-21T23:02:07+0200",
+                "typeOf": 3,
+                "text": "Rendez vous commercial",
+                "numberOfFiles": 0,
+                "canReadAction": true,
+                "canWriteAction": true
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "57",
+                        "type": "resource"
+                    }
+                },
+                "company": {
+                    "data": {
+                        "id": "3",
+                        "type": "company"
+                    }
+                },
+                "dependsOn": {
+                    "data": {
+                        "id": "5",
+                        "type": "contact"
+                    }
+                }
+            }
+        }
+    ],
+    "included": [
+        {
+            "id": "57",
+            "type": "resource",
+            "attributes": {
+                "lastName": "Consulting",
+                "firstName": "Jean"
+            }
+        },
+        {
+            "id": "3",
+            "type": "company",
+            "attributes": {
+                "name": "ACME"
+            }
+        }
+    ]
+}

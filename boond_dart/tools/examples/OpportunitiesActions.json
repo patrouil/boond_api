@@ -1,0 +1,118 @@
+{
+    "meta": {
+        "totals": {
+            "rows": 3
+        },
+        "version": "7.9.3.30",
+        "isLogged": true,
+        "language": "fr"
+    },
+    "data": [
+        {
+            "id": "167",
+            "type": "action",
+            "attributes": {
+                "startDate": "2021-04-05T18:32:36+0200",
+                "creationDate": "2021-04-05T18:32:36+0200",
+                "typeOf": 103,
+                "isNotification": true,
+                "text": "Ajout du document \"Pourquoi il est si difficile de mettre tous les Franc\u0327ais (qui le peuvent) au te\u0301le\u0301travail.pdf\"",
+                "notificationTitle": "",
+                "status": "create",
+                "state": "managed",
+                "numberOfFiles": 0,
+                "canReadAction": true,
+                "canWriteAction": false,
+                "isEntityDeleted": false
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                },
+                "dependsOn": {
+                    "data": {
+                        "id": "2",
+                        "type": "opportunity"
+                    }
+                }
+            }
+        },
+        {
+            "id": "166",
+            "type": "action",
+            "attributes": {
+                "startDate": "2021-04-05T18:30:39+0200",
+                "creationDate": "2021-04-05T18:30:39+0200",
+                "typeOf": 103,
+                "isNotification": true,
+                "text": "Modification de l'onglet \"Informations\" :\nCrit\u00e8res requis :  -> Grand \naux petits pieds.",
+                "notificationTitle": "",
+                "status": "update",
+                "state": "managed",
+                "numberOfFiles": 0,
+                "canReadAction": true,
+                "canWriteAction": false,
+                "isEntityDeleted": false
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                },
+                "dependsOn": {
+                    "data": {
+                        "id": "2",
+                        "type": "opportunity"
+                    }
+                }
+            }
+        },
+        {
+            "id": "168",
+            "type": "action",
+            "attributes": {
+                "startDate": "2021-04-05T18:00:00+0200",
+                "creationDate": "2021-04-05T18:33:20+0200",
+                "typeOf": 51,
+                "isNotification": false,
+                "text": "Message de diffusion.",
+                "notificationTitle": "",
+                "status": "notice",
+                "state": "managed",
+                "numberOfFiles": 0,
+                "canReadAction": true,
+                "canWriteAction": true,
+                "isEntityDeleted": false
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                },
+                "dependsOn": {
+                    "data": {
+                        "id": "2",
+                        "type": "opportunity"
+                    }
+                }
+            }
+        }
+    ],
+    "included": [
+        {
+            "id": "1",
+            "type": "resource",
+            "attributes": {
+                "lastName": "rouillon",
+                "firstName": "patrick"
+            }
+        }
+    ]
+}

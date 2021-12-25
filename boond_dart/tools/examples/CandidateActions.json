@@ -1,0 +1,679 @@
+{
+    "meta": {
+        "totals": {
+            "rows": 21
+        },
+        "version": "7.7.0.16",
+        "isLogged": true,
+        "language": "fr"
+    },
+    "data": [
+        {
+            "id": "47",
+            "type": "action",
+            "attributes": {
+                "startDate": "2020-05-06T12:00:00+0200",
+                "creationDate": "2020-05-06T12:25:26+0200",
+                "typeOf": 13,
+                "isNotification": false,
+                "text": "essai de action a lire.\nMais pas de PJ ???",
+                "status": "notice",
+                "state": "managed",
+                "numberOfFiles": 3,
+                "canReadAction": true,
+                "canWriteAction": true,
+                "isEntityDeleted": false
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                },
+                "file": {
+                    "data": {
+                        "id": "1_document",
+                        "type": "document"
+                    }
+                },
+                "dependsOn": {
+                    "data": {
+                        "id": "5",
+                        "type": "candidate"
+                    }
+                }
+            }
+        },
+        {
+            "id": "27",
+            "type": "action",
+            "attributes": {
+                "startDate": "2019-09-13T08:38:20+0200",
+                "creationDate": "2019-09-13T08:38:20+0200",
+                "typeOf": 100,
+                "isNotification": true,
+                "text": "Ajout du document \"Candidature sur offre d'emploi N\u00b0 164526266W - BIA CONSULTING - Consultant AMOA Banque_Assurance F_H.eml\"",
+                "status": "create",
+                "state": "managed",
+                "numberOfFiles": 0,
+                "canReadAction": true,
+                "canWriteAction": false,
+                "isEntityDeleted": false
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                },
+                "dependsOn": {
+                    "data": {
+                        "id": "5",
+                        "type": "candidate"
+                    }
+                }
+            }
+        },
+        {
+            "id": "26",
+            "type": "action",
+            "attributes": {
+                "startDate": "2019-09-06T14:12:19+0200",
+                "creationDate": "2019-09-06T14:12:19+0200",
+                "typeOf": 100,
+                "isNotification": true,
+                "text": "Suppression du CV \"toto.txt\"",
+                "status": "delete",
+                "state": "managed",
+                "numberOfFiles": 0,
+                "canReadAction": true,
+                "canWriteAction": false,
+                "isEntityDeleted": false
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                },
+                "dependsOn": {
+                    "data": {
+                        "id": "5",
+                        "type": "candidate"
+                    }
+                }
+            }
+        },
+        {
+            "id": "25",
+            "type": "action",
+            "attributes": {
+                "startDate": "2019-09-06T14:12:14+0200",
+                "creationDate": "2019-09-06T14:12:14+0200",
+                "typeOf": 100,
+                "isNotification": true,
+                "text": "Suppression du CV \"toto.txt\"",
+                "status": "delete",
+                "state": "managed",
+                "numberOfFiles": 0,
+                "canReadAction": true,
+                "canWriteAction": false,
+                "isEntityDeleted": false
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                },
+                "dependsOn": {
+                    "data": {
+                        "id": "5",
+                        "type": "candidate"
+                    }
+                }
+            }
+        },
+        {
+            "id": "24",
+            "type": "action",
+            "attributes": {
+                "startDate": "2019-09-06T14:12:12+0200",
+                "creationDate": "2019-09-06T14:12:12+0200",
+                "typeOf": 100,
+                "isNotification": true,
+                "text": "Suppression du CV \"toto.txt\"",
+                "status": "delete",
+                "state": "managed",
+                "numberOfFiles": 0,
+                "canReadAction": true,
+                "canWriteAction": false,
+                "isEntityDeleted": false
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                },
+                "dependsOn": {
+                    "data": {
+                        "id": "5",
+                        "type": "candidate"
+                    }
+                }
+            }
+        },
+        {
+            "id": "23",
+            "type": "action",
+            "attributes": {
+                "startDate": "2019-09-06T14:12:09+0200",
+                "creationDate": "2019-09-06T14:12:09+0200",
+                "typeOf": 100,
+                "isNotification": true,
+                "text": "Suppression du CV \"toto.txt\"",
+                "status": "delete",
+                "state": "managed",
+                "numberOfFiles": 0,
+                "canReadAction": true,
+                "canWriteAction": false,
+                "isEntityDeleted": false
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                },
+                "dependsOn": {
+                    "data": {
+                        "id": "5",
+                        "type": "candidate"
+                    }
+                }
+            }
+        },
+        {
+            "id": "21",
+            "type": "action",
+            "attributes": {
+                "startDate": "2019-08-30T17:50:13+0200",
+                "creationDate": "2019-08-30T17:50:13+0200",
+                "typeOf": 100,
+                "isNotification": true,
+                "text": "Suppression du CV \"toto.txt\"",
+                "status": "delete",
+                "state": "managed",
+                "numberOfFiles": 0,
+                "canReadAction": true,
+                "canWriteAction": false,
+                "isEntityDeleted": false
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                },
+                "dependsOn": {
+                    "data": {
+                        "id": "5",
+                        "type": "candidate"
+                    }
+                }
+            }
+        },
+        {
+            "id": "20",
+            "type": "action",
+            "attributes": {
+                "startDate": "2019-08-30T17:50:10+0200",
+                "creationDate": "2019-08-30T17:50:10+0200",
+                "typeOf": 100,
+                "isNotification": true,
+                "text": "Suppression du CV \"toto.txt\"",
+                "status": "delete",
+                "state": "managed",
+                "numberOfFiles": 0,
+                "canReadAction": true,
+                "canWriteAction": false,
+                "isEntityDeleted": false
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                },
+                "dependsOn": {
+                    "data": {
+                        "id": "5",
+                        "type": "candidate"
+                    }
+                }
+            }
+        },
+        {
+            "id": "19",
+            "type": "action",
+            "attributes": {
+                "startDate": "2019-08-30T17:50:08+0200",
+                "creationDate": "2019-08-30T17:50:08+0200",
+                "typeOf": 100,
+                "isNotification": true,
+                "text": "Suppression du CV \"toto.txt\"",
+                "status": "delete",
+                "state": "managed",
+                "numberOfFiles": 0,
+                "canReadAction": true,
+                "canWriteAction": false,
+                "isEntityDeleted": false
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                },
+                "dependsOn": {
+                    "data": {
+                        "id": "5",
+                        "type": "candidate"
+                    }
+                }
+            }
+        },
+        {
+            "id": "18",
+            "type": "action",
+            "attributes": {
+                "startDate": "2019-08-30T17:28:07+0200",
+                "creationDate": "2019-08-30T17:28:07+0200",
+                "typeOf": 100,
+                "isNotification": true,
+                "text": "Suppression du CV \"toto.txt\"",
+                "status": "delete",
+                "state": "managed",
+                "numberOfFiles": 0,
+                "canReadAction": true,
+                "canWriteAction": false,
+                "isEntityDeleted": false
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                },
+                "dependsOn": {
+                    "data": {
+                        "id": "5",
+                        "type": "candidate"
+                    }
+                }
+            }
+        },
+        {
+            "id": "17",
+            "type": "action",
+            "attributes": {
+                "startDate": "2019-08-30T17:28:05+0200",
+                "creationDate": "2019-08-30T17:28:05+0200",
+                "typeOf": 100,
+                "isNotification": true,
+                "text": "Suppression du CV \"toto.txt\"",
+                "status": "delete",
+                "state": "managed",
+                "numberOfFiles": 0,
+                "canReadAction": true,
+                "canWriteAction": false,
+                "isEntityDeleted": false
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                },
+                "dependsOn": {
+                    "data": {
+                        "id": "5",
+                        "type": "candidate"
+                    }
+                }
+            }
+        },
+        {
+            "id": "16",
+            "type": "action",
+            "attributes": {
+                "startDate": "2019-08-30T17:28:03+0200",
+                "creationDate": "2019-08-30T17:28:03+0200",
+                "typeOf": 100,
+                "isNotification": true,
+                "text": "Suppression du CV \"toto.txt\"",
+                "status": "delete",
+                "state": "managed",
+                "numberOfFiles": 0,
+                "canReadAction": true,
+                "canWriteAction": false,
+                "isEntityDeleted": false
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                },
+                "dependsOn": {
+                    "data": {
+                        "id": "5",
+                        "type": "candidate"
+                    }
+                }
+            }
+        },
+        {
+            "id": "15",
+            "type": "action",
+            "attributes": {
+                "startDate": "2019-08-30T17:28:00+0200",
+                "creationDate": "2019-08-30T17:28:00+0200",
+                "typeOf": 100,
+                "isNotification": true,
+                "text": "Suppression du CV \"toto.txt\"",
+                "status": "delete",
+                "state": "managed",
+                "numberOfFiles": 0,
+                "canReadAction": true,
+                "canWriteAction": false,
+                "isEntityDeleted": false
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                },
+                "dependsOn": {
+                    "data": {
+                        "id": "5",
+                        "type": "candidate"
+                    }
+                }
+            }
+        },
+        {
+            "id": "14",
+            "type": "action",
+            "attributes": {
+                "startDate": "2019-08-30T12:30:34+0200",
+                "creationDate": "2019-08-30T12:30:34+0200",
+                "typeOf": 100,
+                "isNotification": true,
+                "text": "Suppression du CV \"toto.txt\"",
+                "status": "delete",
+                "state": "managed",
+                "numberOfFiles": 0,
+                "canReadAction": true,
+                "canWriteAction": false,
+                "isEntityDeleted": false
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                },
+                "dependsOn": {
+                    "data": {
+                        "id": "5",
+                        "type": "candidate"
+                    }
+                }
+            }
+        },
+        {
+            "id": "13",
+            "type": "action",
+            "attributes": {
+                "startDate": "2019-08-30T12:30:31+0200",
+                "creationDate": "2019-08-30T12:30:31+0200",
+                "typeOf": 100,
+                "isNotification": true,
+                "text": "Suppression du CV \"toto.txt\"",
+                "status": "delete",
+                "state": "managed",
+                "numberOfFiles": 0,
+                "canReadAction": true,
+                "canWriteAction": false,
+                "isEntityDeleted": false
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                },
+                "dependsOn": {
+                    "data": {
+                        "id": "5",
+                        "type": "candidate"
+                    }
+                }
+            }
+        },
+        {
+            "id": "12",
+            "type": "action",
+            "attributes": {
+                "startDate": "2019-08-30T12:26:34+0200",
+                "creationDate": "2019-08-30T12:26:34+0200",
+                "typeOf": 100,
+                "isNotification": true,
+                "text": "Suppression du CV \"toto.txt\"",
+                "status": "delete",
+                "state": "managed",
+                "numberOfFiles": 0,
+                "canReadAction": true,
+                "canWriteAction": false,
+                "isEntityDeleted": false
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                },
+                "dependsOn": {
+                    "data": {
+                        "id": "5",
+                        "type": "candidate"
+                    }
+                }
+            }
+        },
+        {
+            "id": "11",
+            "type": "action",
+            "attributes": {
+                "startDate": "2019-08-30T12:26:32+0200",
+                "creationDate": "2019-08-30T12:26:32+0200",
+                "typeOf": 100,
+                "isNotification": true,
+                "text": "Suppression du CV \"toto.txt\"",
+                "status": "delete",
+                "state": "managed",
+                "numberOfFiles": 0,
+                "canReadAction": true,
+                "canWriteAction": false,
+                "isEntityDeleted": false
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                },
+                "dependsOn": {
+                    "data": {
+                        "id": "5",
+                        "type": "candidate"
+                    }
+                }
+            }
+        },
+        {
+            "id": "10",
+            "type": "action",
+            "attributes": {
+                "startDate": "2019-08-30T12:26:29+0200",
+                "creationDate": "2019-08-30T12:26:29+0200",
+                "typeOf": 100,
+                "isNotification": true,
+                "text": "Suppression du CV \"toto.txt\"",
+                "status": "delete",
+                "state": "managed",
+                "numberOfFiles": 0,
+                "canReadAction": true,
+                "canWriteAction": false,
+                "isEntityDeleted": false
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                },
+                "dependsOn": {
+                    "data": {
+                        "id": "5",
+                        "type": "candidate"
+                    }
+                }
+            }
+        },
+        {
+            "id": "9",
+            "type": "action",
+            "attributes": {
+                "startDate": "2019-08-30T12:26:26+0200",
+                "creationDate": "2019-08-30T12:26:26+0200",
+                "typeOf": 100,
+                "isNotification": true,
+                "text": "Suppression du CV \"toto.txt\"",
+                "status": "delete",
+                "state": "managed",
+                "numberOfFiles": 0,
+                "canReadAction": true,
+                "canWriteAction": false,
+                "isEntityDeleted": false
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                },
+                "dependsOn": {
+                    "data": {
+                        "id": "5",
+                        "type": "candidate"
+                    }
+                }
+            }
+        },
+        {
+            "id": "7",
+            "type": "action",
+            "attributes": {
+                "startDate": "2019-08-23T22:13:25+0200",
+                "creationDate": "2019-08-23T22:13:25+0200",
+                "typeOf": 100,
+                "isNotification": true,
+                "text": "Modification de l'onglet \"Informations\" : \nDisponibilit\u00e9 : ? -> De 1 \u00e0 3 mois, Responsable RH : ? -> patrners BIA",
+                "status": "update",
+                "state": "managed",
+                "numberOfFiles": 0,
+                "canReadAction": true,
+                "canWriteAction": false,
+                "isEntityDeleted": false
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                },
+                "dependsOn": {
+                    "data": {
+                        "id": "5",
+                        "type": "candidate"
+                    }
+                }
+            }
+        },
+        {
+            "id": "6",
+            "type": "action",
+            "attributes": {
+                "startDate": "2019-08-23T22:12:36+0200",
+                "creationDate": "2019-08-23T22:12:36+0200",
+                "typeOf": 100,
+                "isNotification": true,
+                "text": "Ajout du CV \"Proactive Monitoring Scenarios_V2.pdf\"",
+                "status": "create",
+                "state": "managed",
+                "numberOfFiles": 0,
+                "canReadAction": true,
+                "canWriteAction": false,
+                "isEntityDeleted": false
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                },
+                "dependsOn": {
+                    "data": {
+                        "id": "5",
+                        "type": "candidate"
+                    }
+                }
+            }
+        }
+    ],
+    "included": [
+        {
+            "id": "1",
+            "type": "resource",
+            "attributes": {
+                "lastName": "rouillon",
+                "firstName": "patrick"
+            }
+        }
+    ]
+}

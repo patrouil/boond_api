@@ -1,0 +1,47 @@
+{
+    "meta": {
+        "totals": {
+            "rows": 1
+        },
+        "version": "7.9.4.19",
+        "isLogged": true,
+        "language": "fr"
+    },
+    "data": [
+        {
+            "id": "5",
+            "type": "contact",
+            "attributes": {
+                "civility": 0,
+                "firstName": "Marie",
+                "lastName": "DUPOND",
+                "state": 7,
+                "function": "Commercial",
+                "department": "",
+                "email1": "marie.dupond@acme.com",
+                "phone1": "",
+                "phone2": "",
+                "canReadContact": true,
+                "canWriteContact": true
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "57",
+                        "type": "resource"
+                    }
+                }
+            }
+        }
+    ],
+    "included": [
+        {
+            "id": "57",
+            "type": "resource",
+            "attributes": {
+                "lastName": "Consulting",
+                "firstName": "Jean"
+            }
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "meta": {
+        "totals": {
+            "rows": 1
+        },
+        "version": "7.9.3.30",
+        "isLogged": true,
+        "language": "fr"
+    },
+    "data": [
+        {
+            "id": "1",
+            "type": "attachedflag",
+            "relationships": {
+                "flag": {
+                    "data": {
+                        "id": "1",
+                        "type": "flag"
+                    }
+                }
+            }
+        }
+    ],
+    "included": [
+        {
+            "id": "1",
+            "type": "resource",
+            "attributes": {
+                "firstName": "patrick",
+                "lastName": "rouillon"
+            }
+        },
+        {
+            "id": "1",
+            "type": "flag",
+            "attributes": {
+                "name": "a publier"
+            },
+            "relationships": {
+                "mainManager": {
+                    "data": {
+                        "id": "1",
+                        "type": "resource"
+                    }
+                }
+            }
+        }
+    ]
+}

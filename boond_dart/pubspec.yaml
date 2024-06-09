@@ -10,7 +10,7 @@ dependencies:
   #  path: ^1.6.0
   # utilities
   logging: ^1.0.0
-  http: ^0.13.0
+  http: ^1.2.0
   http_auth : ^1.0.0
   json_annotation: ^4.0.0
   jaguar_jwt: ^3.0.0

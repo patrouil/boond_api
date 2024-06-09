@@ -14,10 +14,9 @@ dependencies:
   http_auth : ^1.0.0
   json_annotation: ^4.0.0
   jaguar_jwt: ^3.0.0
-  intl: 0.17.0
+  intl: 0.19.0
 
 dev_dependencies:
-  pedantic: ^1.9.0  # control coding style. see analysis_options.yaml
   lints: ^1.0.0
   test: ^1.16.0
   # in terminal launch 'dart run build_runner watch --delete-conflicting-outputs' for dynamic cede generation

@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Copyright (c) patrouil (2020).This work is licensed under the
+# Copyright (c) patrouil (2021).This work is licensed under the
 # Creative Commons Attribution-ShareAlike 4.0 International License.
 # To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
 #
@@ -12,19 +12,12 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 #
-# This script is used to generate draft Dart classes.
-# use it that way.
-# In youe Boond sand box enter sample data.
-# Use crul underneath to retreive the data and generate Json results.
-# use quicktype (https://quicktype.io/) to generate basic dart code
-# analyse results and copy the final version in lib/entities
-# update net/boond_api.dart
 #
 
 QUICKCMD=quicktype
 QUICKARGS="--coders-in-class --src-lang json"
 
-BOONDURL=https://sandboxui.boondmanager.com
+BOONDURL=https://ui.boondmanager.com
 BOONDUSER=boondlogin
 BOONDPWD=boondpassword
 
@@ -41,12 +34,11 @@ generateFromSamples() {
 # curl -v --basic --get --netrc ${BOONDURL}/api/companies/3/information -oexamples/CompaniesInfo.json
 
 
-curl -v --basic --get --netrc "${BOONDURL}/api/contacts?keywordsType=emails&keywords=marie.dupond%40acme.com" -oexamples/ContactsSearch.json
+# curl -v --basic --get --netrc "${BOONDURL}/api/contacts?keywordsType=emails&keywords=marie.dupond%40acme.com" -oexamples/ContactsSearch.json
 
 #  https://ui.boondmanager.com/api/contacts?keywordsType=emails&keywords=marie.dupond%40acme.com
 
 exit 0
-
 
 curl -v --basic --get --netrc ${BOONDURL}/api/contacts/5 -oexamples/ContactsGet.json
 curl -v --basic --get --netrc ${BOONDURL}/api/contacts/5/information -oexamples/ContactsInfo.json

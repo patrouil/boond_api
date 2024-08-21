@@ -1,3 +1,18 @@
+/*
+ * Copyright (c) patrouil (2021).This work is licensed under the
+ * Creative Commons Attribution-ShareAlike 4.0 International License.
+ * To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ *
+ */
+
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
 part of 'contacts_entity.dart';
@@ -9,8 +24,8 @@ part of 'contacts_entity.dart';
 ContactsGet _$ContactsGetFromJson(Map<String, dynamic> json) => ContactsGet(
       meta: BoondMeta.fromJson(json['meta'] as Map<String, dynamic>),
       data: ContactsGetData.fromJson(json['data'] as Map<String, dynamic>),
-      included: (json['included'] as List<dynamic>)
-          .map((e) => BoondIncluded.fromJson(e as Map<String, dynamic>))
+      included: (json['included'] as List<dynamic>?)
+          ?.map((e) => BoondIncluded.fromJson(e as Map<String, dynamic>))
           .toList(),
     );
 
@@ -42,8 +57,8 @@ Map<String, dynamic> _$ContactsGetDataToJson(ContactsGetData instance) =>
 ContactsInfo _$ContactsInfoFromJson(Map<String, dynamic> json) => ContactsInfo(
       meta: BoondMeta.fromJson(json['meta'] as Map<String, dynamic>),
       data: ContactsInfoData.fromJson(json['data'] as Map<String, dynamic>),
-      included: (json['included'] as List<dynamic>)
-          .map((e) => BoondIncluded.fromJson(e as Map<String, dynamic>))
+      included: (json['included'] as List<dynamic>?)
+          ?.map((e) => BoondIncluded.fromJson(e as Map<String, dynamic>))
           .toList(),
     );
 
@@ -138,11 +153,11 @@ ContactsAttributes _$ContactsAttributesFromJson(Map<String, dynamic> json) =>
     ContactsAttributes(
       creationDate: BoondHelpers.parseDateTime(json['creationDate'] as String?),
       updateDate: BoondHelpers.parseDateTime(json['updateDate'] as String?),
-      civility: json['civility'] as int?,
+      civility: (json['civility'] as num?)?.toInt(),
       firstName: json['firstName'] as String?,
       lastName: json['lastName'] as String?,
       thumbnail: json['thumbnail'] as String?,
-      state: json['state'] as int?,
+      state: (json['state'] as num?)?.toInt(),
       email1: json['email1'] as String?,
       email2: json['email2'] as String?,
       email3: json['email3'] as String?,
@@ -203,7 +218,7 @@ Map<String, dynamic> _$ContactsAttributesToJson(ContactsAttributes instance) =>
 
 ContactsOrigin _$ContactsOriginFromJson(Map<String, dynamic> json) =>
     ContactsOrigin(
-      typeOf: json['typeOf'] as int,
+      typeOf: (json['typeOf'] as num).toInt(),
       detail: json['detail'] as String?,
     );
 

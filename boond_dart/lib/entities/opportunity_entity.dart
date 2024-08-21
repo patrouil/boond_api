@@ -11,7 +11,6 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  *
- *
  */
 
 // To parse this JSON data, do
@@ -32,12 +31,12 @@ class OpportunitiesGet {
   OpportunitiesGet({
     required this.meta,
     required this.data,
-    required this.included,
+    this.included,
   });
 
   BoondMeta meta;
   OpportunitiesGetData data;
-  List<BoondIncluded> included;
+  List<BoondIncluded>? included;
 
   factory OpportunitiesGet.fromJson(Map<String, dynamic> json) =>
       _$OpportunitiesGetFromJson(json);
@@ -50,12 +49,12 @@ class OpportunitiesSearch {
   OpportunitiesSearch({
     required this.meta,
     required this.data,
-    required this.included,
+    this.included,
   });
 
   BoondMeta meta;
   List<OpportunitiesGetData> data;
-  List<BoondIncluded> included;
+  List<BoondIncluded>? included;
 
   factory OpportunitiesSearch.fromJson(Map<String, dynamic> json) =>
       _$OpportunitiesSearchFromJson(json);
@@ -68,12 +67,12 @@ class OpportunitiesAttachedFlag {
   OpportunitiesAttachedFlag({
     required this.meta,
     required this.data,
-    required this.included,
+    this.included,
   });
 
   BoondMeta meta;
   List<OpportunitiesAttachedFlagData> data;
-  List<BoondIncluded> included;
+  List<BoondIncluded>? included;
 
   factory OpportunitiesAttachedFlag.fromJson(Map<String, dynamic> json) =>
       _$OpportunitiesAttachedFlagFromJson(json);

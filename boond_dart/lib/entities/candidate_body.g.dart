@@ -1,3 +1,18 @@
+/*
+ * Copyright (c) patrouil (2021).This work is licensed under the
+ * Creative Commons Attribution-ShareAlike 4.0 International License.
+ * To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ *
+ */
+
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
 part of 'candidate_body.dart';
@@ -9,8 +24,8 @@ part of 'candidate_body.dart';
 CandidateGet _$CandidateGetFromJson(Map<String, dynamic> json) => CandidateGet(
       meta: BoondMeta.fromJson(json['meta'] as Map<String, dynamic>),
       data: CandidateGetData.fromJson(json['data'] as Map<String, dynamic>),
-      included: (json['included'] as List<dynamic>)
-          .map((e) => BoondIncluded.fromJson(e as Map<String, dynamic>))
+      included: (json['included'] as List<dynamic>?)
+          ?.map((e) => BoondIncluded.fromJson(e as Map<String, dynamic>))
           .toList(),
     );
 
@@ -45,8 +60,8 @@ CandidateSearch _$CandidateSearchFromJson(Map<String, dynamic> json) =>
       data: (json['data'] as List<dynamic>)
           .map((e) => CandidateSearchData.fromJson(e as Map<String, dynamic>))
           .toList(),
-      included: (json['included'] as List<dynamic>)
-          .map((e) => BoondIncluded.fromJson(e as Map<String, dynamic>))
+      included: (json['included'] as List<dynamic>?)
+          ?.map((e) => BoondIncluded.fromJson(e as Map<String, dynamic>))
           .toList(),
     );
 
@@ -109,11 +124,11 @@ CandidateAttributes _$CandidateAttributesFromJson(Map<String, dynamic> json) =>
     CandidateAttributes(
       creationDate: json['creationDate'] as String?,
       updateDate: json['updateDate'] as String?,
-      civility: json['civility'] as int?,
+      civility: (json['civility'] as num?)?.toInt(),
       lastName: json['lastName'] as String?,
       firstName: json['firstName'] as String?,
       title: json['title'] as String?,
-      state: json['state'] as int?,
+      state: (json['state'] as num?)?.toInt(),
       email1: json['email1'] as String?,
       email2: json['email2'] as String?,
       email3: json['email3'] as String?,
@@ -136,7 +151,7 @@ CandidateAttributes _$CandidateAttributesFromJson(Map<String, dynamic> json) =>
       evaluations: (json['evaluations'] as List<dynamic>?)
           ?.map((e) => e as String)
           .toList(),
-      availability: json['availability'] as int?,
+      availability: (json['availability'] as num?)?.toInt(),
       isVisible: json['isVisible'] as bool?,
       informationComments: json['informationComments'] as String?,
       socialNetworks: (json['socialNetworks'] as List<dynamic>?)
@@ -185,7 +200,7 @@ Map<String, dynamic> _$CandidateAttributesToJson(CandidateAttributes instance) {
 
 CandidateSource _$CandidateSourceFromJson(Map<String, dynamic> json) =>
     CandidateSource(
-      typeOf: json['typeOf'] as int,
+      typeOf: (json['typeOf'] as num).toInt(),
       detail: json['detail'] as String?,
     );
 

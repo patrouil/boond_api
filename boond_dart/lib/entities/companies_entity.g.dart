@@ -1,3 +1,18 @@
+/*
+ * Copyright (c) patrouil (2021).This work is licensed under the
+ * Creative Commons Attribution-ShareAlike 4.0 International License.
+ * To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ *
+ */
+
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
 part of 'companies_entity.dart';
@@ -39,8 +54,8 @@ CompaniesInfo _$CompaniesInfoFromJson(Map<String, dynamic> json) =>
     CompaniesInfo(
       meta: BoondMeta.fromJson(json['meta'] as Map<String, dynamic>),
       data: CompaniesInfoData.fromJson(json['data'] as Map<String, dynamic>),
-      included: (json['included'] as List<dynamic>)
-          .map((e) => BoondIncluded.fromJson(e as Map<String, dynamic>))
+      included: (json['included'] as List<dynamic>?)
+          ?.map((e) => BoondIncluded.fromJson(e as Map<String, dynamic>))
           .toList(),
     );
 
@@ -75,8 +90,8 @@ CompaniesSearch _$CompaniesSearchFromJson(Map<String, dynamic> json) =>
       data: (json['data'] as List<dynamic>)
           .map((e) => CompaniesSearchData.fromJson(e as Map<String, dynamic>))
           .toList(),
-      included: (json['included'] as List<dynamic>)
-          .map((e) => BoondIncluded.fromJson(e as Map<String, dynamic>))
+      included: (json['included'] as List<dynamic>?)
+          ?.map((e) => BoondIncluded.fromJson(e as Map<String, dynamic>))
           .toList(),
     );
 
@@ -139,7 +154,7 @@ CompaniesAttributes _$CompaniesAttributesFromJson(Map<String, dynamic> json) =>
       creationDate: BoondHelpers.parseDateTime(json['creationDate'] as String?),
       updateDate: BoondHelpers.parseDateTime(json['updateDate'] as String?),
       name: json['name'] as String?,
-      state: json['state'] as int?,
+      state: (json['state'] as num?)?.toInt(),
       website: json['website'] as String?,
       thumbnail: json['thumbnail'] as String?,
       phone1: json['phone1'] as String?,
@@ -152,7 +167,7 @@ CompaniesAttributes _$CompaniesAttributesFromJson(Map<String, dynamic> json) =>
       origin: json['origin'] == null
           ? null
           : CompaniesOrigin.fromJson(json['origin'] as Map<String, dynamic>),
-      staff: json['staff'] as int?,
+      staff: (json['staff'] as num?)?.toInt(),
       expertiseArea: json['expertiseArea'] as String?,
       informationComments: json['informationComments'] as String?,
       vatNumber: json['vatNumber'] as String?,
@@ -191,7 +206,7 @@ Map<String, dynamic> _$CompaniesAttributesToJson(
 
 CompaniesOrigin _$CompaniesOriginFromJson(Map<String, dynamic> json) =>
     CompaniesOrigin(
-      typeOf: json['typeOf'] as int,
+      typeOf: (json['typeOf'] as num).toInt(),
       detail: json['detail'] as String?,
     );
 

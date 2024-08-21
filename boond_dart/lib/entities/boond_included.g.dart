@@ -1,3 +1,18 @@
+/*
+ * Copyright (c) patrouil (2021).This work is licensed under the
+ * Creative Commons Attribution-ShareAlike 4.0 International License.
+ * To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ *
+ */
+
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
 part of 'boond_included.dart';
@@ -41,8 +56,8 @@ BoondIncludedAttributes _$BoondIncludedAttributesFromJson(
       town: json['town'] as String?,
       address: json['address'] as String?,
       country: json['country'] as String?,
-      state: json['state'] as int?,
-      staff: json['staff'] as int?,
+      state: (json['state'] as num?)?.toInt(),
+      staff: (json['staff'] as num?)?.toInt(),
       informationComments: json['informationComments'] as String?,
       departments: (json['departments'] as List<dynamic>?)
           ?.map((e) => e as String)

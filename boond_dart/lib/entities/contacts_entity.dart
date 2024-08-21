@@ -1,5 +1,5 @@
 /*
- * Copyright (c) patrouil (2020).This work is licensed under the
+ * Copyright (c) patrouil (2021).This work is licensed under the
  * Creative Commons Attribution-ShareAlike 4.0 International License.
  * To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
  *
@@ -10,7 +10,6 @@
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
- *
  *
  */
 
@@ -28,7 +27,7 @@ class ContactsGet {
   ContactsGet({
     required this.meta,
     required this.data,
-    required this.included,
+    this.included,
   });
   factory ContactsGet.fromJson(Map<String, dynamic> json) =>
       _$ContactsGetFromJson(json);
@@ -37,7 +36,7 @@ class ContactsGet {
 
   BoondMeta meta;
   ContactsGetData data;
-  List<BoondIncluded> included;
+  List<BoondIncluded>? included;
 }
 
 @JsonSerializable()
@@ -65,7 +64,7 @@ class ContactsInfo {
   ContactsInfo({
     required this.meta,
     required this.data,
-    required this.included,
+    this.included,
   });
 
   factory ContactsInfo.fromJson(Map<String, dynamic> json) =>
@@ -74,7 +73,7 @@ class ContactsInfo {
   Map<String, dynamic> toJson() => _$ContactsInfoToJson(this);
   BoondMeta meta;
   ContactsInfoData data;
-  List<BoondIncluded> included;
+  List<BoondIncluded>? included;
 }
 
 @JsonSerializable()

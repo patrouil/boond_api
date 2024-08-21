@@ -1,3 +1,18 @@
+/*
+ * Copyright (c) patrouil (2021).This work is licensed under the
+ * Creative Commons Attribution-ShareAlike 4.0 International License.
+ * To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ *
+ */
+
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
 part of 'opportunity_entity.dart';
@@ -10,8 +25,8 @@ OpportunitiesGet _$OpportunitiesGetFromJson(Map<String, dynamic> json) =>
     OpportunitiesGet(
       meta: BoondMeta.fromJson(json['meta'] as Map<String, dynamic>),
       data: OpportunitiesGetData.fromJson(json['data'] as Map<String, dynamic>),
-      included: (json['included'] as List<dynamic>)
-          .map((e) => BoondIncluded.fromJson(e as Map<String, dynamic>))
+      included: (json['included'] as List<dynamic>?)
+          ?.map((e) => BoondIncluded.fromJson(e as Map<String, dynamic>))
           .toList(),
     );
 
@@ -28,8 +43,8 @@ OpportunitiesSearch _$OpportunitiesSearchFromJson(Map<String, dynamic> json) =>
       data: (json['data'] as List<dynamic>)
           .map((e) => OpportunitiesGetData.fromJson(e as Map<String, dynamic>))
           .toList(),
-      included: (json['included'] as List<dynamic>)
-          .map((e) => BoondIncluded.fromJson(e as Map<String, dynamic>))
+      included: (json['included'] as List<dynamic>?)
+          ?.map((e) => BoondIncluded.fromJson(e as Map<String, dynamic>))
           .toList(),
     );
 
@@ -49,8 +64,8 @@ OpportunitiesAttachedFlag _$OpportunitiesAttachedFlagFromJson(
           .map((e) =>
               OpportunitiesAttachedFlagData.fromJson(e as Map<String, dynamic>))
           .toList(),
-      included: (json['included'] as List<dynamic>)
-          .map((e) => BoondIncluded.fromJson(e as Map<String, dynamic>))
+      included: (json['included'] as List<dynamic>?)
+          ?.map((e) => BoondIncluded.fromJson(e as Map<String, dynamic>))
           .toList(),
     );
 
@@ -111,24 +126,24 @@ OpportunitiesAttributes _$OpportunitiesAttributesFromJson(
       creationDate: BoondHelpers.parseDateTime(json['creationDate'] as String?),
       title: json['title'] as String?,
       reference: json['reference'] as String?,
-      typeOf: json['typeOf'] as int?,
-      mode: json['mode'] as int?,
-      state: json['state'] as int?,
+      typeOf: (json['typeOf'] as num?)?.toInt(),
+      mode: (json['mode'] as num?)?.toInt(),
+      state: (json['state'] as num?)?.toInt(),
       place: json['place'] as String?,
       isVisible: json['isVisible'] as bool?,
       startDate: json['startDate'] as String?,
       closingDate: json['closingDate'] as String?,
       answerDate: json['answerDate'] as String?,
-      duration: json['duration'] as int?,
-      currency: json['currency'] as int?,
-      exchangeRate: json['exchangeRate'] as int?,
-      currencyAgency: json['currencyAgency'] as int?,
-      exchangeRateAgency: json['exchangeRateAgency'] as int?,
+      duration: (json['duration'] as num?)?.toInt(),
+      currency: (json['currency'] as num?)?.toInt(),
+      exchangeRate: (json['exchangeRate'] as num?)?.toInt(),
+      currencyAgency: (json['currencyAgency'] as num?)?.toInt(),
+      exchangeRateAgency: (json['exchangeRateAgency'] as num?)?.toInt(),
       turnoverWeightedExcludingTax:
-          json['turnoverWeightedExcludingTax'] as int?,
-      estimatesExcludingTax: json['estimatesExcludingTax'] as int?,
+          (json['turnoverWeightedExcludingTax'] as num?)?.toInt(),
+      estimatesExcludingTax: (json['estimatesExcludingTax'] as num?)?.toInt(),
       turnoverEstimatedExcludingTax:
-          json['turnoverEstimatedExcludingTax'] as int?,
+          (json['turnoverEstimatedExcludingTax'] as num?)?.toInt(),
       expertiseArea: json['expertiseArea'] as String?,
       activityAreas: (json['activityAreas'] as List<dynamic>?)
           ?.map((e) => e as String)
@@ -139,7 +154,8 @@ OpportunitiesAttributes _$OpportunitiesAttributesFromJson(
               json['origin'] as Map<String, dynamic>),
       tools:
           (json['tools'] as List<dynamic>?)?.map((e) => e as String).toList(),
-      numberOfActivePositionings: json['numberOfActivePositionings'] as int?,
+      numberOfActivePositionings:
+          (json['numberOfActivePositionings'] as num?)?.toInt(),
       canShowContact: json['canShowContact'] as bool?,
       canShowCompany: json['canShowCompany'] as bool?,
     )..updateDate = BoondHelpers.parseDateTime(json['updateDate'] as String?);
@@ -179,7 +195,7 @@ Map<String, dynamic> _$OpportunitiesAttributesToJson(
 OpportunitiesOrigin _$OpportunitiesOriginFromJson(Map<String, dynamic> json) =>
     OpportunitiesOrigin(
       detail: json['detail'] as String?,
-      typeOf: json['typeOf'] as int,
+      typeOf: (json['typeOf'] as num).toInt(),
     );
 
 Map<String, dynamic> _$OpportunitiesOriginToJson(

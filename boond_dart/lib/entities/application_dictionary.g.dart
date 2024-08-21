@@ -1,3 +1,18 @@
+/*
+ * Copyright (c) patrouil (2021).This work is licensed under the
+ * Creative Commons Attribution-ShareAlike 4.0 International License.
+ * To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ *
+ */
+
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
 part of 'application_dictionary.dart';
@@ -54,8 +69,9 @@ AppDictSetting _$AppDictSettingFromJson(Map<String, dynamic> json) =>
       calendar: (json['calendar'] as List<dynamic>?)
           ?.map((e) => AppDictCalendar.fromJson(e as Map<String, dynamic>))
           .toList(),
-      taxRate:
-          (json['taxRate'] as List<dynamic>?)?.map((e) => e as int).toList(),
+      taxRate: (json['taxRate'] as List<dynamic>?)
+          ?.map((e) => (e as num).toInt())
+          .toList(),
       paymentTerm: (json['paymentTerm'] as List<dynamic>?)
           ?.map((e) => AppDictPaymentTerm.fromJson(e as Map<String, dynamic>))
           .toList(),
@@ -63,7 +79,7 @@ AppDictSetting _$AppDictSettingFromJson(Map<String, dynamic> json) =>
           ?.map((e) => AppDictAvailability.fromJson(e as Map<String, dynamic>))
           .toList(),
       defaultOpportunityTypeCreated:
-          json['defaultOpportunityTypeCreated'] as int?,
+          (json['defaultOpportunityTypeCreated'] as num?)?.toInt(),
       defaultPositioningSearchModule:
           json['defaultPositioningSearchModule'] as String?,
       filterPositioningSearchModule:
@@ -276,7 +292,7 @@ Map<String, dynamic> _$AppDictActionToJson(AppDictAction instance) =>
     };
 
 AppDictApp _$AppDictAppFromJson(Map<String, dynamic> json) => AppDictApp(
-      id: json['id'] as int,
+      id: (json['id'] as num).toInt(),
       value: json['value'] as String?,
       isNotification: json['isNotification'] as bool?,
       collaborative: json['collaborative'] as bool?,
@@ -324,7 +340,7 @@ Map<String, dynamic> _$AppDictClassificationToJson(
 
 AppDictAvailability _$AppDictAvailabilityFromJson(Map<String, dynamic> json) =>
     AppDictAvailability(
-      id: json['id'] as int,
+      id: (json['id'] as num).toInt(),
       value: json['value'] as String?,
     );
 
@@ -350,7 +366,7 @@ Map<String, dynamic> _$AppDictCacheToJson(AppDictCache instance) =>
 AppDictReporting _$AppDictReportingFromJson(Map<String, dynamic> json) =>
     AppDictReporting(
       state: json['state'] as bool?,
-      duration: json['duration'] as int?,
+      duration: (json['duration'] as num?)?.toInt(),
     );
 
 Map<String, dynamic> _$AppDictReportingToJson(AppDictReporting instance) =>
@@ -390,7 +406,7 @@ Map<String, dynamic> _$AppDictDefaultMailToJson(AppDictDefaultMail instance) =>
 AppDictDeliveryOrder _$AppDictDeliveryOrderFromJson(
         Map<String, dynamic> json) =>
     AppDictDeliveryOrder(
-      id: json['id'] as int,
+      id: (json['id'] as num).toInt(),
       value: json['value'] as String?,
       maskSignatureBlock: json['maskSignatureBlock'] as bool,
       insert: (json['insert'] as List<dynamic>?)
@@ -454,10 +470,10 @@ Map<String, dynamic> _$AppDictItemInvoiceToJson(AppDictItemInvoice instance) =>
 
 AppDictPaymentTerm _$AppDictPaymentTermFromJson(Map<String, dynamic> json) =>
     AppDictPaymentTerm(
-      id: json['id'] as int,
-      value: json['value'] as int,
-      x: json['x'] as int?,
-      y: json['y'] as int?,
+      id: (json['id'] as num).toInt(),
+      value: (json['value'] as num).toInt(),
+      x: (json['x'] as num?)?.toInt(),
+      y: (json['y'] as num?)?.toInt(),
     );
 
 Map<String, dynamic> _$AppDictPaymentTermToJson(AppDictPaymentTerm instance) =>
@@ -535,7 +551,7 @@ Map<String, dynamic> _$AppDictStateToJson(AppDictState instance) =>
 
 AppDictOpportunity _$AppDictOpportunityFromJson(Map<String, dynamic> json) =>
     AppDictOpportunity(
-      id: json['id'] as int,
+      id: (json['id'] as num).toInt(),
       value: json['value'] as String?,
       active: json['active'] as bool,
       isEnabled: json['isEnabled'] as bool?,
@@ -597,9 +613,9 @@ Map<String, dynamic> _$AppDictTypeOfToJson(AppDictTypeOf instance) =>
 
 AppDictProject _$AppDictProjectFromJson(Map<String, dynamic> json) =>
     AppDictProject(
-      id: json['id'] as int,
+      id: (json['id'] as num).toInt(),
       value: json['value'] as String?,
-      mode: json['mode'] as int,
+      mode: (json['mode'] as num).toInt(),
       scheduleProductionTurnover: json['scheduleProductionTurnover'] as bool,
       isInternal: json['isInternal'] as bool,
     );
@@ -615,7 +631,7 @@ Map<String, dynamic> _$AppDictProjectToJson(AppDictProject instance) =>
 
 AppDictResource _$AppDictResourceFromJson(Map<String, dynamic> json) =>
     AppDictResource(
-      id: json['id'] as int,
+      id: (json['id'] as num).toInt(),
       value: json['value'] as String?,
       isExternal: json['isExternal'] as bool?,
       isStructure: json['isStructure'] as bool?,

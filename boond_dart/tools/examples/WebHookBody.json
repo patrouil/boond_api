@@ -1,0 +1,25 @@
+{
+  "data" : {
+    "id": "234",
+    "type": "webhookevent"
+  },
+  "attributes": {
+    "userToken": "01234567890",
+    "clientToken": "abcdef",
+    "type": "update/create/delete"
+  },
+  "relationships": {
+    "webhook": {
+      "id": "123",
+      "type": "webhook"
+    },
+    "dependsOn":{
+      "id": "id_1234",
+      "type": "client/actions/opportinities"
+    },
+    "log": {
+      "id": "Id_log_2343",
+      "type": "log"
+    }
+  }
+}

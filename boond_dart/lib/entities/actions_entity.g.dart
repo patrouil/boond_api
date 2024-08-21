@@ -1,3 +1,18 @@
+/*
+ * Copyright (c) patrouil (2021).This work is licensed under the
+ * Creative Commons Attribution-ShareAlike 4.0 International License.
+ * To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ *
+ */
+
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
 part of 'actions_entity.dart';
@@ -45,8 +60,8 @@ ActionsSearch _$ActionsSearchFromJson(Map<String, dynamic> json) =>
       data: (json['data'] as List<dynamic>)
           .map((e) => ActionSearchData.fromJson(e as Map<String, dynamic>))
           .toList(),
-      included: (json['included'] as List<dynamic>)
-          .map((e) => BoondIncluded.fromJson(e as Map<String, dynamic>))
+      included: (json['included'] as List<dynamic>?)
+          ?.map((e) => BoondIncluded.fromJson(e as Map<String, dynamic>))
           .toList(),
     );
 
@@ -113,7 +128,7 @@ ActionsAttributes _$ActionsAttributesFromJson(Map<String, dynamic> json) =>
       endDate: BoondHelpers.parseDateTime(json['endDate'] as String?),
       startTimezone: json['startTimezone'] as String?,
       endTimezone: json['endTimezone'] as String?,
-      typeOf: json['typeOf'] as int?,
+      typeOf: (json['typeOf'] as num?)?.toInt(),
       status: json['status'] as String?,
       state: json['state'] as String?,
       text: json['text'] as String?,
@@ -124,7 +139,7 @@ ActionsAttributes _$ActionsAttributesFromJson(Map<String, dynamic> json) =>
       synchronizeWithAdvancedAppCalendar:
           json['synchronizeWithAdvancedAppCalendar'] as bool?,
       isNotification: json['isNotification'] as bool?,
-      numberOfFiles: json['numberOfFiles'] as int?,
+      numberOfFiles: (json['numberOfFiles'] as num?)?.toInt(),
       canReadAction: json['canReadAction'] as bool?,
       canWriteAction: json['canWriteAction'] as bool?,
     );

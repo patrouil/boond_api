@@ -1,5 +1,5 @@
 /*
- * Copyright (c) patrouil (2020).This work is licensed under the
+ * Copyright (c) patrouil (2021).This work is licensed under the
  * Creative Commons Attribution-ShareAlike 4.0 International License.
  * To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
  *
@@ -10,7 +10,6 @@
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
- *
  *
  */
 
@@ -27,12 +26,12 @@ part 'candidate_body.g.dart';
 class CandidateGet {
   BoondMeta meta;
   CandidateGetData data;
-  List<BoondIncluded> included;
+  List<BoondIncluded>? included;
 
   CandidateGet({
     required this.meta,
     required this.data,
-    required this.included,
+    this.included,
   });
 
   factory CandidateGet.fromJson(Map<String, dynamic> json) =>
@@ -65,12 +64,12 @@ class CandidateGetData {
 class CandidateSearch {
   BoondMeta meta;
   List<CandidateSearchData> data;
-  List<BoondIncluded> included;
+  List<BoondIncluded>? included;
 
   CandidateSearch({
     required this.meta,
     required this.data,
-    required this.included,
+    this.included,
   });
 
   factory CandidateSearch.fromJson(Map<String, dynamic> json) =>
